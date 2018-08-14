@@ -1,0 +1,11 @@
+subsetion: bringing in together halo properties, local density velocity, wimp as a candidate, various differential spectrum for Lewin Smith. mccabe(astrophysical uncertainties)
+
+don't talk about too much about struture formation. discontinuety on this section.
+
+CDM: freeze out
+
+-voids(hollows)
+
+-nucleosysthesis, first paragraph, why it fit into dark matter theory, nb/ngamma match CMB, still missing mass. (talk about Omega_m != Omega_b) talk about this is the first measurement of omegab. and state the discrenpency from this value to omegaM and 1, lead to the future belief of DM?
+
+-~~rubin?1970s? rotation curve~~

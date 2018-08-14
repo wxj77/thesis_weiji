@@ -1,0 +1,117 @@
+\chapter{Error propagation discussion}
+The appendix is a discussion of the error propagation for
+\section{Bernoulli(Binomial) Process}
+There is $N$ events, which $N$ is not a fixed number. The expected value for the number of events is $E(N)$, and the variance of the number of events is $Var(N)=E(N^2)-{E(N)}^2$. Each event goes through a Binomial Process, which mean each event has the same probability of success $p$. The expected value and variance of the number of the successful event $M$ is $E(M)$, $Var(M)=E(M^2)-E(M)^2$.
+$M$ follows Bernoulli distribution, 
+\begin{align}
+M \sim B(N, p)
+\end{align}.
+The probability mass function of $B(N, p)$ is, 
+\begin{align}
+ Pr(M=k)=\binom{N}{k} p^k {(1-p)}^{N-k}
+\end{align}for $k=0,1,...,N$.
+\begin{align}
+\binom{N}{k} = \frac{N!}{k!(N-k)!}
+\end{align}
+The expected value and variance of the number of the successful event is
+\begin{align}
+E(M) & = \sum_{N_i=1}^{\infty} P(N=N_i) P(M=k|N=N_i) k \\
+     & = \sum_{N_i=1}^{\infty} P(N=N_i) N_i p \\
+     & = E(N)p
+\end{align}
+\begin{align}
+E(M^2) & = \sum_{N_i=1}^{\infty} P(N=N_i) P(M=k|N=N_i) k^2 \\
+       & = \sum_{N_i=1}^{\infty} P(N=N_i) (N_i p(1-p) + {(N_i p)}^2) \\
+       & = E(N)p(1-p) + (E(N)^2 + Var(N))p^2
+\end{align}
+\begin{align}
+Var(M) & = E(M^2)-E(M)^2 \\
+       & = E(N)p(1-p) + Var(N)p^2
+\end{align}
+
+The fraction of error is
+\begin{align}
+\frac{Var(M)}{E(M)^2} = \frac{1}{E(N)}\frac{1-p}{p}+ \frac{Var(N)}{E(N)^2}.
+\end{align}
+
+\section{Multiplication Process}
+There is another $N$ events. Each event goes through a Multiplication Process. Each event has the same multiplication probability mass function. The expected value and variance of the number of the multiplication $A$ is $E(A)$, $Var(A)$. $M$ is the total number of multiplication.  
+\begin{align}
+M = \sum_{i=1}^{N} A_i
+\end{align}
+where $A_i$ is the number of the multiplication for the ith event. 
+\begin{align}
+E(M) & = E(\sum_{i=1}^{N} A_i) \\
+     & = E(N) E(A)
+\end{align}
+\begin{align}
+E(M^2) & = E((\sum_{i=1}^{N} A_i)^2) \\
+       & = E( \sum_{i=1}^{N} A_i^2 + \sum_{i\neq j} A_i A_j) \\
+       & = E( N (Var(A) + E(A)^2) + N(N-1)E(A)^2) \\
+       & = E(N)Var(A)+ E(N^2) E(A)^2 \\
+       & = E(N)Var(A) + (Var(N)+E(N)^2) E(A)^2 
+\end{align}
+\begin{align}
+Var(M) & = E(M^2)-E(M)^2 \\
+       & = E(N)Var(A) + Var(N) E(A)^2
+\end{align}
+The fraction of error is
+\begin{align}
+\frac{Var(M)}{E(M)^2} = \frac{1}{E(N)}\frac{Var(A)}{E(A)^2}+ \frac{Var(N)}{E(N)^2}.
+\end{align}
+If we replace $E(A)$ and $Var(A)$ with the expected value and variance of binomial process $p$ and $p(1-p)$, we will get the same answer as last section. 
+Consider two sequence multiplication process $A$ and $B$, the expected value and variance of the final number of two sequence multiplication $M$ is
+\begin{align}
+E(M) = E(N)E(A)E(B)
+\end{align}
+\begin{align}
+Var(M) & = E(N)E(A)Var(B)+(E(N)Var(A)+Var(N)E(A)^2)E(B)^2
+\end{align}
+\begin{align}
+\frac{Var(M)}{E(M)^2} = \frac{1}{E(N)E(A)}\frac{Var(B)}{E(B)^2}
++\frac{1}{E(N)}\frac{Var(A)}{E(A)^2}
++\frac{Var(N)}{E(N)^2}
+\end{align}
+If both $A$ and $B$ is binomial process with probability of success $p_A$, $p_B$. 
+\begin{align}
+E(M) = E(N)(p_Ap_B)
+\end{align}
+\begin{align}
+\frac{Var(M)}{E(M)^2} & = \frac{1}{E(N)p_A}\frac{p_B(1-p_B)}{p_B^2}
++\frac{1}{E(N)}\frac{p_A(1-p_A)}{p_A^2}
++\frac{Var(N)}{E(N)^2} \\
+& = \frac{1}{E(N)}\frac{p_Ap_B(1-p_Ap_B)}{(p_Ap_B)^2} 
++\frac{Var(N)}{E(N)^2} \\
+& = \frac{1}{E(N)}\frac{1-p_Ap_B}{p_Ap_B}
++\frac{Var(N)}{E(N)^2}
+\end{align}
+which is equivalent to a binomial process with the probability of success $p_Ap_B$.
+Similarly, for $k$ sequence multiplication proces $A_i$,$i=1,2,...,m$ 
+\begin{align}
+E(M) = E(N)\prod_{i=1}^{k}E(A_i)
+\end{align}
+\begin{align}
+\frac{Var(M)}{E(M)^2} = \frac{1}{E(N)}\sum_{i=1}^{k}\frac{1}{\prod_{j=1}^{i-1}E(A_j)}\frac{Var(A_i)}{E(A_i)^2}
++\frac{Var(N)}{E(N)^2}
+\end{align}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

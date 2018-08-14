@@ -1,0 +1,253 @@
+\usepackage{csquotes} % Babel bibliography support package
+\usepackage[english]{babel}
+%\usepackage[backend=biber,style=numeric]{biblatex}
+%\usepackage{hyperref}
+%\usepackage{natbib}
+%\usepackage{chapterbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tabulary}
+\usepackage{longtable}
+\usepackage{capt-of}
+\usepackage{multirow}
+\usepackage{ar}
+\usepackage{comment}
+\usepackage[yyyymmdd]{datetime}
+\usepackage{lscape}
+
+\setcounter{secnumdepth}{2} % show section,  subsection, subsubsection, not show paragraph, subparagraph
+
+%\newdateformat{dashdate}{\THEYEAR-\twodigit{\THEMONTH}-\twodigit{\THEDAY}}
+\newdateformat{dashdate}{\twodigit{\THEDAY}-\twodigit{\THEMONTH}-\THEYEAR} % I know this it wrong, but it showed up what I want the format to be. 
+\newtimeformat{dottime}{\twodigit{\THEHOUR}:\twodigit{\THEMINUTE}}
+\settimeformat{dottime}
+\newcommand\ddtt[5]{\dashdate\formatdate{#1}{#2}{#3} \formattime{#4}{#5}{0}}
+\newcommand\dd[3]{\dashdate\formatdate{#1}{#2}{#3}}
+
+\usepackage[nottoc]{tocbibind}
+
+
+%\usepackage{mathpazo}
+%\usepackage{fontspec}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[
+backend=bibtex,
+style=phys,
+articletitle=true,biblabel=brackets,pageranges=false,
+sorting=none,
+maxbibnames=4
+]{biblatex}
+
+
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[separate-uncertainty,retain-explicit-plus,per-mode=reciprocal,binary-units,math-micro=\text{$\mu$},number-unit-product=\,,list-final-separator=\text{, and }]{siunitx}
+\usepackage{lineno}
+\usepackage{longtable}
+\usepackage[version=4]{mhchem}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{braket}
+
+
+
+\newcommand\todo[1]{\textcolor{red}{#1}}
+\newcommand\done[1]{\textcolor{blue}{#1}}
+\newcommand\notsure[1]{\textcolor{olive}{#1}}
+
+%Bibliography file
+\addbibresource{thesis.bib}
+%\DeclareSourcemap{ % Used when .bib/Bibliography is compiled, not when document is
+%	\maps{
+%		\map{ % Replaces '{\_}', '{_}' or '\_' with just '_'
+%			\step[fieldsource=url,
+%			match=\regexp{\{\\\_\}|\{\_\}|\\\_},
+%			replace=\regexp{\_}]
+%		}
+%		\map{ % Replaces '{'$\sim$'}', '$\sim$' or '{~}' with just '~'
+%			\step[fieldsource=url,
+%			match=\regexp{\{\$\\sim\$\}|\{\~\}|\$\\sim\$},
+%			replace=\regexp{\~}]
+%		}
+%	}
+%}
+
+\linenumbers
+
+% Patch to get lineno package to play with align environment
+\newcommand*\patchAmsMathEnvironmentForLineno[1]{%
+  \expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
+  \expandafter\let\csname oldend#1\expandafter\endcsname\csname end#1\endcsname
+  \renewenvironment{#1}%
+     {\linenomath\csname old#1\endcsname}%
+     {\csname oldend#1\endcsname\endlinenomath}}% 
+\newcommand*\patchBothAmsMathEnvironmentsForLineno[1]{%
+  \patchAmsMathEnvironmentForLineno{#1}%
+  \patchAmsMathEnvironmentForLineno{#1*}}%
+\AtBeginDocument{%
+\patchBothAmsMathEnvironmentsForLineno{equation}%
+\patchBothAmsMathEnvironmentsForLineno{align}%
+\patchBothAmsMathEnvironmentsForLineno{flalign}%
+\patchBothAmsMathEnvironmentsForLineno{alignat}%
+\patchBothAmsMathEnvironmentsForLineno{gather}%
+\patchBothAmsMathEnvironmentsForLineno{multline}%
+}
+
+
+
+%---------- Math shortcuts ----------
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\erfc}{erfc}
+\renewcommand{\d}[1]{\ensuremath{\operatorname{d}\!{#1}}}
+
+
+%---------- units ----------
+%\newcommand{\appr}{\mathord{\sim}}
+\DeclareSIUnit\pe{PE}
+\DeclareSIUnit\yr{yr}
+\DeclareSIUnit\livedays{\mbox{live-days}}
+\DeclareSIUnit\liveday{\mbox{live-day}}
+\DeclareSIUnit\keVnr{keV_{nr}}
+\DeclareSIUnit\keVee{keV_{ee}}
+\DeclareSIUnit[number-unit-product = \,]\percent{\%}
+\DeclareSIUnit\parsec{pc}
+\DeclareSIUnit\lightyear{ly}
+\DeclareSIUnit\molar{\mole\per\cubic\deci\metre}
+\DeclareSIUnit\Molar{\textsc{m}}
+\DeclareSIUnit\torr{torr}
+\DeclareSIUnit\micron{\micro\metre}
+\DeclareSIUnit\mrad{\milli\rad}
+\DeclareSIUnit\gauss{G}
+\DeclareSIUnit\eVperc{\eV\per\clight}
+\DeclareSIUnit\nanobarn{\nano\barn}
+\DeclareSIUnit\picobarn{\pico\barn}
+\DeclareSIUnit\femtobarn{\femto\barn}
+\DeclareSIUnit\attobarn{\atto\barn}
+\DeclareSIUnit\zeptobarn{\zepto\barn}
+\DeclareSIUnit\yoctobarn{\yocto\barn}
+\DeclareSIUnit\nb{\nano\barn}
+\DeclareSIUnit\pb{\pico\barn}
+\DeclareSIUnit\fb{\femto\barn}
+\DeclareSIUnit\ab{\atto\barn}
+\DeclareSIUnit\zb{\zepto\barn}
+\DeclareSIUnit\yb{\yocto\barn}
+\DeclareSIUnit\gmol{g\text{-}mol}
+\DeclareSIUnit\kgmol{kg\text{-}mol}
+\DeclareSIUnit\lbmol{lb\text{-}mol}
+\DeclareSIUnit\phe{phe}
+\DeclareSIUnit\photon{photon}
+\DeclareSIUnit\electron{electron}
+\DeclareSIUnit\atom{atom}
+\DeclareSIUnit\nan{nan}
+\DeclareSIUnit\bara{bara}
+\DeclareSIUnit\mbara{mbara}
+\DeclareSIUnit\sample{sample}
+\DeclareSIUnit\ppb{ppb}
+\DeclareSIUnit\ppt{ppt}
+\DeclareSIUnit\ppq{ppq}
+\DeclareSIUnit\slpm{slpm}
+\DeclareSIUnit\inch{inch}
+\DeclareSIUnit\townsend{Td}
+\DeclareSIUnit\atm{atm}
+
+
+\DeclareSIPrePower\quartic{4}
+\DeclareSIPostPower\tothefourth{4}
+\DeclareSIPostPower\tothenth{n}
+\DeclareSIPostPower\totheNth{N}
+
+
+%--------- Isotopes ---------
+\newcommand\arthreeseven{\ce{^{37}Ar}}
+\newcommand\arthreenine{\ce{^{39}Ar}}
+\newcommand\arforty{\ce{^{40}Ar}}
+\newcommand\kthreenine{\ce{^{39}K}}
+\newcommand\kreightthreem{\ce{^{83m}Kr}}
+\newcommand\kreightfive{\ce{^{85}Kr}}
+\newcommand\rbeightfive{\ce{^{85}Rb}}
+\newcommand\rbeightfivem{\ce{^{85m}Rb}}
+\newcommand\kreightfivebgdecay{$\text{\kreightfive}\rightarrow\text{\rbeightfive}+\beta+\gamma$}
+\newcommand\kreightfivedecay{$\text{\kreightfive}\rightarrow\text{\rbeightfive}+\beta$}
+\newcommand\arthreeninedecay{$\text{\arthreenine}\rightarrow\text{\kthreenine}+\beta$}
+\newcommand\cotwo{\ce{CO_2}}
+\newcommand\bten{\ce{^{10}B}}
+\newcommand\liseven{\ce{^{7}Li}}
+\newcommand\cfourteen{\ce{^{14}C}}
+\newcommand\cosixty{\ce{^{60}Co}}
+\newcommand\hefour{\ce{^{4}He}}
+%\newcommand\He4{\ce{^{4}He}} % does not work
+
+%\newcommand\wavloc{}
+
+%---------- definitions ----------
+\newcommand\art{\textit{art}}
+\newcommand\tdrift{$t_\text{drift}$}
+\newcommand\vdrift{$v_\text{drift}$}
+\newcommand\fninety{$f_{90}$}
+\newcommand\ffivethousand{f$_{5000}$}
+\newcommand\sonefixed{S1$_\text{fixed}$}
+%\newcommand\gfds{\texttt{G4DS}}
+\newcommand\gfds{\textit{g4ds}}
+\newcommand\Tpeak{$T_\text{peak}$}
+\newcommand\pwimp{$\chi$}
+\newcommand\mwimp{$m_\chi$}
+\newcommand\Leff{$\mathcal{L}_\text{eff}$}
+\newcommand\Enr{$E_\text{nr}$}
+\newcommand\Er{$E_R$}
+\newcommand\xy{$(x,y)$}
+\newcommand\lisevenreaction{\ce{^{7}Li}$(p,n)$}
+\newcommand\dEdX{$\d{E}/\d{x}$}
+
+%----------Wei abbreviation names
+\newcommand*{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\newcommand\gtest{{\textit{Gas Test}}}
+\newcommand\phaseone{{\textit{LZ System Test: Phase \rom{1}}}}
+\newcommand\phasetwo{{\textit{LZ System Test: Phase \rom{2}}}}
+\newcommand\slac{{{SLAC}}}
+
+\newcommand\luxe{{{LUX}}}
+\newcommand\lze{{{LZ}}}
+\newcommand\ee{electron emission}
+\newcommand\eep{electron emission pulse}
+\newcommand\eee{electron emission event}
+\newcommand\ees{electron emission signal}
+\newcommand\pud{signal $t_{01-99}$ duration}
+\newcommand\rpd{signal $t_{10-90}$ duration}
+\newcommand\stw{signal $t_{25-75}$ width}
+\newcommand\shw{signal $t_{50}$ width}
+\newcommand\pudshort{$t_{01-99}$ duration}
+\newcommand\rpdshort{$t_{10-90}$ duration}
+\newcommand\stwshort{$t_{25-75}$ width}
+\newcommand\shwshort{$t_{50}$ width}
+\newcommand\wsef{wire surface electric field }
+\newcommand\sr{scintillation region}
+\newcommand\sone{S1}
+\newcommand\stwo{S2}
+\newcommand\onesigma{1$\sigma$}
+\newcommand\twosigma{2$\sigma$}
+\newcommand\threesigma{3$\sigma$}
+\newcommand\tfifty{$t_{50}$}
+\newcommand\ttenninety{$t_{10-90}$}
+\newcommand\ttwoseven{$t_{25-75}$}
+\newcommand\tzeronine{$t_{01-99}$}
+\newcommand\standarddensity{\SI{0.137}{\mole\per\liter}}
+\newcommand\vt{$V_{T}$}
+\newcommand\vb{$V_{B}$}
+\newcommand\opdv{$\Delta V_{\text{T-B}}$}
+\newcommand\opvtvb{grid voltages $V_{T}$ and $V_{B}$}
+\newcommand\opvt{top grid voltage $V_{T}$}
+\newcommand\opvb{bottom grid voltage $V_{B}$}
+\newcommand\opva{anodic grid voltage $V_{A}$}
+\newcommand\opvc{cathodic grid voltage $V_{C}$}
+\newcommand\opp{operating pressure}
+\newcommand\opgd{operating gas density}
+\newcommand\sphe{SPHE}
+
+%-------- Misc. definitions ---------
+\newcommand\twofigurewidth{0.75\textwidth}
+\newcommand\figurewidth{0.9\textwidth}
+\newcommand\halfwidth{0.49\textwidth}

@@ -1,0 +1,139 @@
+
+\chapter{Sensors}
+\section{Level sensors}
+For a fluid system, we often need to know the liquid level or relative liquid level in different locations in the system. There are many ways to measure this, we will introduce a few that we used.\\
+\subsection{Differential pressure}
+The first way to measure liquid level or liquid level difference is using the differential gas pressure. If two gas space $A$ and $B$ are connected with static liquid with density $\rho$, then the liquid level difference 
+\begin{align}
+h_{A}-h_{B} & = \frac{P_{B}-P_{A}}{\rho g} \\
+& \approx \frac{P (mbar)}{\rho (g/cm^3)} cm.
+\end{align}
+\\
+This method is also used to measure the absolute liquid level by measuring the differential gas pressure on the top and bottom the liquid space. It is easier to measure the pressure on the top. However, it is a little different to measure the pressure on the bottom. The common method is to put a special drain unit on the bottom of the liquid space which allow fluid to flow through this drain when the amount of fluid is minimized. The drain is then usually connected to a thin tube that is heated up to evaporate the liquid that is contained in this tube, fig \ref{fig: level}. The gas pressure difference measured indicates the liquid level. This method is commonly used to \\
+
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+  {blank.jpg}
+  \caption{A simple diagram of a differential pressure level sensor.}
+  \label{fig: level}
+\end{figure}
+
+\subsection{Capacitance }
+The dielectric liquid filling in the space in a capacitor would change its capacitance. \\
+We designed several different type of capacitance level meters. The first type is called a vertical plate level sensor. As described in the name, the capacitor is consist with two parallel plates that is perpendicular to the liquid surface, fig: \ref{fig: horizontal vertical level}. The plates have effective width $w$ and the distance between two plates is $d$. The dielectric constant of the fluid is $\epsilon_l$. The dielectric constant of the gas is $\epsilon_g$, which usually is close to $1$. The capacitance change with liquid level moving up a distance of $h$ is
+\begin{align}
+\Delta F & = (\epsilon_l-\epsilon_g)\epsilon_0 \frac{wh}{d} \\
+& \approx (\epsilon_l-1) \frac{w(cm) h(mm)}{d(cm)} * 8.854*10^{-3} pF
+\end{align}
+\\
+The second type, a horizontal plate level sensor is similar to the vertical plate one but with the two plates parallel to the liquid surface. The effective area of the capacitor is $A$. The capacitance with liquid level $h_1\quad(0 <= h_1 <=d)$ above the bottom plate is
+\begin{align}
+F & = \frac{1}{\frac{h_1}{\epsilon_l \epsilon_0 A} + \frac{d-h_1}{\epsilon_g \epsilon_0 A}} \\
+& = \frac{\epsilon_0 A}{h_1/\epsilon_l +d - h_1} 
+\end{align}
+So the capacitance change with liquid level moving up a distance of $h$ is
+\begin{align}
+\Delta F & \approx \frac{\epsilon_0 A}{(h_1/\epsilon_l +d - h_1)^2}(1 - 1/\epsilon_l)h
+\end{align}
+For a capacitor with effective area $A \sim cm^2$, plate distance $d \sim cm$, the capacitance change $\Delta F \sim 0.1 pF$. 
+\\
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.4\textwidth]
+  {blank.jpg}
+  \includegraphics[width=0.4\textwidth]
+  {blank.jpg}
+  \caption{A simple diagram of a vertical plate level sensor and a horizontal plate level sensor.}
+  \label{fig: horizontal vertical level}
+\end{figure}
+The third type is parallel wire level sensor. This type of level sensor has two thin parallel wires with radius $a$, and the distance between two wires is $d$, fig: \ref{fig: parallel wire level}. The capacitance change with liquid level moving up a distance of $h$ is
+\begin{align}
+\Delta F & = \frac{\pi (\epsilon_l-\epsilon_g) \epsilon_0 h}{\arccos h \frac{d}{2a}}\\
+& \approx \frac{\pi (\epsilon_l-1) \epsilon_0 h}{\ln(\frac{d}{2 a}+\sqrt[]{\frac{d^2}{4 a^2}-1})} \\
+\end{align}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+  {blank.jpg}
+  \caption{A simple diagram of a parallel wire level sensor. The radius of the two wires are $a$. The distance between two wires is $d$.}
+  \label{fig: parallel wire level}
+\end{figure}
+For a case with $\epsilon_l = 2, \quad \frac{d}{2a} = 5 $, $\Delta F \approx 0.1 h (cm) pF$.
+We notice that the capacitance in normally in $0.1 pF$ range, which is very small to measure. A method to measure this capacitance is measure its relevant value to a reference capacitance. In the circuit the relaxation time of an RC circuit is measure with the reference capacitance and the unknown capacitance. Since relaxation time $\tau \propto RC$, the ratio of the relaxation time is the ratio of the capacitance between the unknown capacitance and the reference capacitance.  
+\section{Temperature sensor}
+We use many method to measure the temperature in the system, for example, gas pressure, resistance temperature detectors, thermocouples. \\  
+First method is using the gas thermal property. Known from thermodynamic, gas(fluid) quantity , temperature and pressure are related. So we can use two of them to derive the third. Normally gas quantity can be measured with flow meter, pressure can be measured with pressure gauge. And on the gas liquid saturation curve, temperature is a singly dependent of the gas pressure. So we can use the gas pressure to derive the gas/liquid temperature in the system.   
+The second method is using Resistance temperature detectors (RTDs). RTD is a device that is made with material the resistance of which change with temperature. Actually most material has this property. However, because of the cost and sensitivity requirement, RTD materials are typically chosen to be platinum, nickel, or copper, which has big temperature coefficient and low cost. Especially, platinum RTD PT100 is one of the most common used one in the lab, 100 indicates its resistance at 0 degree Celsius is $100 \Omega$. The temperature coefficient of resistance $\alpha$, which is the fraction of resistance changing per Kelvin comparing to 0 degree Celsius. For pure platinum, $\alpha = 0.003925 \Omega/(\Omega\ K)$, the industrial used platinum sensor, which $\alpha = 0.00385 \Omega/(\Omega\ K)$. There are several standards specifies the accuracy of the RTDs. The most two are DIN EN 60751 (According to IEC 60751) in Europe and ASTM E1137 in North America.     
+\\ 
+RTD could be in forms of a wire, thin-film or other. The temperature sensitive material is normally mechanically assembled or electroplating or spattering on a ceramic substrate. The precision of the measurement of temperature requires precision of the measurement of resistance. There are two issues for this measurement. First, long connecting wires are sometimes needed from the RTD and the readout circuit, and the resistance of the long wires are not negligible. Second, the contact resistance of the connectors between the RTD and the readout circuit can change the resistance of the connection wires each time. And choosing different wiring circuit can reduce the error of measurement. There are 2-wire, 3-wire, 4-wire RTDs, which is distinguished by the measurement circuit and the number of connection leads from the RTD.\\
+The 2-wire RTD is only used when high accuracy is not required. The circuit is show in fig \ref{fig: 2-wire circuit}. Sometimes, a Wheatstone bridge circuit is used to measure the resistance. As shown in the figure, the resistance of the connecting wires is added to that of the sensor. 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.4\textwidth]
+  {blank.jpg}
+  \includegraphics[width=0.4\textwidth]
+  {blank.jpg}
+  \caption{The circuit for 2-wire RTD.}
+  \label{fig: 2-wire circuit}
+\end{figure}
+The error from the lead resistance, which is the combination of contact resistance and the wiring resistance, can be reduced by adding a third wire. Normally it is possible to choose the assembly of the RTD sensors so that the resistance of the leads are roughly matched in value between different wires. And this makes it possible to either estimate the value of the lead resistance or reduce the error that goes into RTD resistance. 
+\\
+Fig: \ref{fig: 3-wire circuit simple} shows a simple 3-wire circuit. $R_T$ is the RTD sensor resistance. $R_{L}$ is the lead resistance. The resistance between lead 1 and lead 2 $R_{12} = 2 R_{L}$. The resistance between lead 1 and lead 3 $R_{13} = 2 R_{L}+ R_{T}$. So $R_T = R_{13} - R_{12}$. 
+Fig: \ref{fig: 3-wire circuit constant current} shows a circuit that cancels the effect of lead resistance with two constant current supplies. $I_1$ and $I_2$ are the current from the two current supplies. From the figure, the measured voltage $U$ satisfies,  
+\begin{align}
+U = -I_1 R_{L1}+I_2 R_{L2} + I_2 R_T.
+\end{align} 
+If choosing $-I_1 R_{L1}+I_2 R_{L2} =0 $ (or roughly $I_1=I_2$), 
+\begin{align}
+R_T = \frac{U}{I_2}.
+\end{align}
+\\
+Fig: \ref{fig: 3-wire circuit bridge} shows a method to measure with a 3-wire Wheatstone bridge. In the figure, the balance resistance $R_3 \sim R_T$ is chosen. The measured voltage $U$ is
+\begin{align}
+U & = \frac{R}{2R}V_{S}-\frac{R_3+R_L}{R_3+R_L+R_T+R_L}V_S \\
+\Rightarrow R_T & = R_3\frac{V_S+2U}{V_S-2U} + R_{L}\frac{4 U}{V_S-2U}
+\end{align}
+Since with balance Wheatstone bridge, $U \ll V_S$, the contribution to the error of $R_T$ from the $R_L$ term is small.
+\\ 
+The 3-wire RTD is commonly used in industries and labs. Comparing to 2-wire RTD, 3-wire RTD significantly improves the precision. And 3-wire RTD requires less wires comparing to 4-wire RTD, which could be a saving of cost. 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+  {blank.jpg}
+  \caption{The circuit for 3-wire RTD.}
+  \label{fig: 3-wire circuit simple}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.4\textwidth]
+  {blank.jpg}
+  \includegraphics[width=0.4\textwidth]
+  {blank.jpg}
+  \caption{The circuit for 3-wire RTD.}
+  \label{fig: 3-wire circuit constant current}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+  {blank.jpg}
+  \caption{The circuit for 3-wire RTD.}
+  \label{fig: 3-wire circuit bridge}
+\end{figure}
+
+The most accurate circuit is 4-wire RTD circuit, which has no error contribution from the lead resistance. Fig: \ref{fig: 4-wire circuit}. It requires only on constant current supply. It avoids the difficulty to balance the Wheatstone bridge. And the RTD resistance is simply, 
+\begin{align}
+R_T = \frac{U}{I}.
+\end{align}
+This relationship is valid even if the resistance of the four lead wires are different. So the measurement would be altered by each time connecting and disconnecting the device. Because of this reason, it is the most common used way to configure lab accuracy temperature sensors.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]
+  {blank.jpg}
+  \caption{The circuit for 4-wire RTD.}
+  \label{fig: 4-wire circuit}
+\end{figure} 

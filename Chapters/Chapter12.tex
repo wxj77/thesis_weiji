@@ -1,0 +1,40 @@
+\label{chap:eft}
+
+\chapter{EFT/IDM WIMP search with LUX}
+
+The second WIMP search in LUX (also usually referred as LUX WS2014-16) was performed between 2014 and 2016. This search improved the sensitivity on WIMP nucleon spin-independent cross section from the first WIMP search performed at 2013 (LUX WS2013). The result of this was published in 2017, Ref.~\cite{Akerib2017a}. As a supplement of the main WIMP search result, a separate study with the detail nuclear response was performed with the WIMP search data on a extended energy range. This study was using a Effective Field Theory(EFT) model for the nuclear response. This chapter describes the EFT analysis(EFTWS2014-16). It describes the data selection on the stability of this analysis. It describes the cuts for WIMP like single scatter events and the cut efficiencies. It describes the background analysis. Finally, it describes the procedure for translating the WIMP search data into a EFT dark matter result.
+
+\section{Run stability}
+During WS2014-16, LUX detector was operated with the TPC filled with Liquid xenon. The top, anode, gate, cathode, bottom grid electrodes were biased to \SIlist{-1; 7; 1; -8.5; -2}{\kV}. % -1, 3.5, -1.5, -10, -2 
+This maintains the drift electric field between the gate and cathode grid at \SIrange{\sim 60}{400}{\kV\per\cm}, and the extraction field at \SI{7.5}{\kV\per\cm} in gaseous xenon. The liquid level in LUX detector was maintained by the weir that is installed on the side of the TPC. Liquid xenon that exceeded the height of the weir would flow out from the TPC region. This maintains the gas region thickness between the anode grid and the liquid xenon surface at \SI{0.5}{\cm}.  the temperature of the liquid xenon is \SI{177}{\kelvin}. The xenon gas pressure of the TPC is \SI{1.95}{\bar}. The variation of the temperature and pressure is less than \SI{0.5}{\kelvin} and \SI{0.01}{\bar}. 
+During WS2014-16, 118 PMTs were on recording. One of the PMT (PMT~26) was showing a slightly more unstable behavior comparing to the other PMTs. The DAQ system was configured to trigger on S2 pulse, described in detail in Ref.~\cite{Akerib2016b}. After the trigger, the DAQ will open a \SI{500}{\us} acquisition window preceding the trigger time and a \SI{500}{\us} acquisition window succeeding the trigger time. This allowed both S1 and S2 pulse to be captured in the acquisition window, because the S1 and S2 pulse could have maximum time separation of \SI{\sim 400}{\us}. The trigger was also compared with DAQ from outer detector water tank PMTs. Events potentially from external source are rejected. Data taking for WS2016-16 was mostly continuous except for the interruption from weekly calibration from \kreightthreem\ source and other calibrations that happens less frequently.      
+
+In preparation for WS2014-16 exposure, the anode, gate and cathode grid electrodes were conditioned in cold xenon gas. During the conditioning, each electrode was maintained with a voltage that was just below its discharge voltage. The purpose of this conditioning was to improve the capability of applying higher voltages on each grid. This allowed us to have a higher electron efficiency at \num[separate-uncertainty=false]{0.73 \pm .04} comparing to WS2013 at \num[separate-uncertainty=false]{0.49 \pm 0.03}. However, this conditioning also burned the outer side of the PTFE panels on the radial boundary of the detector. Details are described in Ref.~\cite{Akerib2017f}. This caused the continuous charge deposition on the PTFE panel and altered the electric field in the detector on time and space. Thus, the full search are separated to 16 independent searches by time and space. The 16 results are combined to give the final limit.     
+
+\subsection{General}
+LUX WS2014-16 was perform with WIMP search period and calibration period.
+ 
+\subsection{PMT}
+PMT 26
+
+
+\subsection{Light yield}
+The light yield of the TPC was studied from calibration with krypton 83 meta-stable state($^{83}Kr$) source. The light yield model was further confirm with LUXSim, a Geant4 based simulation with LUX geometries, for optical propagation in LUX detectors. 
+
+\subsection{Exposure time}
+Period of electron drift time smaller than 500$\mu s$ are excluded from this analysis.
+
+The exposure time of WS2014-16 was 332.0 live days. The expo
+
+\subsection{16 separate detectors}
+
+\subsection{Summary}
+
+\section{Cut and cut efficiency}
+ A WIMP candidate event should:
+ \begin{itemize}
+ 	\item be an isolated event in time,
+ 	\item be a single scatter event in the fiducial region in the TPC,
+ 	\item not veto by coincidence with the Water Tank scintillation,
+ 	\item have the shape and quanta of \sone\ and \stwo\ pulse consistent with an NR.
+ \end{itemize}

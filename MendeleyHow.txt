@@ -1,0 +1,26 @@
+Notes on getting bibliography set up:
+- collate papers using Mendeley.
+- workflow:
+     - download paper PDF (from journal site if possible) to ~/Documents/\!UCLA/\!DarkSide/Papers/
+     - Mendeley set up to watch this folder, automatically imports paper with metadata
+     - add paper to "thesis" folder
+     - highlight all references in folder and export to .bib file (usually called thesis.bib)
+- Mendeley set for:
+     - Bibtex export using journal abbreviations
+     - not sure if automatically updates  ~/Documents/Mendeley/
+     - Automatic syncing of .bib files in ~/Documents/Mendeley/bibs. One bibtex file per group. Use "thesis" group for dissertation.
+     - Mendeley has web page entry, but outputs bibtex as MISC type. Should be ONLINE. Manually change MISC to ONLINE in .bib file.
+- use biblatex to incorporate citations in thesis
+- configuration:
+     cfg.tex:
+\usepackage[
+backend=bibtex,
+style=phys,articletitle=true,biblabel=brackets,
+sorting=none,
+maxbibnames=4
+]{biblatex}
+\addbibresource{thesis.bib}
+     thesis.tex (just before \end{document}):
+       \printbibliography[heading=bibintoc, title={References}]
+- workflow:
+     bash ChangeFigName.sh; python pngTojpg.py; rm thesis.bbl; rm thesis-blx.bib; bash miscToonline.sh thesis.bib; pdflatex thesis; bibtex thesis; pdflatex thesis; rm part.bbl; rm part-blx.bib; bash miscToonline.sh thesis.bib; pdflatex part; bibtex part; pdflatex part;

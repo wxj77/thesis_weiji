@@ -1,0 +1,87 @@
+% Alden, thanks so much for telling me so many useful things in latex, and medeley citation. It made the text look so much better than before.
+
+
+%2018.01.04 pages 39
+%2018.01.06 pages 43, including two completely blank page.
+
+% I am very sad.
+% I don't want to lose to anything.
+% If I can reach 70 pages by the morning of 2018.01.08. I will fullfill one of my wishes.
+% today I am going to write on Appendix E 
+%2017.12.27 pages 27
+% Log of this file: 
+% 2017.07.27: start writing. Edited outline . 
+%need to do: 
+
+% Stanford University PhD thesis style -- modifications to the report style
+% This is unofficial so you should always double check against the
+% Registrar's office rules
+% See http://library.stanford.edu/research/bibliography-management/latex-and-bibtex
+% 
+% Example of use below
+% See the suthesis-2e.sty file for documentation
+%
+%start of chapter 0.
+%end of chapter 0.
+\documentclass{report}
+\usepackage{suthesis-2e}
+%\graphicspath { {Figures} }
+\dept{Physics}
+\include{cfg}
+
+%\addbibresource{thesis.bib}
+
+\begin{document}
+\title{20170727: Dark Matter Search and Electron background evaluation\\
+            Testing of TPC grid designing}
+\author{Wei Ji}
+\principaladviser{Tom Shutt}
+\firstreader{Dan Akerib}
+\secondreader{Peter Graham}
+\thirdreader{Giorgio Gratta} %if needed
+\fourthreader{} %if needed
+% * <wxj77@case.edu> 2017-12-24T02:11:21.368Z:
+%
+% ^.
+ 
+\beforepreface
+\prefacesection{Preface}
+This thesis is discussing about the design and validation of liquid xenon LZ Dark Matter experiment and results from LUX Dark Matter experiment.   
+\prefacesection{Acknowledgments}
+I would like to thank you Dan, for everything.
+\afterpreface
+%\include{Chapters/intro}
+%\include{Chapters/Chapter1}
+%\include{Chapters/Chapter2}
+%\include{Chapters/Chapter3}
+%\include{Chapters/Chapter4}
+%\include{Chapters/Chapter5}
+%\include{Chapters/Chapter6}
+%\include{Chapters/Chapter7}
+%\include{Chapters/Chapter8}
+%\include{Chapters/Chapter9}
+%\include{Chapters/Chapter10} % old gas test description page
+%\include{Chapters/Chapter11} % 
+%\include{Chapters/Chapter12} % lux analysis
+%\include{Chapters/Chapter100} %  introduction
+%\include{Chapters/Chapter101}
+%\include{Chapters/Chapter102}
+\include{Chapters/gtestdescription}
+
+%\include{Chapters/gtestresult}
+
+\appendix
+%\include{Appendices/AppendixA} %wire electric field
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+%\include{Appendices/AppendixD}
+%\include{Appendices/AppendixE} % sensors in phase I 
+\include{Appendices/gastestRQ}
+\include{Appendices/Abbreviations}
+
+%\bibliographystyle{dcu}
+%\bibliography{thesis}
+
+\printbibliography[heading=bibintoc]
+
+\end{document}

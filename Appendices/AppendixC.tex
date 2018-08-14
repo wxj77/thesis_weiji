@@ -1,0 +1,82 @@
+
+\chapter{Binomial likelihood discussion}
+If we measure a sequence of events, that we know is drawn from a Bernoulli distribution. 
+How would we estimate the probability of the Bernoulli distribution $p$?
+Assuming measuring this Bernoulli experiment $N$ times, and the result is ${X_1=x_1, ..., X_N=x_n}$. 
+Among these events, value 1 happen $m$ times. 
+Then the probability for this result to happen if $p$ is the Bernoulli probability is
+
+\begin{equation}
+P(X_1=x_1, ... X_N=x_n|p)=p^m(1-p)^{N-m}
+\label{a1}
+\end{equation}.
+
+According to Bayes Rules,
+\begin{equation}
+P(A|B)=\frac{P(B|A)P(A)}{P(B)}
+\label{a2}
+\end{equation},
+
+\begin{equation}
+P(p|X_1=x_1, ... X_N=x_n)=\frac{P(X_1=x_1, ... X_N=x_n|p)P(p)}{P(X_1=x_1, ... X_N=x_n)}
+\label{a3}
+\end{equation}
+
+The probability of $P(X_1=x_1, ... X_N=x_n)$ is a constant unrelated to $p$.
+The probability of $P(p)$ would also be a constant if we know no further information,
+
+\begin{equation}
+f(p)=1,\quad p \in[0,1]
+\label{a4}
+\end{equation}.
+
+Combining \ref{a1}, \ref{a3}, \ref{a4}, we get
+
+\begin{equation}
+P(p|X_1=x_1, ... X_N=x_n) \propto  P(X_1=x_1, ... X_N=x_n|p)
+\label{a5}
+\end{equation}.
+
+Considering the normalization of probability, we get
+
+\begin{equation}
+P(p|X_1=x_1, ... X_N=x_n) =\frac{p^m(1-p)^{N-m}}{\int_0^1 dp\quad p^m(1-p)^{N-m}}
+\label{a6}
+\end{equation}.
+
+Maximum of this probability, we get
+\begin{equation}
+\max_p P(X_1=x_1, ... X_N=x_n|p) = 
+\max_p p^m(1-p)^{N-m} =\frac{m}{N}
+\label{a7}
+\end{equation}
+Expected value of p give ${X_1=x_1, ..., X_N=x_n}$,
+\begin{equation}
+E(p|X_1=x_1, ... X_N=x_n) =\frac{\int_0^1 dp\quad p\quad p^m(1-p)^{N-m}}{\int_0^1 dp\quad p^m(1-p)^{N-m}}
+=\frac{1+m}{2+N}
+\label{a8}
+\end{equation}.
+
+\begin{equation}
+\lim_{m,N \rightarrow \infty} E(p|X_1=x_1, ... X_N=x_n) 
+\approx \frac{m}{N}
+\label{a9}
+\end{equation}.
+
+Variance of p give ${X_1=x_1, ..., X_N=x_n}$,
+\begin{align}
+Var(p|X_1=x_1, ... X_N=x_n)& =E(p^2|X_1=x_1, ... X_N=x_n)-E(p|X_1=x_1, ... X_N=x_n)^2 \nonumber\\
+& =\frac{\int_0^1 dp\quad p^2\quad p^m(1-p)^{N-m}}{\int_0^1 dp\quad p^m(1-p)^{N-m}} \nonumber
+-(\frac{\int_0^1 dp\quad p\quad p^m(1-p)^{N-m}}{\int_0^1 dp\quad p^m(1-p)^{N-m}})^2 \nonumber\\
+&=\frac{(1+m)(1+N-m)}{(2+N)^2(3+N)}
+\label{a10}
+\end{align}.
+
+\begin{equation}
+\lim_{m,N \rightarrow \infty} Var(p|X_1=x_1, ... X_N=x_n) 
+\approx \frac{m(N-m)}{N^3} = \frac{\frac{m}{N}(1-\frac{m}{N}
+)}{N}
+\label{a11}
+\end{equation}.
+
+We realize that the probability expected value is not exactly equal to $m/N$, which maximized the likelihood function and also is the mean value of the results. Variance is not exactly $m/N(1-m/N)/N$. This is because the origin guess for we have $p$ is uniformly distributed between 0 and 1. We can not eliminate the small probabilities for value of $p$ deviated a lot from expected value. 

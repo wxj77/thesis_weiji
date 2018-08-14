@@ -1,0 +1,81 @@
+\label{Chapter8}
+\chapter{Production and propagation of photon and electron signals in argon and xenon TPC}
+To view the events happening in xenon TPC, readable signals produced by the events are needed. The photon, electrons, and heat produced by an event is the most common three readable signals. And reading the primary scintillation photon signals and the secondary scintillation photon signals produced by electron luminescence via photomultiplier tubes, is one of the most common method to view the spacial and energy parameters for the events.    
+
+In this chapter, I will talk about the production and propagation of photon and electron signals in argon and xenon TPC with liquid or gas argon and xenon. 
+
+First, I will review the understanding the interactions of a common particle with the argon and xenon molecules, and the primary products of these interaction. I will discuss about the prompt light, electron and heat produced by the incident particle. And I will talk about the excitation and ionization of argon and xenon atoms and molecules. 
+
+Second, I will talk about the immediate secondary interactions of the primary products with the local argon, xenon and impurity environment. I will discuss about the recombination of argon and xenon atoms and molecules. Then I will discuss about the decay of the excitation states of argon and xenon atoms and molecules.
+
+Then, I will talk about the transportation of the photon and electron in argon and xenon. I will talk about the elastic and inelastic scattering or argon and xenon atoms. I will talk about the reflection and absorption of the plastic and metal that we commonly used in a TPC detector. I will talk about the effect of other impurity in argon and xenon.
+
+At the end, I will discuss about the uncertainty of the energy reconstruction from the primary and secondary photon signals for a TPC. 
+
+\section{Mean Free Path}
+
+\section{Energy deposition of an event in argon and xenon}
+When a particle is traveling through the argon and xenon medium, it may interact with the argon and xenon atoms. These interactions transfer energy from the incident particle to the medium particles. The transfered energy could be in forms of heat, excitation, ionization, etc.    
+
+Since the electrons are much lighter than a nuclei, the average energy transfer from a collision of the incident particle for the electrons is much larger than nuclei. Using a easy case of non-relativistic kinematics, the max energy transfer in the elastic collision for a incident particle with mass $m$ and target particle with mass $M$ is 
+\begin{align}
+\Delta E_{max} & = \frac{1}{2} m v^2 \frac{4 m M}{(m+M)^2} \\
+& \approx \frac{1}{2} m v^2 \frac{4 m}{M} \qquad(m \ll M)
+\end{align}
+
+The energy loss of a high-energy charged incident particle in matter due to its interaction with the electrons in the medium is given by the Bethe-Bloch equation \cite{Tavernier2010}:
+\begin{align}
+\label{bethe-bloch}
+\frac{dE}{dx}= \rho \frac{Z_{nucl}}{A_r}(0.307 MeV cm^2/g) \frac{Z^2}{\beta^2}[\frac{1}{2} \ln (\frac{2 m_e c^2 \beta^2 \gamma^2 T_{max}}{I^2}) - \beta^2 - \frac{\delta(\beta)}{2}]
+\end{align}
+where,
+
+$dE/dx =$energy loss of particle per unit length 
+
+$Z =$ charge of the particle divided by the proton charge
+
+$c =$ velocity of light
+
+$\beta, \gamma =$ relative parameters $\frac{v}{c}, \frac{1}{\sqrt[]{1-\beta^2}}$ 
+
+$\rho =$ density of material 
+
+$Z_{nucl} = $ atomic number of the material nuclei 
+
+$A_r =$ relative atomic weight of the material nuclei
+
+$I = $ mean excitation energy in $eV$. It is typically around $10eV$ times $Z_{nucl}$
+
+$T_{max} =$ maximum energy transfered to electron. For all incoming particles except electrons, it is to a good approximation to $2 m_e c^2 \beta^2 \gamma^2$. For electrons, it is the energy of the incident electron.
+
+$\delta(\beta) = $ density-dependent term, for corrections at very high energy.  
+
+The equation \ref{bethe-bloch} can be approximated to 
+\begin{align}
+\label{bethe-bloch simple}
+\frac{dE}{dx} \approx \rho (2 MeV cm^2/g) \frac{Z^2}{\beta^2}
+\end{align}.
+
+Also from the incident particle energy is known, the distance of the stopping trajectory can be estimate, which is usually called the stopping range of the particle. 
+
+For the low energy charged incident particles(speed much smaller than the speed of the  electrons in the material), they carry electrons along. This reduces the "effective charge" of the incident particle thus reduces the stopping power. This means sufficient corrections are required for the energy loss of heavy particles such as protons, alphas, heavy ions. Correction terms such as Barkas-Andersen-effect correction, Bloch correction, etc, which is higher order $Z$ better illustrate the discrepancy from equation \ref{bethe-bloch} are also considered for computer programs for calculating stopping power and range tables for electrons, protons, and alpha particles, such as ESTAR, PSTAR, ASTAR \cite{epastar}. Also for even more high energy incident particles ($>10 MeV$), radiative stopping such as bremsstrahlung radiation, cherenkov radiation and pair production is predominant.
+
+The result of stopping power for the most common argon and xenon isotope $^40Ar$ and $129^Xe$, $131^Xe$, $132^Xe$ is shown is figure \ref{fig: epastar_ar}, \ref{fig: epastar_xe}. Xenon has density of $2.8608 g/cm^3$ and $0.017960 g/cm^3$ at saturation liquid and gas at 177 K, \ref{NIST}. The stopping range for an electron of energy $200 keV$ is $\sim 0.028 cm$ and $4.46 cm$. The stopping range for an alpha particle of energy $2 MeV$ is $\sim 0.0014 cm$ and $0.225 cm$
+
+The distribution of the process for an electron falling on a cylindrical wire can be written estimated to a Polya distribution, \ref{blumandrolandi.pdf} 
+\begin{align}
+\label{polya}
+P(N) = \frac{1}{\mu} \frac{(\theta+1)^(\theta+1)}{\Gamma(\theta+1)}(\frac{N}{\mu})^{\theta}\exp(-(\theta+1)\frac{N}{\mu})
+\end{align}
+where, $\mu$ is the mean of electron gain around the wire.
+
+Polya distribution is a reparameterization of Gamma($\Gamma$) distribution, which has probability distribution function
+\begin{align}
+P(x) = \frac{\beta^{\alpha}}{\Gamma(\alpha)}x^(\alpha-1)\exp(-\beta x) 
+\end{align}
+
+with shape parameter $\alpha$, and rate $\beta$
+\begin{align}
+\mu = \frac{\alpha}{\beta}\quad\quad\quad\quad \theta =\alpha -1 
+\alpha=  \theta+1 \quad\quad\quad\quad \beta = \frac{\theta+1}{\mu}
+\end{align}

@@ -1,0 +1,504 @@
+good event candidate from proc64767.
+dead time: 65
+
+eep: 55, 62
+Cherenkov: 2, 51
+muon (crossing EL region) : 107, 75, 
+muon (anodic): 207
+muon (cathodic): 7, 40 , 49
+radiation
+S1: 64, 210
+anode cone: 47, (76,77), (175-177)
+cathodic corner(or really close to cathode) :145, 67
+EL region: 218,83
+cathodic : 21,44
+noise: 34
+dark current: 53
+PTFE fluo: 161(160),
+ring radiation: 181, 85, 105, 
+grid radiation: 117
+
+open -a Preview <set of figures using wildcards>
+\paragraph{Definition}
+\paragraph{Purpose}
+This is to make sure the pulse of interest is not a . 
+\paragraph{Method}
+
+\num[separate-uncertainty=false]{0.73 \pm .04}
+
+
+\begin{figure}[!p]
+	\centering
+	\begin{subfigure}[b]{\halfwidth}
+	\centering
+	\includegraphics[width=\textwidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/WeiDrawEvent/GoodConfig.jpg}
+	\caption{}
+	\label{fig:}
+	\end{subfigure}
+	\begin{subfigure}[b]{\halfwidth}
+	\centering
+	\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/WeiDrawEvent/BadConfig.jpg}
+	\caption{}
+	\label{fig:}
+	\end{subfigure}
+	\caption[]{(a)  (b) }
+	\label{fig:}
+\end{figure}
+
+
+\begin{figure}[!p]
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{blank.jpg}
+\caption[]{}
+\label{fig:}
+\end{figure}
+
+\begin{figure}[!p]
+\centering
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0},angle=0,origin=c]{blank.jpg}
+\caption[]{}
+\label{fig:}
+\end{figure}
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.5\textwidth]{blank.jpg}
+\caption[]{The geometry of a single grid plane, with spacing $a$.}
+\label{fig: }
+\end{figure}
+
+
+\begin{center} 
+\centering
+\begin{table}[!h]
+\centering
+\begin{tabular}[!h]{ | m{16em} ||m{9em} | m{9em}| } 
+\hline
+& &\\\hline\hline 
+& &\\\hline
+\end{tabular}
+\caption[PMT calibration]{PMT calibration, at \ddtt{2017}{12}{08}{14}{42} }
+\label{tab:PMTparameters}
+\end{table}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+The analytic solution of a single plate with different spacing between wires but same periodic pattern is 
+\begin{align}
+V(\boldsymbol{x}) & = \sum_{i=1}^n E_{i} \frac{a}{4 \pi} \ln [2(\cosh \frac{2 \pi z}{a} - \cos \frac{2 \pi (x-a_{i})}{a})] \\
+E_{top, \infty} & = -E_{bottom, \infty} = \frac{1}{2}\sum_{i=1}^{n} E_{i} \\
+V_{j} & \approx E_{j} \frac{a}{2 \pi} \ln \frac{2 \pi r_{j}}{a} + \sum_{i\neq j}^{n} E_{i} \frac{a}{4 \pi} \ln [2(1 - \cos \frac{2 \pi (a_{j}-a_{i})}{a})] 
+\end{align}
+where $r_{j}$, $a_{j}$, $V_{j}$ are the radius, location, potential on the $j$th wire. \\
+For simple case $n = 2$, where which means $r_{1}=r_{2}=r, V_{1}=V_{2}= V_{wire}$,
+\begin{align}
+V_{wire} & \approx E_{dif}\frac{a}{4 \pi} \ln \frac{2 \pi r}{a} + E_{dif} \frac{a}{8 \pi} \ln [2(1 - \cos \frac{2 \pi (a_{1})}{a})] \\
+G & \approx \frac{1}{4 \pi} \ln \frac{2 \pi r}{a} + \frac{1}{8 \pi} \ln [2(1 - \cos \frac{2 \pi (a_{1})}{a})] \\
+&\approx \frac{1}{4 \pi} \ln \frac{2 \pi r}{a} \quad where \quad a_1 = \frac{a}{2}
+\end{align}
+
+
+
+
+\begin{comment}
+\begin{figure}
+\centering
+\begin{subfigure}[b]{\figurewidth}
+\centering
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\caption{}
+\label{fig:signal selection a}
+\end{subfigure}
+\begin{subfigure}[b]{\figurewidth}
+\centering
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\caption{}
+\label{fig:signal selection a}
+\end{subfigure}
+\begin{subfigure}[b]{\figurewidth}
+\centering
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\caption{}
+\label{fig:signal selection a}
+\end{subfigure}
+\begin{subfigure}[b]{\figurewidth}
+\centering
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\includegraphics[width=\halfwidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all64767.jpg}
+\caption{}
+\label{fig:signal selection a}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~1).]{\gtest\ signal selection (part~1). (a) coincidence event building (C). (b) coincidence event building; not a two single photoelectrons false coincidence (C \& NFC). }
+\label{fig:signal selection p1}
+\end{figure}
+\end{comment}
+
+
+\begin{comment}
+\begin{figure}
+\centering
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection c}
+\end{subfigure}
+\par\bigskip
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection d}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~2).]{\gtest\ signal selection (part~2). (c) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse (C \& NFC \& NS1).  (d) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; (C \& NFC \& NNRRW \& NRT). }
+\label{fig:signal selection p2}
+\end{figure}
+
+\begin{figure}\ContinuedFloat
+\centering
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection e}
+\end{subfigure}
+\par\bigskip
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection f}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~3).]{\gtest\ signal selection (part~3).(e) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; not a s1 s2 like pulse (C \& NFC \& NNRRW \& NRT \& NS1S2). (f) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; not a s1 s2 like pulse; not saturate (C \& NFC \& NNRRW \& NRT \& NS1S2 \& NSat).}
+\label{fig:signal selection p3}
+\end{figure}
+
+\begin{figure}\ContinuedFloat
+\centering
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection g}
+\end{subfigure}
+\par\bigskip
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection h}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~4).]{\gtest\ signal selection (part~4).(g) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; not a s1 s2 like pulse; not saturate; not a long duration pulse (C \& NFC \& NNRRW \& NRT \& NS1S2 \& NSat \& NL). (h) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; not a s1 s2 like pulse; not saturate; not a long duration pulse; not a short duration pulse (C \& NFC \& NNRRW \& NRT \& NS1S2 \& NSat \& NL \& NS)}
+\label{fig:signal selection p4}
+\end{figure}
+
+
+\begin{figure}\ContinuedFloat
+\centering
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection i}
+\end{subfigure}
+\par\bigskip
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+\caption{}
+\label{fig:signal selection j}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~5).]{\gtest\ signal selection (part~5).(i) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; not a s1 s2 like pulse; not saturate; not a long duration pulse ; not a short duration pulse; time veto 1 (C \& NFC \& NNRRW \& NRT \& NS1S2 \& NSat \& NL \& NS \&TV1). (j) coincidence event building; not a two single photoelectrons false coincidence; not a narrow pulse;  not a right triangle shape pulse; not a s1 s2 like pulse; not saturate; not a long duration pulse; not a short duration pulse; time veto 1; time veto 2 (C \& NFC \& NNRRW \& NRT \& NS1S2 \& NSat \& NL \& NS \&TV1 \&TV2)}
+\label{fig:signal selection p6}
+\end{figure}
+\end{comment}
+
+\\-- three figures a line
+
+\begin{figure}[!htbp]\ContinuedFloat
+\centering
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa06Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa06Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa06Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 06}
+\end{subfigure}
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa07Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa07Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa07Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 07}
+\end{subfigure}
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa08Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa08Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa08Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 08}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~2).]{\gtest\ signal selection (part~2):
+(top) distribution of \rpd\ vs signal area;
+(middle) distribution of signal TBA vs signal area;
+(bottom) distribution of signal area;
+(d) applying signal selections up to ``not a two-\sphe\  accidental coincidence signal";
+(e) applying signal selections up to ``not a top-heavy signal";
+(f) applying signal selections up to ``not a bottom-heavy signal".
+The shaded area with red crossed tilted lines indicated the ``top-heavy" region.
+The shaded area with blue crossed tilted lines indicated the ``bottom-heavy" region.
+}
+\label{fig:signal selection l2}
+\end{figure}
+
+\begin{figure}[!htbp]\ContinuedFloat
+\centering
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa09Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa09Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa09Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 09}
+\end{subfigure}
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa10Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa10Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa10Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 10}
+\end{subfigure}
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa11Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa11Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa11Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 11}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~3).]{\gtest\ signal selection (part~3):
+(top) distribution of \rpd\ vs signal area;
+(middle) distribution of signal TBA vs signal area;
+(bottom) distribution of signal area;
+(g) applying signal selections up to ``not a extremely long duration signal";
+(h) applying signal selections up to ``not a right triangle shape signal";
+(i) applying signal selections up to ``not a s1 s2 like signal".
+The shaded area with red crossed tilted lines indicated the ``top-heavy" region.
+The shaded area with blue crossed tilted lines indicated the ``bottom-heavy" region.
+}
+\label{fig:signal selection l3}
+\end{figure}
+
+\begin{figure}[!htbp]\ContinuedFloat
+\centering
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa12Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa12Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa12Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 12}
+\end{subfigure}
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa13Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa13Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa13Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 13}
+\end{subfigure}
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa14Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa14Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa14Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 14}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~4).]{\gtest\ signal selection (part~4):
+(top) distribution of \rpd\ vs signal area;
+(middle) distribution of signal TBA vs signal area;
+(bottom) distribution of signal area;
+(j) applying signal selections up to ``not a saturated signal";
+(k) applying signal selections up to ``not a long duration signal";
+(l) applying signal selections up to ``not a short duration signal".
+The shaded area with red crossed tilted lines indicated the ``top-heavy" region.
+The shaded area with blue crossed tilted lines indicated the ``bottom-heavy" region.
+The shaded area with magenta crossed horizontal and vertical lines indicated the ``long duration" region.
+The shaded area with cyan crossed horizontal and vertical lines indicated the ``short duration" region.
+}
+\label{fig:signal selection l4}
+\end{figure}
+
+\begin{figure}[!htbp]\ContinuedFloat
+\centering
+\begin{subfigure}[b]{0.44\textwidth}
+\centering
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/pdpa15Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 98 0 0}]{Figures/GasTest/CutsValid/tbapa15Vecfig64767.jpg}
+\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/pa15Vecfig64767.jpg}
+\caption{}
+\label{fig:signal selection 15}
+\end{subfigure}
+\caption[\gtest\ signal selection (part~5).]{\gtest\ signal selection (part~5):
+(top) distribution of \rpd\ vs signal area;
+(middle) distribution of signal TBA vs signal area;
+(bottom) distribution of signal area;
+(m) applying signal selections up to ``time veto selection 1".
+The shaded area with red crossed tilted lines indicated the ``top-heavy" region.
+The shaded area with blue crossed tilted lines indicated the ``bottom-heavy" region.
+The shaded area with magenta crossed horizontal and vertical lines indicated the ``long duration" region.
+The shaded area with cyan crossed horizontal and vertical lines indicated the ``short duration" region.
+}
+\label{fig:signal selection l5}
+\end{figure}
+
+
+	\caption[\gtest\ signal: anode cone event.]{\gtest\ signal: anode cone event. (a) Cartoon of the process. Left: Primary scintillation light is produced from the particle interaction, and ionization electrons which are produced from this interaction drift to the anodic grid (part A). Right: EL light is produced in the high electric field region around the anodic grid wires during electrons drifting (part B). (b) An example waveform of an anode cone event. Data were taken at \ddtt{2017}{12}{08}{14}{02}, with \opvtvb\ at \SIlist{+6;-6}{kV}, \opgd\ at \standarddensity .
+
+	\caption[\gtest\ signal: anode cone event (cont.).]{\gtest\ signal: anode cone event (cont.). (c) An example waveform of an anode cone event, zoomed in the range of \SIrange{0}{0.5}{\us}, which shows the primary scintillation light (cartoon part A). (d) An example waveform of an anode cone event, zoomed in the range of \SIrange{15}{21}{\us}, which shows the EL light produced around the anodic grid wires (cartoon part B). }
+
+
+
+
+
+
+
+\\--
+(top) distribution of \rpd\ vs signal area;
+(middle) distribution of signal TBA vs signal area;
+(bottom) distribution of signal area;
+(a) coincidence event building;
+(b) applying signal selections up to ``not a noise-like signal";
+(c) applying signal selections up to ``not a narrow signal".
+(d) applying signal selections up to ``not a two-\sphe\ accidental coincidence signal";
+(e) applying signal selections up to ``not a top-heavy signal";
+(f) applying signal selections up to ``not a bottom-heavy signal".
+(g) applying signal selections up to ``not a extremely long duration signal";
+(h) applying signal selections up to ``not a right-angled triangle shape signal";
+(i) applying signal selections up to ``not a s1 s2 like signal".
+(j) applying signal selections up to ``not a saturated signal";
+(k) applying signal selections up to ``not a long duration signal";
+(l) applying signal selections up to ``not a short duration signal".
+(m) applying signal selections up to ``time veto selection 1".
+
+//--
+(top) distribution of \rpd\ vs signal area after signal selections;
+(second top) distribution of signal TBA vs signal area after signal selections;
+(second bottom) distribution of \rpd\ vs signal area of removed signals;
+(bottom) distribution of signal TBA vs signal area of removed signals;
+The red hatched shaded area indicates the ``top-heavy" region.
+The blue shaded area indicates the ``bottom-heavy" region.
+The magenta hatched shaded area indicates the ``long duration" region.
+The cyan hatched shaded area indicates the ``short duration" region.
+
+
+//
+
+version 2:
+
+coincidence event building;
+not a noise like signal;
+not a narrow signal;
+
+not a two single photoelectrons false coincidence signal;
+not a top-heavy signal;
+not a bottom-heavy signal;
+
+not a extremely long duration signal;
+not a right triangle shape signal;
+not a s1 s2 like signal;
+
+not a saturated signal;
+not a long duration signal;
+not a short duration signal;
+
+veto based on signal area of the previous signal;
+veto based on signal duration of the previous signal;
+
+area veto;
+duation veto;
+
+
+(C \& NNoise \& NNRRW \& NFC \&NTH \& NBH \& NL1 \& NRT \& NS1S2 \& NSat \& NL \& NS \& TV1).
+
+
+
+\subsubsection{}
+\paragraph{Definition}
+\paragraph{Purpose}
+This is to make sure the signal of interest is not
+
+
+\paragraph{Definition}
+A coincidence-found signal has a positive signal area in all PMT channels, a higher than \num{0.5} positive to negative amplitude ratio,  and a positive \rpd .
+
+\paragraph{Purpose}
+This is to make sure the signal of interest is not an electrical noise signal, which usually has a close to zero signal area, a close to unity positive to negative amplitude ratio, or a zero \rpd , as described in Section~\ref{sec:events}. The effect of this selection is shown in Fig.~\ref{fig:signal selection 04}. Noise-like signals, mostly at signal area in the range of \SI{<e0}{\phe}, \rpd\ in the range of \SI{<e3}{\ns}, are rejected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

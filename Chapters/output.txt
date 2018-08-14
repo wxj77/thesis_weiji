@@ -1,0 +1,1237 @@
+3c3
+< %For understanding grid electron emission in the \lze\ detector, we designed a gaseous xenon detector to study grid behavior in a similar environment as in the \lze\ detector. We measure electron emission rate from the grid under different grid operating voltages. It helps us figure out the optimal operation voltages for grids in the \lze\ detector. We study different method for reducing electron emission background. Reduction of electron emission background rate from the grid wires will significantly improve our sensitivity to low energy events. This in return will improve our understanding of low mass WIMPs. It will also help to keep the trigger environment in \lze\ quieter. This reduces the systematic errors for S1 and S2 and improve their quality. From that, we will improve our events classification and energy reconstruction. 
+---
+> %For understanding grid electron emission in the \lze\ detector, we designed a gaseous xenon detector to study grid behavior in a similar environment as in the \lze\ detector. We measure electron emission rate from the grid under different grid operating voltages. It helps us figure out the optimal operating voltages for grids in the \lze\ detector. We study different method for reducing electron emission background. Reduction of electron emission background rate from the grid wires will  improve our sensitivity to low energy events. This in return will improve our understanding of low mass WIMPs. It will also help to keep the trigger environment in \lze\ quieter. This reduces the systematic errors for S1 and S2 and improve their quality. From that, we will improve our events classification and energy reconstruction. 
+6d5
+< \lze\ is particularly interested in electric field induced electron emission from the metallic grid. This phenomenon is one of the major sources of background events. Therefore, reduction of the field induced electron emission rate should greatly benefit physics studies in the \lze\ detector.
+8c7,9
+< The electric field induced electron emission events look like low energy events in the \lze\ detector. Thus, reduction of electron emission background rate from the grid wires improves our sensitivity to low energy events. This in return improves our ability to study low mass WIMPs. 
+---
+> In LZ, metallic wire grids under high voltage are used to form electric fields. We apply one field in the liquid volume to drift ionization electrons upwards and another in the gas volume to extract these electrons from the liquid in order to produce proportional scintillation light (S2). Achieving high voltages on such grids is necessary for the operation of the LZ TPC. However, such high voltages also increase the rate of electron emission ,which is one of the potential sources of background in LZ.
+> %\lze\ is particularly interested in electric field induced electron emission from the metallic grid. This phenomenon is one of the major sources of background events. 
+> Therefore, reduction of the field induced electron emission rate should greatly benefit physics studies in the \lze\ detector.
+10c11
+< The frequent electron emission events may also accidentally coincidence with the wanted signals, such as S1 and S2, in the \lze\ detector. Reduction of electron emission rate also helps to keep the data recording environment in \lze\ cleaner. This reduces the systematic errors for S1 and S2 and improve their qualities. From that, we improve our events classification and energy reconstruction. This in return improves all physics studies from the \lze\ detector. 
+---
+> Electric field induced electron emission from metallic surfaces is a well known phenomenon. The electric field lowers the potential energy outside the metallic surface allowing electrons to come out from the metallic surface. The rate of electric field induced electron emission increases with the electric field on the metallic surface. 
+12,13d12
+< The frequent electron emission events also consume data recording ability in \lze . This may prevent or interrupt recordings of the wanted data. Thus, reduction of electron emission rate also helps to keep the data recording environment in \lze\ quieter to allow longer detector live times for wanted events.
+< %The maximum operation electric field on the grids in the \lze\ elector set the maximum grids operation voltages. 
+15c14
+< Therefore, we develop a two-fold study the reduction of electric field induced electron emission rate in two small detectors. These two detectors are smaller comparing to the \lze\ detector. They are capable of testing a pair of "small" grids. The surface area of these "small" grids are \SI{\sim 1}{\percent} the area of grids that will be used in \lze . 
+---
+> %has been difficult in the past for other liquid xenon TPCs. The difficulty limiting the high voltage breakdown on the grids and other metallic surfaces, but also in limiting electron emission from these surfaces.  
+17c16,27
+< In the first step, a gaseous detector, below "\gtest ", is built to study different method for reducing electron emission rate. This detector measures electron emission rates on different electric fields before and after different physical and chemical processes. Once this comparison confirms the effects on reduction of the electric field induced electron emission rate, a second stage of study in a liquid xenon detector, below \phaseone , to confirm the reduction persist in liquid xenon environment, which is the environment \lze\ grids operate in. 
+---
+> 
+> The electric field induced electron emission events are potential problems in LZ for three reasons. First, these events look like low energy events in the \lze\ detector. Thus, reduction of electron emission background rate from the grid wires improves our sensitivity to low energy events. This in turn improves our ability to study low mass WIMPs. 
+> Second, the electron emission events may accidentally coincide with WIMP signals which we want to study in the \lze\ detector. Reduction of electron emission rate helps to keep the data recording environment in \lze\ cleaner. This reduces the systematic errors for S1 and S2 and improves their quality. From that, we improve our events classification and energy reconstruction. This in turn improves all physics studies using the \lze\ detector. 
+> Finally, the electron emission events interrupt the desired data recording capability of the \lze\ detector. This may prevent or interrupt recordings of wanted data. Thus, the reduction of electron emission rate helps to keep the data recording environment in \lze\ quieter to allow longer detector live times for wanted events.
+> In summary, the reduction of the electron emission event rates benefits LZ because of its impact on detector sensitivity, data quality and data acquisition live time. 
+> %The maximum operating electric field on the grids in the \lze\ elector set the maximum grids operation voltages. 
+> 
+> To achieve these qualities, we are developing a two-stage study on the reduction of the electric field induced electron emission rate using two small detectors, \gtest\ and \phaseone . These two detectors are capable of testing a pair of grids which have surface areas  \SI{\sim 1}{\percent} the area of grids that will be used in \lze . With these small detectors, we can study the effect of rate reduction in a shorter time than if we were to use full-size grids. Thus, we use these detectors to study parameters that may affect the emission rate in a short period of time.
+> 
+> At the first stage, a gaseous detector, ``\gtest ", is built to study different methods for reducing the electron emission rate. This detector measures electron emission rates with different electric fields before and after various physical and chemical treatments. Once we discover an effect on the reduction of the electric field induced electron emission rate from these treatments, a second stage of study with a liquid xenon detector, \phaseone , is undertaken to confirm that reduction persists in a liquid xenon environment, like that of \lze. 
+> 
+> After confirmation that a treatment produces a rate reduction,  this treatment is used to produce full-size \lze\ grids. A similar two-stage study method is used to test the full-size LZ grids in a gaseous detector, \phasetwo(details are described in Ref.~\ref{whose thesis}), and the liquid xenon detector \lze . These two detectors measure the performance and assure the quality of LZ grids.
+21,22c31,32
+< %We measure electron emission rate from the grid under different grid operating voltages. It helps us figure out the optimal operation voltages for grids in the \lze\ detector. We study different method for reducing electron emission background.
+< %consist with two major parts: the operation system and data acquisition system. 
+---
+> %We measure electron emission rate from the grid under different grid operating voltages. It helps us figure out the optimal operating voltages for grids in the \lze\ detector. We study different method for reducing electron emission background.
+> %consist with two major parts: the operating system and data acquisition system. 
+24c34
+< %The operation system contains four parts: the tested grids, the gas handling and distribution system, the high voltage system and the light collection system. The gas handling and distribution system is for delivering and storing quality pure gas to the \gtest\ . It includes the operation chamber, the gas circulation panel and plumbing, pressure and temperature sensors of different range, and a separated purity measurement system. The high voltage system includes the power supply, high voltage feed through, cables, and cable termination. The light collection system for measuring the quantity of scintillation light created in the detector includes two PMTs, and the PTFE light reflector.
+---
+> %The operating system contains four parts: the tested grids, the gas handling and distribution system, the high voltage system and the light collection system. The gas handling and distribution system is for delivering and storing quality pure gas to the \gtest\ . It includes the operating chamber, the gas circulation panel and plumbing, pressure and temperature sensors of different range, and a separated purity measurement system. The high voltage system includes the power supply, high voltage feed-through, cables, and cable termination. The light collection system for measuring the quantity of scintillation light created in the detector includes two PMTs, and the PTFE light reflector.
+36c46
+< This chapter focuses on \gtest . I will first introduce the design concepts of each individual components in \gtest\ . Then I will talk about data acquisition and data processing framework. Then, I will talk about the analysis frame work. This includes event selections , simulations and validations. I will discuss characteristic pulse shape and rate of the background events. Finally, results from these measurements for different grids will be discussed in Chapter.\ref{chap:gtestresult}.
+---
+> This chapter focuses on descriptions of the  \gtest\ detector. I will first introduce the design concepts for each individual component in \gtest\ . Then I will discuss data acquisition and the data processing framework. \todo{Last, I will discuss the analysis framework ,which includes event selections , simulations and validations, as well as characteristic pulse shape and rate of the background events.} Results from measurements for different grids in \gtest\ will be discussed in Chapter.\ref{chap:gtestresult}.
+39c49,51
+< The gaseous detector, \gtest , is designed for studying grid behavior under high voltage for \lze . It measures scintillation and electroluminescence (EL) light signals from events in the detector. Pairs of grids are made with the same material, wire pitch, and wire diameter as the grids that will be used for \lze . The differences between these grids and grids in \lze\ are the diameters of the grid planes. The same pair of grids can also be tested in \phaseone  for studying their performance in liquid xenon. Since these grid are physically similar to \lze\ except for the overall surface area, the results from studying these grids are an useful guidance for \lze\ grid design. 
+---
+> \label{sec:gtest dectector}
+> The gaseous detector, \gtest , is designed to study grid behavior under high voltage in \lze . It measures scintillation and electroluminescence (EL) light signals from events in the detector. Pairs of grids are made from the same waving technique, material, wire pitch, and wire diameter as the grids that will be used in \lze . %The difference between these grids and the grids in \lze\ is that the surface area of the grid planes is \SI{1}{\percent} scaled. 
+> The same pair of grids can also be tested in \phaseone\ to study their performance in liquid xenon. Since these grids are physically similar to the grids in \lze\ except for the overall surface area, the results from studying these grids are useful for \lze\ grid design. 
+41c53
+< Grid sparking tests are done on understanding the maximum operation voltage and the optimal operation voltage. Grid sparking tests are performed with both gaseous xenon and argon in various pressures. It is to look for discharges in the detector with biasing the grids. Discharges are discovered with current monitors measuring the short increasing of currents go from the power supply to the grids. A charged-couple device (CCD) camera is used to monitor discharges occur near the EL region. Grid sparking tests provide the detector operation informations for grid emission tests. 
+---
+> The main interest of our study is the electron emission process from the grid wires, which is studied by grid electron emission tests via using PMTs to detect the associated photon signals. Before each grid electron emission test, a grid sparking test is carried out to understand the maximum operating voltage and the optimal operating voltage. Grid sparking tests are performed with both gaseous xenon and argon under various pressures in order to uncover discharges in the detector via biasing the grids. It provides the detector operation information for grid emission tests. Grid electron emission tests are usually performed with gaseous xenon, in which photons can be produced for carrying out the \eep measurements. %This gas density is noted as standard xenon gas density below. Grid electron emission tests detect \eep s from grids with PMTs. 
+43c55
+< Electron emissions from the grid wires are studied by grid electron emission tests. Grid electron emission tests are usually performed with gaseous xenon at \SI{0.137}{\mole\per\liter} (\SI{\sim 3.3}{\bara} at temperature \SI{295}{\kelvin}). This gas density is noted as standard xenon gas density below. Grid electron emission tests look for \eep\ from grids with PMTs. 
+---
+> Next, I will introduce the design concepts of the components in the \gtest\ detector.
+46c58
+< The detector operates with xenon gas, argon gas, and vacuum. Operation pressure for this detector is in range \SIrange{e-5}{3.5}{\bara}. 
+---
+> \gtest\ detector is the main tool we used to study the electron emission process from metallic grid wire surfaces.The \gtest\ detector operates with xenon gas, argon gas, and vacuum. The operating pressure for this detector is in the range of \SIrange{e-5}{3.5}{\bara}. 
+48c60,90
+< A cylinder vessel of \SI{10}{\inch} diameter and \SI{24}{\inch} height is used to host electroluminescence detector. Pressure and temperature of the detector are monitored by sensors mounted above the vessel. A gas circulation system is used to add, remove and purify gas for the detector. Fig.~\ref{fig:chambergeneral:vessel} and Fig.~\ref{fig:chambergeneral:gridtest} show the physical layout of the vessel setup and the electroluminescence detector inside. 
+---
+> A cylindrical vessel, the diameter of which is \SI{10}{\inch} and the height of which is \SI{24}{\inch}, is used to host a electroluminescence detector(ELD), which detect measurable events. The pressure and the temperature of the detector are monitored by sensors mounted above the vessel. A gas circulation system is used to add, remove and purify gas in the detector. Fig.~\ref{fig:chambergeneral:vessel} and Fig.~\ref{fig:chambergeneral:gridtest} show the physical layout of the vessel setup and the ELD inside. 
+> 
+> \begin{figure}[!p]
+> 	\centering
+> 	\begin{subfigure}[b]{\halfwidth}
+> 		\centering
+> 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTWholeVessel.jpg}
+> 		\caption{}
+> 		\label{fig:chambergeneral:vessel}
+> 	\end{subfigure}
+> 	\begin{subfigure}[b]{\halfwidth}
+> 		\centering
+> 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTGridTestRegion.jpg}
+> 		\caption{}
+> 		\label{fig:chambergeneral:gridtest}
+> 	\end{subfigure}
+> 	\begin{subfigure}[b]{\halfwidth}
+> 		\centering
+> 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTGasPanel.jpg}
+> 		\caption{}
+> 		\label{fig:chambergeneral:panel}
+> 	\end{subfigure}
+> 	\begin{subfigure}[b]{\halfwidth}
+> 		\centering
+> 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTBottles.jpg}
+> 		\caption{}
+> 		\label{fig:chambergeneral:bottles}
+> 	\end{subfigure}
+> 	\caption[\gtest\ apparatus physical layout.]{\gtest\ apparatus physical layout: (a) the \gtest\ detector: detector vessel (middle), electronic and gas gauge breakouts (top), Genie lift for detector assembly and disassembly (left), and vacuum pumping and leak check system (right); (b) ELD inside the detector vessel; (c) gas circulation panel; (d) circulation pump (left), and storage bottles (right). }
+> 	\label{fig:chambergeneral}
+> \end{figure}
+50c92
+< The electroluminescence detector (ELD) is the major location of active measurable events. Its conceptual drawing is illustrated in Fig.~\ref{fig:BasicELD}. A pair of grids for measurement are mounted in the center of the vessel. They are separated apart by \SI{13}{\mm} by 12 PEEK spacers. These two grids are biased to different voltages during the measurement. This create an operation voltage difference between the two grids. It enables electrons between these two grids to produce EL photons which can be measured by the PMTs. The region between these two grids is noted as EL region. 
+---
+> The electroluminescence detector (ELD) is the major location of active measurable electron emission events. Its conceptual drawing is illustrated in Fig.~\ref{fig:BasicELD}. A pair of grids for measurement are mounted in the center of the vessel. They are separated apart by 12 PEEK spacers, ,which are \SI{13}{\mm} in height. These two grids are biased to different voltages during the measurement. This creates a voltage difference between the two grids. It enables electrons between these two grids to produce EL photons ,which can be measured by the PMTs. The region between these two grids is called the EL region. 
+52c94
+< These grids are named after their physical location in the detector as top grid and bottom grid. The grid plane diameters are \SI{140.9}{\mm} for the top grid and \SI{137.4}{\mm} for the bottom grid. Voltages of the two grids are noted as $V_{T}$ for the top grid and $V_{B}$ for the bottom grid. The voltage difference between the top and bottom grid is noted as operation voltage $dV \equiv V_{T} - V_{B}$. They also have another name by their bias voltage. The more anodic grid is called anodic grid. The more cathodic grid is called cathodic grid. Their voltage are also sometimes noted as $V_{A}$ for the anodic grid and $V_{C}$ for the cathodic grid. Normally, the top grid is anodic and the bottom grid is cathodic to study electron emission from the bottom grid. This is normal polarity operation. Occasionally, the top grid is cathodic and bottom grid is anodic to study electron emission from the top grid. This is reverse polarity operation. 
+---
+> \todo{These grids are named after their physical location in the detector as top grid and bottom grid. The grid plane diameters are \SI{140.9}{\mm} for the top grid and \SI{137.4}{\mm} for the bottom grid. Voltages of the two grids are noted as $V_{T}$ for the top grid and $V_{B}$ for the bottom grid. The voltage difference between the top and bottom grids is expressed with $\Delta V_{\text{T-B}}$ (dV) $\equiv V_{T} - V_{B}$. These grids also have another name by their bias voltages; the anodic grid and cathodic grid, and their voltage are respectively $V_{A}$ and $V_{C}$. The top grid is anodic and the bottom grid is cathodic when studying electron emission from the bottom grid, which is called normal polarity operation. Occasionally, the top grid is cathodic and the bottom grid is anodic when studying electron emission from the top grid, which is called reverse polarity operation. }
+54c96
+< Two PTFE reflector cones are used to improve light collection efficiency for the primary scintillation and EL photons. These reflector cones are mounted on the top and bottom of the EL region. The surface of PTFE cones overhang \SI{0.1}{mm} above the grid. The diameters of the opening of the PTFE cone to the grids are \SI{130}{mm}. Light collection will have the most sensitivity for grid \eep\ in this region. This defines the overall grid surface area of studying. Two PMTs mounted on the PTFE reflector cones are used to measure the primary scintillation and EL photons. Distances between the PMTs to the closest grids are \SI{110.5}{\mm}.
+---
+> Two PTFE reflector cones are used to improve light collection efficiency for the primary scintillation and EL photons. These reflector cones are mounted on the top and bottom of the EL region. The surface of the PTFE cones overhang \SI{0.1}{mm} above the grid. The diameters of the opening of the PTFE cones to the grids are \SI{130}{mm}. The EL region have the most sensitivity for grid \eep\ with regart to light collection. The EL region defines the overall grid surface area of studying. Two PMTs mounted on the PTFE reflector cones are used to measure the primary scintillation and EL photons. Distances between the PMTs to the closest grids are \SI{110}{\mm}.
+56c98,123
+< A CAEN R1470ETD high voltage power supply is used to bias the two grids and the two PMTs. Two custom ceramic feed throughs are used to deliver high voltage into the detector vessel to the two grids. Each feed through has a low-pass filter box attached for noise removal. Custom designed cables and cable terminations are used to apply power from the feed throughs to the grids. The cable terminations had limited us biasing grids to high voltage. Improvements of designs are established to solve this problem. Details of iterations of these designs will be discussed in Chapter.~\ref{chap:gtestresult}.    
+---
+> The two PMTs used to measure the primary scintillation and EL photons from events happening in the detector are model R11410-20 PMTs manufactured by Hamamatsu Photonics, as described in Ref.~\cite{HamamatsuPhotonics2006}. The model of PMT has a synthetic quartz window that is mostly transparent to incident photons of \SI{\sim 175}{\nm} (xenon scintillation photons). The PMT window is coated with a bialkali photocathode material, which absorbs the incident photon and emits electrons by the photoelectric effect. The emitted electron which lands on the effective area of the first dynode is multiplied along the PMT dynode chain in an electron gain process and observed, which is the measured signal.
+> The two PMTs are named after their physical location in the detector as top PMT and bottom(bot) PMT. Their spectral response of is summarized in Table~\ref{tab:PMTparameterHamamatsu}.
+> \begin{table}[!h]
+> 	\centering
+> 	\begin{tabular}[!tb]{ | m{16em} ||m{9em} | m{9em}| } 
+> 		\hline
+> 		&Top(top) PMT&Bottom(bot) PMT\\\hline\hline
+> 		Serial Number & KB1163 & KB1170 \\\hline
+> 		Cathode Luminous Sens. [\si{\uA\per\lumen}] & 149.0 & 148.0 \\\hline
+> 		Anode Luminous Sens. [\si{\A\per\lumen}] & 657.0 & 1010.0 \\\hline
+> 		Anode Dark Current [\si{\nA}] & 1.00 & 4.60 \\\hline
+> 		Cathode Blue Sens. Index  & 12.60 & 12.30 \\\hline
+> 		Q.E. [\si{\percent}] & &  \\\hline
+> 		\quad \quad \SI{165}{\nm} & 22.1 & 21.2 \\\hline
+> 		\quad \quad \SI{170}{\nm} & 33.3 & 32.6 \\\hline
+> 		\quad \quad \SI{175}{\nm} & 36.3 & 36.0 \\\hline
+> 		\quad \quad \SI{182}{\nm} & 37.1 & 37.0 \\\hline
+> 		\quad \quad \SI{188}{\nm} & 36.1 & 36.2 \\\hline
+> 		\quad \quad \SI{194}{\nm} & 33.9 & 34.1 \\\hline
+> 		\quad \quad \SI{200}{\nm}& 32.6 & 32.9 \\\hline	
+> 	\end{tabular}
+> 	\caption[Spectral response of PMTs tested at Hamamatsu Photonics]{Spectral response of PMTs tested at Hamamatsu Photonics.}
+> 	\label{tab:PMTparameterHamamatsu}  
+> \end{table}
+> 
+> A CAEN R1470ETD high voltage power supply is used to bias the two grids and the two PMTs. Two custom ceramic feed-throughs are used to deliver high voltage to the two grids in the detector vessel. Each feed-through has a low-pass filter box attached for noise removal. Custom designed cables and cable terminations are used to transfer power between the feed-throughs and the grids. The cable terminations were a limitation on our ability to bias the grids to high voltage. New design elements have been introduced to solve this problem. Details of iterations of these designs will be discussed in Chapter.~\ref{chap:gtestresult}.    
+61c128
+< \caption[\gtest\ electroluminescence detector]{Conceptual drawing of \gtest\ electroluminescence detector (ELD)}
+---
+> \caption[\gtest\ electroluminescence detector.]{Conceptual drawing of \gtest\ electroluminescence detector (ELD)}
+66,67c133,135
+< A gas circulation system is used for adding, removing, purifying xenon gas in the detector. The circulation system %panel is designed for continuous purification of noble gas element in the detector. This
+< also is used to maintain gas purity condition. It removes impurity atoms such as oxygen, water, and hydrocarbons. The purity of xenon gas makes sure that electrons that is created in ELD do not combine with impurity atoms, thus been prevented to produce EL light. The purity of xenon also has an notable effect on electron drift velocity in xenon gas. Impure xenon gas tend to have a slower drift velocity. The deviation of drift velocity between different impurity level can reach \SI{20}{\percent} at certain reduced electric field (ratio of electric field to gas density), as described in Ref.~\ref{Brooks1982}. 
+---
+> A gas circulation system is used to purify, add, and remove xenon gas in the detector. The circulation system %panel is designed for continuous purification of noble gas element in the detector. This
+> maintains the gas purity condition in the detector, which is essential for the operation for the following reasons. %It removes impurity atoms such as oxygen, water, and hydrocarbons. 
+> The purity of xenon gas ensures that electrons that are produced in the ELD do not combine with impurity atoms, thus decreasing the production of primary scintillation and EL light. The purity of xenon also has a notable effect on electron drift velocity in xenon gas, which biases our study; that is impure xenon gas tends to have a slower electron drift velocity. The deviation of electron drift velocity between different impurity levels can reach \SI{20}{\percent} in certain reduced electric fields (ratio of electric field to gas density), as described in Ref.~\cite{Brooks1982}. This deviation biases the \eep\ selection, which is based on the predicted pulse duration according to electron drift velocity, and introduces systematic error to the \eep\ study.
+69c137
+< Xenon purification is done through circulating xenon gas through a getter purifier. A gas circulation panel is used to control the flow of xenon gas. A SAES PS3-MT3-R-1 rare gas getter mounted on the circulation panel is used to purify the gas. The getter element has a sub-ppb efficiency of removing water, nitrogen, oxygen, carbon oxide, carbon dioxide, hydrogen, and hydrocarbons%. The capacity of the getter is more than \todo{\SI{0.1}{\meter\cubed}} in volume of nitrogen and oxygen. 
+---
+> Xenon purification is carried out with the following elements in the gas circulation system. A gas circulation panel (Fig.~\ref{fig:chambergeneral:panel}) is used to control the flow of xenon gas. A SAES PS3-MT3-R-1 rare gas purifier getter mounted on the circulation panel is used to purify the gas. The getter element has a sub-ppb efficiency of removing water, nitrogen, oxygen, carbon oxide, carbon dioxide, hydrogen, and hydrocarbons%. The capacity of the getter is more than \todo{\SI{0.1}{\meter\cubed}} in volume of nitrogen and oxygen. 
+71,104c139
+< , as described in Ref.~\cite{SAESgetters2002}.  A custom pump manufactured by KNF Neuberger, Inc. is used to drive the gas circulation in the system. This pump is a type PM26101-0150.1.2.12 double diaphragm pump, which has company specified \SI{1.5}{\bar} operation pressure, as described in Ref.~\cite{KNFNeuberger}. During the actual operation, the pump is working at pressure up to \SI{3.7}{\bar}. The diaphragm pump shows a leak rate less than \SI{e-7}{\bar\liter\per\s}. The circulation flow rate is controlled by a Alicat MC-5SLPM-D-485 \todo{$model number need check$} mass flow controller on the gas circulation panel. It allows a maximum flow rate at \SI{5}{\slpm}, as described in Ref.~\cite{AlicatScientific}. 
+< Fig.~\ref{fig:chambergeneral:panel} shows the gas circulation panel. 
+< 
+< Two \SI{4}{\liter} bottles are used for the storage of xenon gas used in the tests. These bottles are can be inserted to two dewars. The dewars are filled with liquid nitrogen during removing xenon gas process. Reducing the temperature of the bottle by liquid nitrogen allows xenon to flow back to and condense inside the bottles. During adding xenon gas process, the bottles are taken out from the dewar and warmed up. Fig.~\ref{fig:chambergeneral:bottles} shows the pump and storage bottles for the detector. 
+< 
+< \begin{figure}[!p]
+< \centering
+< \begin{subfigure}[b]{\halfwidth}
+<   	    	\centering
+<  \includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTWholeVessel.jpg}
+<  \caption{}
+<  \label{fig:chambergeneral:vessel}
+< \end{subfigure}
+< \begin{subfigure}[b]{\halfwidth}
+<   	    	\centering
+<  \includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTGridTestRegion.jpg}
+<  \caption{}
+<  \label{fig:chambergeneral:gridtest}
+< \end{subfigure}
+< \begin{subfigure}[b]{\halfwidth}
+<   	    	\centering
+<  \includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTGasPanel.jpg}
+<  \caption{}
+<  \label{fig:chambergeneral:panel}
+< \end{subfigure}
+< \begin{subfigure}[b]{\halfwidth}
+<   	    	\centering
+<  \includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/PhysicalLayout/GTBottles.jpg}
+<  \caption{}
+<  \label{fig:chambergeneral:bottles}
+< \end{subfigure}
+< \caption[\gtest\ apparatus physical layout]{\gtest\ apparatus physical layout: (a) the \gtest\ detector: detector vessel (middle),  electronic and gas gauge breakouts (top), Genie lift for detector assembly and disassembly (left), and vacuum pumping and leak check system (right), (b)  ELD inside the detector vessel, (c) gas circulation panel, (d) circulation pump (left), and storage bottles (right). }
+< \label{fig:chambergeneral}
+< \end{figure}
+---
+> , as described in Ref.~\cite{SAESgetters2002}.  A custom pump (Fig.~\ref{fig:chambergeneral:bottles}) manufactured by KNF Neuberger, Inc. drives the gas circulation in the system. This pump is a type PM26101-0150.1.2.12 double diaphragm pump, which has company specified \SI{1.5}{\bar} operating pressure, as described in Ref.~\cite{KNFNeuberger}. During the actual operation, the pump works at pressures of up to \SI{3.7}{\bar} with a leak rate less than \SI{e-7}{\bar\liter\per\s}. An Alicat MC-5SLPM-D-485 mass flow controller (MFC) on the gas circulation panel controls the circulation flow rate, which allows a maximum flow rate of \SI{5}{\slpm}, as described in Ref.~\cite{AlicatScientific}. During the gas purification process, the flow of gas was controlled and driven through the getter for \SI{\sim 20}{\min} to allow the complete absorption of the gas impurities in the detector. This process is frequently conducted between each dataset to ensure the gas purity quality. 
+106,133c141
+< \paragraph{PMT} %f
+< Two PMTs are used to measure the primary scintillation and EL photons from events happens in the detector. Both PMTs are model R11410-20 PMTs manufactured by Hamamatsu Photonics, as described in Ref.~\cite{HamamatsuPhotonics2006}. The PMTs are named after their physical location in the detector as top PMT and bottom(bot) PMT. The spectral response of the PMTs tested in Hamamatsu company is summarized in Table.~\ref{tab:PMTparameterHamamatsu}.
+< 
+< \begin{center} 
+< \centering
+<  \begin{table}
+<     	\centering
+< \begin{tabular}[!tb]{ | m{16em} ||m{9em} | m{9em}| } 
+<  \hline
+<  &Top(top) PMT&Bottom(bot) PMT\\\hline\hline
+<  Serial Number & KB1163 & KB1170 \\\hline
+<  Cathode Luminous Sens. [\si{\uA\per\lumen}] & 149.0 & 148.0 \\\hline
+<  Anode Luminous Sens. [\si{\A\per\lumen}] & 657.0 & 1010.0 \\\hline
+<  Anode Dark Current [\si{\nA}] & 1.00 & 4.60 \\\hline
+<  Cathode Blue Sens. Index  & 12.60 & 12.30 \\\hline
+<  Q.E. [\si{\percent}] & &  \\\hline
+<  \quad \quad \SI{165}{\nm} & 22.1 & 21.2 \\\hline
+<  \quad \quad \SI{170}{\nm} & 33.3 & 32.6 \\\hline
+<  \quad \quad \SI{175}{\nm} & 36.3 & 36.0 \\\hline
+<  \quad \quad \SI{182}{\nm} & 37.1 & 37.0 \\\hline
+<  \quad \quad \SI{188}{\nm} & 36.1 & 36.2 \\\hline
+<  \quad \quad \SI{194}{\nm} & 33.9 & 34.1 \\\hline
+<  \quad \quad \SI{200}{\nm}& 32.6 & 32.9 \\\hline	
+< \end{tabular}
+<  \caption[Spectral response of PMTs tested by Hamamatsu Photonics]{Spectral response of PMTs tested by Hamamatsu Photonics.}
+<  \label{tab:PMTparameterHamamatsu}  
+<  \end{table}
+< \end{center} 
+---
+> The addition and removal of xenon gas are carried out with the same gas panel. Two \SI{4}{\liter} bottles (Fig.~\ref{fig:chambergeneral:bottles}) are used for the storage of xenon gas used in the tests when the gas is not used in the detector. During the xenon gas removal process, these bottles are inserted into two dewars filled with liquid nitrogen. Reducing the temperature of the bottles by using liquid nitrogen allows xenon gas to flow through the gas circulation panel back to the bottles, and to condense inside the bottles. During the addition of xenon gas process, the bottles are taken out from the dewar and warmed up. This process raises the gas pressure in the bottle, which drives the gas to fill the detector through the getter on the gas panel. The gas flow is controlled by the gas regulator and the MFC on the panel.   
+136c144,145
+< A data acquisition(DAQ) system is used for recording PMT pulses for this experiment. It is designed and made in \slac . It was previous used and tested in \phaseone . It is customized to maximize the probability for capture single photon electron (\sphe ) pulses from the PMTs. This also enable the DAQ system to record photons from \eep . The DAQ system contains three parts: (1) amplification and digitization, (2) trigger, and (3) transfer and storage. The DAQ works continuously, except for interrupted by data transfer. This is called dead time of DAQ. %This set the limit of speed for DAQ.
+---
+> \label{sec:gtest daq}
+> A data acquisition(DAQ) system is used for recording PMT pulses for grid emission tests. The DAQ system is designed and made at \slac , previously used and tested in \phaseone\ detector. The DAQ system is customized to maximize the probability for capturing single photon electron (\sphe ) pulses from the PMTs. This also enables the DAQ system to record \eep s, which are collections of multiple \sphe pulses. The DAQ system contains three parts: (1) amplification and digitization, (2) recording, and (3) transfer and storage. The DAQ system works continuously, except when interrupted by the data transfer process. This interruption is called dead time of the DAQ system. The dead time issue in studies of \eep s is addressed by the subtraction of live times after each recorded pulses. Aspects of the DAQ system are described below. %This set the limit of speed for DAQ.
+140,142c149,155
+< The amplification and digitization system amplifies and digitizes the PMT pulse signals. It sets the precision of  \sphe\ measurement and signal to noise ratio. The amplification and digitization of the PMT signals are done by two separate custom made board. The amplification board amplifies the signal so that it improves signal to noise ratio. This eases background signal selections. There are two amplifier gains implemented: (1) low gain: $\times$ 12, and (2) high gain: $\times$ 100. For electron emission tests, the low gain setting is used to get enough signal to noise ratio. 
+< An optical fiber connecting these two boards transfers the amplified PMT signals to the digitizer board. The digitizer board is capable of doing a \SI{16}{\bit} digitization of pulse amplitude signals in a dynamic range of \SI{2.5}{\V}. The range of digitizing voltage is roughly \SIrange{-1.26}{1.24}{\V}. Digitized data are written to a buffer memory in the digitizer board. %This writing happens continuously, except for interrupted by data transfer. This is called dead time of DAQ, and will be explained below. 
+< The digitizer reverses polarity of signals. Fig.~\ref{fig:DAQPhysicalLayout} shows DAQ system physical layout.
+---
+> This process amplifies and digitizes PMT pulse signals. The amplification and digitization of the PMT signals are carried out by two separate custom made boards. The amplification of signals improves signal to noise ratio. %This eases background signal selections. 
+> However, this amplification may also cause distortion of the waveform if the pulse signal amplitude exceeds the maximum capability of the electronic circuits in the amplification and digitization boards. Two amplifier gain settings are implemented: low gain ($\times$ 12), and high gain ($\times$ 100). For electron emission tests, the low gain setting is used to obtain a satisfactory signal to noise ratio. The low gain setting allows \numrange{40}{60} \sphe s to be recorded simultaneously without distortion, when the high gain setting is not used because its without distortion \sphe\ recording range is only \numrange{5}{7} \sphe s, which is too small for the counts of simultaneous \sphe s in \eep s.
+> An optical fiber connecting these two boards transfers the amplified PMT signals to the digitizer board. The digitizer board is capable of doing a \SI{16}{\bit} digitization in a dynamic range of \SI{2.5}{\V} (\SIrange{\sim -1.26}{1.24}{\V}). The digitizer reverses the polarity of signals, which changes \sphe\ pulses from negative spikes to positive spikes. The digitizing sampling frequency is every \SI{4}{\ns}. Digitized data is written to a buffer memory in the digitizer board. %This writing happens continuously, except for interrupted by data transfer. This is called dead time of DAQ, and will be explained below. 
+> The amplification and digitization system sets the precision of \sphe\ measurement and signal to noise ratio, and digitizes PMT pulse signals to be handled numerically later.
+> %Fig.~\ref{fig:DAQPhysicalLayout} shows DAQ system physical layout.
+> 
+> \begin{comment}
+158c171
+<  \caption[\gtest\ data acquisition system physical layout]{\gtest\ data acquisition system physical layout: (a) amplifier board. (b) digitizer board.}
+---
+>  \caption[\gtest\ data acquisition system physical layout.]{\gtest\ data acquisition system physical layout: (a) amplifier board. (b) digitizer board.}
+160a174,175
+> 	
+> \end{comment}
+162,163c177,178
+< \paragraph{Trigger} %f1 
+< The trigger system for DAQ makes decisions for data recording. Customized parameters in the DAQ trigger system are set in a XML file. These parameters are called XML parameters. The pulse trigger and recording is done in a pending mode which is  different from normal DAQ system. The continuous digitized pulse amplitude data are compared to the pre threshold value until finding a threshold crossing. This is the trigger time. Pulse recording will also including a preceding segment of samples, which is called pre delay. Digitized data are then compared to the post threshold value until finding a threshold crossing. Pulse recording will also including a following segment of samples, which is called post delay. During the post delay era, the digitized data are compared to the pre threshold again. If no threshold crossing is found, the pulse recording will end when the post delay era end. Otherwise, the DAQ will keep recording until after a post threshold crossing, no other pre threshold crossing can be found in the next post delay era. The pre threshold values are chosen so that the \sphe\ trigger efficiencies of both PMTs are larger than \SI{95}{\percent}. The trigger efficiencies are estimated by fitting \sphe\ amplitude distributions to Gaussian distribution curves. Results of these evaluations show that at normal PMT operation voltage(\SI{1.5}{\kV}) the top PMT and the bottom PMT have good trigger efficiencies of \SI{99.6}{\percent} and \SI{>99.9}{\percent}. 
+---
+> \paragraph{Recording} %f1 
+> The recording system for DAQ makes decisions for data recording. The decision making algorithm is controlled by customized DAQ XML parameters in an XML file. The pulse recording is undertaken in a pending mode without a conventional trigger, which is explained below. First, the continuous digitized pulse amplitude data are compared to a pre-threshold voltage (trigger voltage), which is called the pre-threshold value, until a threshold crossing is reached. The time of this threshold crossing is the pulse recording reference time. Pulse recording also includes a preceding segment of samples, which is called the pre-delay. The start time of the pre-delay period is the pulse recording start time. Next, digitized data are compared to a post-threshold voltage, which is called the post-threshold value, until a threshold crossing is reached. Then, the pulse recording continues for a succeeding segment of samples, which is called the post-delay. During the post-delay period, the digitized data are compared to the pre-threshold value again. If no pre-threshold crossing is reached, the pulse recording ends when the post-delay period ends. Otherwise, the DAQ system keeps recording until after a post-threshold crossing is reached, no other pre-threshold crossing is reached in the next post-delay period. The end time of the last post-delay period is the pulse recording stop time. The pre-threshold values are chosen so that the \sphe\ recording efficiency, also called the trigger efficiency, of both PMTs are larger than \SI{95}{\percent}. The trigger efficiency is estimated by fitting \sphe\ amplitude distributions to Gaussian distributions, as described in Section~\ref{sec:pmt cal}. Results of these evaluations show that at normal PMT operating voltage (\SI{-1.5}{\kV}) the top PMT and the bottom PMT have good trigger efficiency of \SI{99.6}{\percent} and \SI{>99.9}{\percent}. The recorded pulses are called pulses of digitization (PODs), which are one of the fundamental elements for the next step; coincidence event building, as described in Section~\ref{sec:gtest data process}.
+165c180
+< The default settings for the DAQ XML parameters are summarized in Table.~\ref{tab:DAQparameters}.
+---
+> The used DAQ XML parameters during the tests are summarized in Table~\ref{tab:DAQparameters}.
+167,169c182
+< \begin{center} 
+<   	\centering
+<   	\begin{table}
+---
+> \begin{table}[!h]
+174,177c187,190
+<    post delay & 'PostDelay' &  \SI{500}{\sample} &counts of samples to keep after crossing post trigger threshold ('PostThreshold'). \\\hline
+<    pre delay & 'PreDelay' &  \SI{30}{\sample}& counts of samples to keep before crossing pre trigger threshold ('PreThreshold'). \\\hline
+<    post threshold & 'PostThreshold' & 0x7D80 or as needed &  crossing this threshold value determines the stop time of pulse recording.\\\hline
+<    pre threshold & 'PreThreshold' & 0x7D61 or as needed & crossing this threshold value determines the start time of pulse recording.\\\hline
+---
+>    post-delay & `PostDelay' &  \SI{500}{\sample} &counts of samples to keep after crossing post-trigger threshold ('PostThreshold'). \\\hline
+>    pre-delay & `PreDelay' &  \SI{30}{\sample}& counts of samples to keep before crossing pre-trigger threshold ('PreThreshold'). \\\hline
+>    post-threshold & `PostThreshold' & 0x7D80 or as needed &  crossing this threshold value determines the stop time of pulse recording.\\\hline
+>    pre-threshold & `PreThreshold' & 0x7D61 or as needed & crossing this threshold value determines the start time of pulse recording.\\\hline
+179,182c192,194
+<  \begin{flushright}
+<     	the sample size is \SI{4}{\ns}
+<  \end{flushright}
+<    \caption[Data Acquisition system parameters]{DAQ system parameters}
+---
+>  %\begin{flushright}    	
+>  %\end{flushright}
+>    \caption[Data Acquisition system parameters.]{DAQ system parameters. (\SI{1}{sample} is \SI{4}{\ns}.) }
+185,186d196
+< \end{center}
+< 
+189c199
+< The transfer and storage system transfers and storages data. The buffer memory data pass the selection of trigger algorithm are transferred through an optical fiber and written to the main computer. Data transfer speed is \SI{250}{\mega\byte\per\second}. For an average pulse duration of \SI{2}{\us} (\SI{500}{\sample}), the DAQ allows for approximately 30 thousand pulses to be recorded per second. Data are saved in binary format in the main computer.
+---
+> The transfer and storage system transfers data from the digitizer board and stores data in binary format in the main computer system. The buffer memory data that pass the selection of trigger algorithm are transferred through an optical fiber and written to files stored in the main computer. The data transfer speed is \SI{250}{\mega\byte\per\second}. For an average pulse duration of \SI{2}{\us} (\SI{500}{\sample}), the DAQ allows approximately 30 thousand pulses to be recorded per second. The continuously recorded data are separately saved to series of files; each with a maximum size of \SI{1.1}{\giga\byte}. The process of data transfer interrupts the process of buffer memory writing of the incoming digitized data, which raises the dead time issue. 
+192c202,204
+< Dead time of DAQ is the segment of time that DAQ stops working after the end of each recording. Dead time brings challenges on measuring electron emission rates. 
+---
+> The dead time of DAQ is the segment of time that the DAQ system stops working after the end of each pulse recording. The reason for the dead time is because the process of buffer writing and the process of data transfer in the DAQ system cannot happen simultaneously. Dead time issue brings challenges in measuring electron emission rates. 
+> %Dead time seems to occur in each PMT channel independently from each other. 
+> The duration of dead time shows a dependence on the preceding pulse duration. However, the quantitative relationship between the two is unclear. We address this issue by subtracting a segment of time succeeding each recorded pulse from the live time of study.  
+194c206,207
+< The reason for dead time is because buffer writing and data transfer in the DAQ system cannot happen at the same time. 
+---
+> We studied the dead time issue by using two methods. The first method is finding problematic pulses that might be a result of dead time. We found there exist a population of pulses that when one PMT detects large quantities of photons, the other PMT detects no photon simultaneously. Since the two PMTs are observing the same space in the ELD, we expect to see similar magnitude of photons in both PMTs. The most likely reason for this to happen is that the other PMT channel is suffering from dead time. The other possible causes of these problematic pulses, such as misbehavior of one PMT, are less dominant. The time difference between the recording time of large quantities of photons in one PMT and the first preceding pulse in the dead time problematic PMT is the potential duration of dead time, as shown in Fig.~\ref{fig:pulse dead time}. 
+> More than \num{400} dead time problematic pulses are examined. From the examinations, we found that for a particular pulse with a duration of \SI{2}{\us}, the duration of dead time is in the range of \SIrange{0.3}{15}{\us}. For longer pulses, we observe the duration of dead time for as long as \SI{80}{\us}.
+196c209,216
+< Dead time in each PMT channel is independent from each other. Duration of dead time shows a dependence on the preceding pulse duration and pulse size. However, the quantitative relationship is unclear. 
+---
+> \begin{comment}
+> 	\begin{figure}[!p]
+> 	\centering
+> 	\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/exampleWaveforms/proc64767id00000065.jpg}%{Figures/GasTest/CutsValid/wave/testproc65831coinid0.jpg}
+> 	\caption[\gtest\ signal: an example waveform during dead time.]{\gtest\ signal: an example waveform during dead time.}
+> 	\label{fig:pulse dead time}
+> \end{figure}
+> \end{comment}
+198,199c218,243
+< Dead time is studied with finding the pulse that have large quantities of photons in one PMT and no record in the other PMT at the same time. These are potential dead time issue pulses. Causes of these issue pulses can also be misbehavior of one PMT or a large quantity of photon production inside one PMT. The time difference between the potential issue pulse in one PMT and the first preceding pulse in the other PMT is the potential duration of dead time. 
+< More than \num{400} dead time issue pulses are studied. For a pulse with a duration of \SI{2}{\us}, duration of dead time is in range \SIrange{0.3}{15}{\us}. Durations of dead time are observed in range up to \SI{80}{\us}.
+---
+> \begin{figure}
+> 	\centering
+> 	\begin{subfigure}[b]{0.8\textwidth}
+> 		\centering
+> 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/exampleWaveforms/proc64767DeadTime1.jpg}
+> 		\caption{}
+> 		\label{fig:ptfe fluo c}
+> 	\end{subfigure}
+> 	\par\bigskip
+> 	\begin{subfigure}[b]{0.8\textwidth}
+> 		\centering
+> 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/exampleWaveforms/proc64767DeadTime2.jpg}
+> 		\caption{}
+> 		\label{fig:ptfe fluo d}
+> 	\end{subfigure}
+> 	\caption[\gtest\ signal: example waveforms during dead time.]{\gtest\ signal: example waveforms during dead time. (a) The top PMT channel is suffering from dead time. (b) The bottom PMT channel is suffering from dead time. }
+> 
+> 	\label{fig:pulse dead time}
+> \end{figure}
+> 
+> %The second method is finding the probability difference of the pulse recording stop time and the pulse recording start time of two sequentially recorded pulses between pulses recorded by one PMT and pulsed assuming uniform time distribution, which should mimic the case with no dead time issue. 
+> To estimate the systematic error, we employ a second method based on the idea that the presence of dead time will shift the distribution of time intervals between pulses in one PMT. In the absence of dead time, the time distribution should be an exponential characterized by the average rate. The impact of dead time is to shift time difference probability an exponential curve, which is from assuming uniform distribution:
+> \begin{align}
+> 	\text{probability} = \frac{1}{\tau}\exp \left( - \frac{t}{\tau} \right)
+> \end{align}
+> where $\tau$ is the time constant, which is the inverse of average rate. 
+201c245,286
+< Thus, a fraction of events that have quiet preceding are used to study the absolute rate of signals of interest. These resolves the dead time issue. DAQ trigger of the selected quiet preceding pulses are equivalent to DAQ trigger without the dead time issue. Details of how quiet preceding selection is done are discussed below in Section.~\ref{sec:uncor}.
+---
+> Results of this shift is shown in Fig.~\ref{fig:PMTdeadtime}. %The figure shows the best fit exponential curve of two sequentially recorded pulses time differences in one PMT that have such time difference larger than \SI{100}{\us}. 
+> %This fitted curve better reflects the distribution of no dead time issue case by subtracting the potential duration of dead time. 
+> %The difference between the fit curve and the data reflects the influence of the duration of dead time, which indicates the dead time issue is subdominant after \SI{20}{\us}.  
+> The figure includes studies of pulses categorized by their durations. These studies confirm the previous conclusion on the dead time issue dominant period, and further show that such period has a dependence on the preceding pulse duration. The clear low statistics at the small time interval range, e.g. range \SIrange{0}{e5}{\ns} for pulse length in the range of larger than \SI{30}{\us}, clearly showed the shift from expected exponential curve. The low statistic region changes with preceding pulse duration, as summarized in Table~\ref{tab:PMT dead time duration}. The difference on the slopes of these curves is due to PTFE fluorescence subsequent to each pulse, which is more obvious for larger area (long duration) pulses, and increases the succeeding average rate, as will be discussed in Section~\ref{sec:events}. 
+> 
+> \begin{figure}[!p]
+> 	\centering
+> 	\begin{subfigure}[t]{\twofigurewidth}
+> 		\centering
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/DatasetQuality/topPMTdeadtime64767.jpg}
+> 		\caption{}
+> 		\label{fig:PMTdeadtime top}
+> 	\end{subfigure}
+> 	\begin{subfigure}[t]{\twofigurewidth}
+> 		\centering
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/DatasetQuality/botPMTdeadtime64767.jpg}
+> 		\caption{}
+> 		\label{fig:PMTdeadtime bottom}
+> 	\end{subfigure}
+> 	\caption[Distribution of PMT time differences between pulses in one PMT.]{Distribution of PMT time differences between pulses in one PMT: (a) top PMT; (b) bottom PMT. }
+> 	\label{fig:PMTdeadtime}
+> \end{figure}
+> 
+> 	\begin{table}[!h]
+> 		\centering
+> 		\begin{tabular}[!h]{| m{11em} ||m{11em} | m{11em}| } 
+> 			\hline  pulse duration & dead time duration & dead time duration \\
+> 			 & (low statistics region) & (maximum observed) \\\hline
+> 			 [\si{\us}] & [\si{\us}] & [\si{\us}] \\\hline\hline
+> 			  all & 7 & 80 \\\cline{1-3} 
+> 			  [0, 3) & 7 &  15 \\\cline{1-3} 
+> 			  [3, 10) & 10 &  15 \\\cline{1-3} 
+> 			  [10, 30) & 50 &  80 \\\cline{1-3} 
+> 			  [30, $\infty$) & 100 &  80 %\\\cline{2-4} 
+> 			\\\hline
+> 		\end{tabular}
+> 
+> 		\caption[PMT dead time duration]{PMT dead time duration.  Data were taken at \ddtt{2017}{12}{08}{14}{02}, with \opvtvb\ at \SIlist{+6;-6}{kV}, \opgd\ at \standarddensity .}
+> 		\label{tab:PMT dead time duration}
+> 	\end{table}
+> 
+> Thus, to resolve the dead time issue, we subtract a segment of time after each recorded pulse from the live time of study and eliminate all pulses that is recorded in this time period, as described in Section~\ref{sec:cuts}. The remained pulses that have quiet preceding are used to study the absolute rate of signals of interest, \eep s. The rate of signals of interest is close to such rate without the dead time issue from the view of DAQ behavior.
+209c294
+< \paragraph{Operation conditions} %f1
+---
+> \paragraph{Operating conditions} %f1
+212c297,298
+< The typical operation xenon gas density for electron emission tests is \SI{0.137}{\mole\per\liter} (or equivalent to the xenon gas density at \SI{177}{\kelvin} on xenon liquid-vapor saturation curve). This choice is made to have the gas density closest to \lze\ operation gas density. It also minimizes the probability of discharges between two grid electrodes. These discharges may cause potential damages to grids, and also prevent stable run. 
+---
+> The typical operating xenon gas density for electron emission tests is \SI{0.137}{\mole\per\liter}  (\SI{\sim 3.3}{\bara} at temperature \SI{295}{\kelvin}, or equivalent to the xenon gas density at \SI{177}{\kelvin} on xenon liquid-vapor saturation curve). 
+> This choice minimizes the probability of discharges between two grid electrodes. It also makes the grids operates under the gas density closest to \lze\ operating gas density. These discharges may cause potential damages to grids, and also prevent stable run. 
+214c300
+< The gas operation condition at density \SI{0.137}{\mole\per\liter} allows us having sensitivities measuring electron emission from \opdv\ in range \SIrange{8}{16}{\kV}. For a plain woven grid with wire pitch \SI{5}{mm} and wire diameter \SI{75}{\um}, this correspond to an average \wsef\ in range \SIrange{65}{110}{\kV\per\cm}. However, the photon yield per electron emission is smaller for a lower \opdv . This prevents us to have enough sensitivities for electron emission for a lower operation voltage and \wsef . So electron emission rate for a lower \wsef\ is measured at a lower gas density to get enough photon yield. 
+---
+> The gas operating condition at density \SI{0.137}{\mole\per\liter} allows us having sensitivities measuring electron emission from \opdv\ in the range of \SIrange{8}{16}{\kV}. For a plain woven grid with wire pitch \SI{5}{mm} and wire diameter \SI{75}{\um}, this correspond to an average \wsef\ in the range of \SIrange{65}{110}{\kV\per\cm}. However, since EL yield decreases as the reduced electric field (ratio of electric field to gas density) in the EL region decreases, the photon yield per electron emission is smaller for a lower \opdv . This prevents us to have enough sensitivities for electron emission for a lower operating voltage and \wsef . So electron emission rate for a lower \wsef\ is measured at a lower gas density to get an increasing on the reduced electric field and the EL photon yield in gas. The EL yield dependence on reduced electric field is described in Section~\ref{sec:events}.
+216c302
+< Two PMTs normally operate at \SI{1.5}{\kV}. This guarantees both PMTs having enough gain and signal to noise ratio. Before safely turning on the PMTs to measure the light emission from the grids, a series of sparking tests are done to figure out the high voltage behavior and high voltage weak points in the system. Improvements are done to improve the maximum \opvtvb . These improvements include cleaning the surface of discharging spots, increasing the smoothness and rounding radius on the corner of metal surfaces, and increasing the discharge distance between electrodes and the ground. Touching grid wires are avoided during these improvements. The maximum \opvtvb\ that these grids can hold are measured with different gas and different pressures. Dark current of both PMTs in stable running condition are approximately \SIrange{500}{1000}{\Hz}. Run with any PMT dark current rate above \SI{2500}{\Hz} are excluded. 
+---
+> Two PMTs normally operate at \SI{-1.5}{\kV}. This guarantees both PMTs having enough gain and signal to noise ratio. Before safely turning on the PMTs to measure the light emission from the grids, a series of sparking tests are done to figure out the high voltage behavior and high voltage weak points in the system. Improvements are done to improve the maximum \opvtvb . These improvements include cleaning the surface of discharging spots, increasing the smoothness and rounding radius on the corner of metal surfaces, and increasing the discharge distance between electrodes and the ground. Touching grid wires are avoided during these improvements. The maximum \opvtvb\ that these grids can hold are measured with different gas and different pressures. Dark current of both PMTs in stable running condition are approximately \SIrange{500}{1000}{\Hz}. Runs with any PMT dark current rate above \SI{2500}{\Hz} are excluded. 
+218c304
+< The high voltage power supply is capable to bias both grids separately in range \SIrange{-8}{8}{\kV}. The current between the power supply and the grid is monitored to guarantee stable operation of grid bias voltage. An unstable grid biasing usually shows as a spike in the monitored current, and a spike on PMT recording rates. Segments of time with this monitored current unstable are excluded.  
+---
+> The high voltage power supply is capable to bias both grids separately in the range of \SIrange{-8}{8}{\kV}. The current between the power supply and the grid is monitored to guarantee stable operation of grid bias voltages. An unstable grid biasing usually shows as a spike in the monitored current, and a spike on PMT recording rates. Segments of time with this monitored current unstable are excluded.  
+220,221c306,307
+< \paragraph{Operation data talking} %f1
+< The most common operation voltage pairs we choose for electron emission measurement at xenon gas density \SI{0.137}{\mole\per\liter} are $V_{T}=-V_{B} $ at \SIlist{\pm 4; \pm 4.5; \pm 5; \pm 5.5;\pm 6; \pm 6.5;\pm 7; \pm 7.5;\pm 8}{\kV}. This allows us to measure electron emission rate vs \opdv\ curves for most grids we study. Measurements in other conditions are also performed to understand the detector better. However, their results usually are not included for the electron emission studies.
+---
+> \paragraph{Operating data taking} %f1
+> The most common operating voltage pairs we choose for electron emission measurement at xenon gas density \SI{0.137}{\mole\per\liter} are $V_{T}=-V_{B} $ at \SIlist{\pm 4; \pm 4.5; \pm 5; \pm 5.5;\pm 6; \pm 6.5;\pm 7; \pm 7.5;\pm 8}{\kV}. This allows us to measure electron emission rate vs \opdv\ curves for most grids we study. Measurements in other conditions are also performed to understand the detector better. However, their results usually are not included for the electron emission studies.
+223c309
+< The typical duration of data taking is three minutes. An increasing trend of light production is seen during the operations when data taking is longer than three minutes. This is probably from the increment of EL light production from the more ionized chamber environment and increment of fluorescence light emission from PTFE reflector cones in the detector. Usually, after each \SI{3}{\min} dataset, high voltage power for both grids are set back to \SI{0}{\kV} and rest for at least \SI{30}{\s} before the next measurement. 
+---
+> The typical duration of data taking is three minutes. An increasing trend of light production is seen during the operations when data taking is longer than three minutes. This is probably from the increasing of EL light production from the more ionized chamber environment and increasing of fluorescence light emission from PTFE reflector cones in the detector. Usually, after each \SI{3}{\min} dataset, high voltage power for both grids are set back to \SI{0}{\kV} and rest for at least \SI{30}{\s} before the next measurement. Data taking at each voltage configuration is handled by using scripts in Ignition slow control software, as described in Ref.~\ref{Ignition2018}. This is to make sure data taking is done in a consistent reproducible way.
+225c311
+< Datasets with the lower value of two grid bias voltages higher than \SI{-2.5}{\kV} are explicitly excluded for electron emission measurements. The reason is because this configuration allows electrons created by external particle in the cone region drifting to the EL region. These electrons will produce EL light in the EL region. This could introduce a significant background for electron emission rate study. The process is illustrated in Fig.~\ref{fig:BelowCathodeIllustration}.
+---
+> Datasets with the lower value of two grid bias voltages higher than \SI{-2.5}{\kV} are explicitly excluded for electron emission measurements. The reason is because this configuration allows electrons created by external particle in the cone region drifting to the EL region. These electrons will produce EL light in the EL region. This could introduce a background for electron emission rate study. The process is illustrated in Fig.~\ref{fig:BelowCathodeIllustration}.
+241c327
+<  \caption[\gtest\ good and bad voltage configurations]{(a) good configuration ($V_{C} < V_{PMT}$) : drift field is pointing from PMT to the grids. Electrons created in the cone region will drift to PMT. This process do not create many photons. (b) bad configuration  ($V_{C} > V_{PMT}$) : drift field are pointing from grids to the PMT. Electrons created in the cone region will drift to EL region. This process create lots of EL photons and could look like an \eep .}
+---
+>  \caption[\gtest\ good and bad voltage configurations.]{(a) Good configuration ($V_{C} < V_{PMT}$): drift fields pointing from PMT to the grids. Electrons created in the cone region will drift to PMT. This process does not create numerous photons as \eep . (b) Bad configuration  ($V_{C} > V_{PMT}$): drift fields pointing from grids to the PMT. Electrons created in the cone region will drift to EL region. This process creates plenty of EL photons which could look like an \eep .}
+246c332,333
+< Data processing is to reduce the dimensions of data and to save the useful informations of data. This reduces size of analysis works. The useful informations of a pulse are characterized by Reduce Quantities of a pulse (RQs).
+---
+> \label{sec:gtest data process}
+> Data processing is to save the useful information of data by reducing the amount of extraneous information. This reduces size of analysis works. The useful information of a pulse are characterized by Reduce Quantities of a pulse (RQs).
+252c339
+< \paragraph{Single pulse processing} A single pulse is defined to be the individual pulse recorded by DAQ system in only one PMT channel. Two steps are done for this processing: (1) waveform reconstruction, and (2) pulse shape characterization. 
+---
+> \paragraph{Single pulse processing} A single pulse of digitization, POD, is defined to be the individual pulse recorded by DAQ system in only one PMT channel. Two steps are done for this processing: (1) waveform reconstruction, and (2) pulse shape characterization. 
+254c341,342
+< The waveform is reconstructed with the following method. The average DC bias of the pulse of the first 10 samples was calculated as the baseline of the pulse (RQ name: 'baselines'). These samples are \SI{80}{\ns} ahead the trigger time of the pulse. In principle, baseline voltages are not effected by the following pulses. Thus, they reflects DAQ quiet bias voltages. There are some smaller fluctuation of baseline voltages for both PMTs. The amplitude of fluctuation \SI{\sim 0.36}{\mV} is very small comparing to \sphe\ pulse amplitude, which is \SIrange{15}{35}{\mV}. After baseline finding, the baseline value was subtracted from the digitized data to get the waveform for the pulse. The waveform is then scaled back from ADC counts to \si{\mV} to get the reconstructed waveforms. Along this process, RQs for the voltage of the trigger sample (RQ name: 'trigvals'), the voltage of the first sample (RQ name: 'firstvals') are also calculated.
+---
+> The waveform is reconstructed with the following method. First, the baseline voltage of the pulse (RQ name: `baselines') is found from the average DC voltages of the pulse of the first 10 samples. The baseline voltage represents the voltage at the time when the pulse is recorded assuming no pulse occurs. Samples used for baseline finding are \SI{80}{\ns} ahead the trigger time of the pulse. Therefore, these samples provide a reliable measure of the baseline since they are close in time with the rest of the pulse and they are unaffected by the rest of the pulse. %In principle, baseline voltages are not effected by the succeeding pulses. Thus, they reflects DAQ quiet bias voltages. 
+> There are some smaller fluctuation of baseline voltages for both PMTs. The amplitude of fluctuation \SI{\sim 0.36}{\mV} is very small comparing to \sphe\ pulse amplitude, which is \SIrange{15}{35}{\mV}. After baseline finding, the baseline value was subtracted from the digitized data to get the waveform for the pulse. The waveform is then scaled back from ADC counts to \si{\mV} to get the reconstructed waveforms. Along this process, RQs for the voltage of the trigger sample (RQ name: `trigvals'), the voltage of the first sample (RQ name: `firstvals') are also calculated.
+256,257c344,345
+< From the reconstructed waveform, the maximum positive amplitudes(RQ name: 'waveamplitudes') and the pulse area (RQ name: 'waveareas'), which is the time integral of the pulse amplitude are calculated. However, because of the long post delay duration (\SI{2}{\us}, \SI{500}{\sample}) from the DAQ pulse recording, baseline fluctuation during the post delay era is included in the total time integral of the pulse area. This biases our understanding of pulse area. Thus, another revised pulse area RQ (RQ name: 'waveareas\_trim\_end') is calculated from integrating the waveform with removing the last \SI{1.8}{\us}, \SI{450}{\sample} from the end of the waveform. This revised pulse area RQ is used in main analysis instead for PMT pulse area calibrations. 
+< %We also calculated the integrated duration of the pulse amplitude larger than the noise level (RQ name: 'pos\_len\_above\_threshold\_trim\_end'). This is used for \sphe\ pulse judgment.     
+---
+> From the reconstructed waveform, the maximum positive amplitudes(RQ name: `waveamplitudes') and the pulse area (RQ name: `waveareas'), which is the time integral of the pulse amplitude are calculated. However, because of the long post-delay duration (\SI{2}{\us}, \SI{500}{\sample}) from the DAQ pulse recording, baseline fluctuation during the post-delay era is included in the total time integral of the pulse area. This biases our understanding of pulse area. Thus, another revised pulse area RQ (RQ name: `waveareas\_trim\_end') is calculated from integrating the waveform with removing the last \SI{1.8}{\us}, \SI{450}{\sample} from the end of the waveform. This revised pulse area RQ is used in main analysis instead for PMT pulse area calibrations. 
+> %We also calculated the integrated duration of the pulse amplitude larger than the noise level (RQ name: `pos\_len\_above\_threshold\_trim\_end'). This is used for \sphe\ pulse judgment.     
+259c347
+< Series of pulse shaping parameters are also calculated. Time weighted integral of waveform (RQ name: 'wtimeN') is used to study the skew and kurtosis of the pulse. Also, time difference between the start time of the pulse and time that the integrated area of the pulse reaches several different portions of the total pulse area are calculated. They are the characteristic time differences of the pulse (RQ name: aft\_tXX). They are very useful for understanding the pulse shape, pulse duration, and pulse center of mass. These help pulse selection and classification discussed in the following sections. 
+---
+> Series of pulse shaping parameters are also calculated. Time weighted integral of waveform (RQ name: `wtimeN') is used to study the skew and kurtosis of the pulse. Also, time difference between the start time of the pulse and time that the 90th percentile of the pulse waveform are calculated. They are the characteristic time differences of the pulse (RQ name: aft\_tXX). They are very useful for understanding the pulse shape, pulse duration, and pulse center of mass. These help pulse selection and classification discussed in the following sections. 
+262c350,359
+< The DAQ system records pulses in each PMT channel independently. A true \eep\ usually can produce enough quantity of photons to be recorded by both PMTs. So RQs of coincidence pulses between two PMTs contain more useful informations for \eep s. 
+---
+> The DAQ system records pulses in each PMT channel independently. A true \eep\ usually can produce enough quantity of photons to be recorded by both PMTs. RQs of coincidence pulses between two PMTs contain more useful information for \eep s. So, for each dataset we take, we do a coincidence event building and a coincidence event processing to help us separating \eep s from other background events, such as dark currents in one PMT. 
+> 
+> The coincidence event building is done with the following method, requiring records in both PMTs within a short period of time. The PODs are grouped in a pending searching, which is not just two but all PODs that are recorded close in time are grouped together. 
+> 
+> First, a POD time subtraction is done to preserve only the useful part of the POD signal. For all single PODs, two segments of time were subtracted from the beginning and end of a POD to reduce the influence from the baseline fluctuation in the PMT. The default values for post-POD subtraction and pre-POD subtraction is \SI{1800}{\ns} (\SI{450}{\sample}) and \SI{0}{\ns} (\SI{0}{\sample}). The time subtraction preserves \SI{120}{\ns} before the first pre-threshold crossing time, and \SI{200}{\ns} after the last post-threshold crossing time, where between the two crossing time is the signal dominant time period. Now, this beginning and ending time of the remained part of the POD is called the start ($t_{start}$) and the stop time ($t_{stop}$) of the POD. 
+> 
+> Second, a POD searching is performed between a certain segment of time before the start of a single POD and the same amount of time after the stop time of the POD. The value of additional segments of time looking for coincidence is coincidence window width (CWW, RQ name `window\_width'). The value of CWW for this analysis is \SI{1.7}{\us}, if not otherwise specified. If no other pulse is found in this time region, no coincidence is found for this particular single POD. If another pulse is found in this time region, we say these two pulses are connected. 
+> 
+> %Then, the start and the stop time of the coincidence pulse are extended to cover the start and the stop time of the new found pulse. The new found is added to form a group with the previous single pulse. This group is called coincidence pulse. Another round of coincidence searching is performed again with the same algorithm with the addition of the new pulse. Searching continues until no other pulse matches this criteria can be found. That is no other recorded single pulse has its start time and stop time in the searching window of the group of coincidence pulse .  
+> Third, we group all connected pulses to form undividable coincidence pulse groups. A coincidence pulse group contains all pulses that are connected to any element in the group, and cannot be divided to subgroups that match the same criterion. 
+264c361
+< The coincidence event building requires triggers in both PMTs. It is done in a pending searching. From a single pulse, two segments of time were subtracted from the beginning and end of the pulse to reduce the influence from the baseline fluctuation in the PMT. The default values for post pulse subtraction and pre pulse subtraction is \SI{1800}{\ns} (\SI{450}{\sample}) and \SI{0}{\ns} (\SI{0}{\sample}). This beginning and ending time of the remained part of the pulse is called the start ($t_{start}$) and the stop time ($t_{stop}$) of the pulse. Then, a pulse searching is performed between a certain segment of time before the start of the pulse and the same amount of time after the stop time of the pulse. The value of additional segments of time looking for coincidence pulses is coincidence window width (CWW, RQ name 'window\_width'). If no other pulse is found in this time region, no coincidence pulse is found for this particular single pulse. If another pulse is found in this time region. Then, the start and the stop time of the coincidence pulse are extended to cover the start and the stop time of the new found pulse. The new found is added to form a group with the previous single pulse. This group is called coincidence pulse. Another round of coincidence searching is performed again with the same algorithm with the addition of the new pulse. Searching continues until no other pulse matches this criteria can be found. That is no other recorded single pulse has its start time and stop time in the searching window of the group of coincidence pulse .
+---
+> Then, we check whether the coincidence pulse group contains PODs from both PMTs. If so, we determine a coincidence event building is successful.
+266c363
+< The value of CWW for this analysis is \SI{1.7}{\us}, if not otherwise specified. The coincidence pulse is defined as the addition of normalized pulses in each channel. The normalization is performed by dividing the pulse amplitude by the \sphe\ pulse area in that channel. A similar pulse characterization is performed for the coincidence pulses as in single pulse processing.    
+---
+> Last, we characterize coincidence pulse RQs from forming coincidence pulse waveforms. A coincidence pulse waveform is defined as the addition of normalized pulse waveforms in each channel. The normalization is done by dividing the pulse waveform amplitude by the \sphe\ pulse area in that channel. A similar pulse characterization is performed for the coincidence pulses as in single POD processing.    
+268c365
+< Some commonly used coincidence pulse RQs are listed below. They are
+---
+> Coincidence pulse RQs are the fundamental parameters for \eep\ analysis framework, which will be described later. Some commonly used coincidence pulse RQs are listed below. They are
+270,276c367,374
+< \item coincidence pulse area: RQ name 'coin\_pulse\_areas\_norm', pulse area of coincidence pulse, measured in \si{\phe}.
+< \item $t_{\text{XX}}$: RQ name 'coin\_pulse\_areas\_tXX', time difference between the start of the coincidence pulse and integrated pulse area reach XX \% of the total coincidence pulse area, measured in \si{ns}. XX = 01, 05, 10, 15, 25, 50, 75, 85, 90, 95, 99.
+< \item \tzeronine : $t_{99}-t_{01}$, also is noted as \pud .
+< \item \ttenninety : $t_{90}-t_{10}$, also is noted as \rpd .
+< \item \ttwoseven : $t_{75}-t_{25}$
+< \item section 1 area: RQ name 'coin\_pulse\_areas\_section1', coincidence pulse area in the first \SI{300}{\ns} from the start time of the coincidence pulse, measured in \si{\phe}.
+< \item section 2 area: RQ name 'coin\_pulse\_areas\_section2', coincidence pulse area in the first \SI{800}{\ns} from the start time of the coincidence pulse, measured in \si{\phe}.
+---
+> \item coincidence pulse area: RQ name `coin\_pulse\_areas\_norm', pulse area of coincidence pulse, measured in \si{\phe}.
+> \item $t_{\text{XX}}$: RQ name `coin\_pulse\_areas\_tXX', time difference between the start of the coincidence pulse and integrated pulse area reach XX \% of the total coincidence pulse area, measured in \si{ns}. XX = 01, 05, 10, 15, 25, 50, 75, 85, 90, 95, 99.
+> \item \tzeronine (\pud ): $t_{99}-t_{01}$.
+> \item \ttenninety (\rpd ): $t_{90}-t_{10}$.
+> \item \ttwoseven (\stw ): $t_{75}-t_{25}$.
+> \item \tfifty (\shw ): $t_{50}$.
+> \item section 1 area: RQ name `coin\_pulse\_areas\_section1', coincidence pulse area in the first \SI{300}{\ns} from the start time of the coincidence pulse, measured in \si{\phe}.
+> \item section 2 area: RQ name `coin\_pulse\_areas\_section2', coincidence pulse area in the first \SI{800}{\ns} from the start time of the coincidence pulse, measured in \si{\phe}.
+281c379
+< The event rates are checked by looking at pulses around a random sample of times during the operation. In each dataset, 10,000 random times are chosen. From each random time, total pulse area in the preceding and the following \SIlist{10;20;50;100}{\us} windows are calculated. These values of random sampling represent the average photon density in the detector in this dataset. They are compared to other segments of time of interest to study correlation light productions.  
+---
+> The event rates are checked by looking at pulses around a random sample of times during the operation. In each dataset, 10,000 random times are chosen. From each random time, total pulse area in the preceding and the succeeding \SIlist{10;20;50;100}{\us} windows are calculated. These values of random sampling represent the average photon density in the detector in this dataset. They are compared to other segments of time of interest to study correlation light production.  
+286,287c384
+< PMT calibrations are performed for understanding the trigger efficiency, pulse amplitude, and pulse area of a \sphe\ for each PMT. \sphe\ trigger efficiencies of a PMT determines the event recording efficiencies. \sphe\ pulse amplitude of a PMT determines the capability of DAQ to record the full height of a sized pulse. \sphe\ pulse area of a PMT is the fraction denominator we use to calculate the counts of photon electrons in each pulse. Counts of photoelectrons in each pulse are roughly estimated by, 
+< 
+---
+> PMT calibrations are performed for understanding the trigger efficiency, pulse amplitude, and pulse area of a \sphe\ for each PMT. \sphe\ trigger efficiency of a PMT, the probability of \sphe\ signal recording, determines the event recording efficiency. \sphe\ pulse amplitude of a PMT determines the capability of DAQ to record the full height of a sized pulse. \sphe\ pulse area of a PMT is the fraction denominator we use to calculate the counts of photon electrons in each pulse. Counts of photoelectrons in each pulse are roughly estimated by, 
+289c386
+<   	\text{\# photoelectrons in a pulse [\si{phe}]} \sim \frac{\text{total pulse area}}{\text{single photon electron pulse area}}
+---
+>   	\text{\#\  photoelectrons in a pulse [\si{phe}]} \sim \frac{\text{total pulse area}}{\text{single photon electron pulse area}}
+291d387
+< 
+294c390
+< % 2017 Dec 8th 14:02, with detector standard xenon gas density and operation voltage (dV) at \SI{12}{\kV}. 
+---
+> % 2017 Dec 8th 14:02, with detector standard xenon gas density and operating voltage (dV) at \SI{12}{\kV}. 
+297c393
+< PMT trigger efficiency is estimated by comparing its trigger voltage to its \sphe\ amplitude distribution. A simple Gaussian distribution is used to represent the distribution of \sphe\ amplitude. A fit range in amplitude of is chosen to avoid the influence from noise and overlapping of multiple photo electrons. The fit range is \SIrange{12}{28}{\mV} for the top PMT, and \SIrange{22}{38}{\mV} for the bottom PMT. The range choices are \SI{\sim \pm 8}{\mV} from the center peak values of the \sphe\ pulse amplitude. The trigger voltage of each PMT is compared to the survival function (complementary cumulative distribution function) of the fitted Gaussian distribution to get the trigger efficiency. Results of curve fittings are shown in Fig.~\ref{fig:PMTTriggerEff}. The figures show a close to unity trigger efficiency of both PMTs.
+---
+> PMT trigger efficiency is estimated by comparing its trigger voltage (pre-threshold voltage) to its \sphe\ amplitude distribution. A simple Gaussian distribution is used to represent the distribution of \sphe\ amplitude. A fit range in the pulse amplitude of is chosen to avoid the influence from noise and overlapping of multiple photo electrons. The fit range is \SIrange{12}{28}{\mV} for the top PMT, and \SIrange{22}{38}{\mV} for the bottom PMT. The range choices are \SI{\sim \pm 8}{\mV} from the center peak values of the \sphe\ pulse amplitude. The trigger voltage of each PMT is compared to the survival function (complementary cumulative distribution function) of the fitted Gaussian distribution to get the trigger efficiency. Results of curve fittings are shown in Fig.~\ref{fig:PMTTriggerEff}. The figures show a close to unity trigger efficiency of both PMTs.
+299c395
+< \begin{figure}[!h]
+---
+> \begin{figure}[!p]
+301c397
+< 	\begin{subfigure}[b]{\halfwidth}
+---
+> 	\begin{subfigure}[b]{\twofigurewidth}
+307c403
+< 	\begin{subfigure}[b]{\halfwidth}
+---
+> 	\begin{subfigure}[b]{\textwidth}
+309c405
+< 		\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/DatasetQuality/botPMTTriggerEfficiency65831.jpg}
+---
+> 		\includegraphics[width=\twofigurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/DatasetQuality/botPMTTriggerEfficiency65831.jpg}
+313c409
+< 	\caption[PMT pulse amplitude distribution]{PMT pulse amplitude distribution: (a) top PMT (b) bottom PMT. Data were taken at \ddtt{2018}{03}{12}{11}{41}.}
+---
+> 	\caption[PMT pulse amplitude distribution.]{PMT pulse amplitude distribution: (a) top PMT (b) bottom PMT. Data were taken at \ddtt{2018}{03}{12}{11}{41}.}
+315c411
+< \end{figure}
+---
+> \end{figure}%code in '/Users/weiji/Google Drive/gastest/DatasetQuality/Baseline.py', wdir='/Users/weiji/Google Drive/gastest/DatasetQuality'
+318c414
+<  PMT \sphe\ pulse area is calibrated with fitting the pulse amplitude and integrated area to a two dimensional Gaussian distribution. The used fitting function is, 
+---
+>  PMT \sphe\ pulse area is calibrated with fitting the pulse amplitude and integrated area to a two dimensional Gaussian distribution. A fit range in the pulse amplitude and area is chosen to avoid the influence from noise and overlapping of multiple photo electrons this time. The fit ranges are \SIrange{12}{28}{\mV}, \SIrange{0}{800}{\mV\ns} for the top PMT, and \SIrange{22}{38}{\mV}, \SIrange{0}{1000}{\mV\ns} for the bottom PMT. These chosen ranges contain the \sphe\ peaks of particular PMTs ,which is identified as the brightest feature above the noise and attributed to dark current. The used fitting function is, 
+320c416
+<  	A \exp \bigg( -\Big(\frac{1}{2 \sigma_x^2} \big( (x-\mu_{x})\cos \theta - (y-\mu_y)\sin \theta \big) ^2 + \frac{1}{2 \sigma_y^2} \big( (x-\mu_{x})\sin \theta + (y-\mu_y)\cos \theta \big) ^2  \Big) \bigg)
+---
+>  z = 	A \exp \bigg( -\Big(\frac{1}{2 \sigma_x^2} \big( (x-\mu_{x})\cos \theta - (y-\mu_y)\sin \theta \big) ^2 + \frac{1}{2 \sigma_y^2} \big( (x-\mu_{x})\sin \theta + (y-\mu_y)\cos \theta \big) ^2  \Big) \bigg)
+322c418,432
+< where A, $\mu_{x}$, $\sigma_{x}$, $\mu_{y}$, $\sigma_{y}$, and $\theta$ are the fitting parameters.  
+---
+> where x is the pulse area; 
+> 
+> y is the pulse amplitude; 
+> 
+> z is the total counts at each pulse area and amplitude, represented in the color scale; 
+> 
+> A is the amplitude of the fit; 
+> 
+> $\mu_{x}$ is the position of the center of the peak on x axis; 
+> 
+> $\sigma_{x}$ is the standard deviation on rotated x axis; 
+> 
+> $\mu_{y}$ is the position of the center of the peak on y axis; 
+> 
+> $\sigma_{y}$ is the standard deviation on rotated y axis; 
+324c434
+< The mean values for pulse area and pulse amplitude are $\mu_{x}$ and $\mu_{y}$. The standard deviation values for pulse area and pulse amplitude are $\sigma_{x} \cos \theta - \sigma_{y} \sin \theta$ and $\sigma_{x} \sin \theta + \sigma_{y} \cos \theta$. Results of these fits are shown in Fig.~\ref{fig:PMTAmpArea}. Results from PMT calibrations are summarized in Table.~\ref{tab:PMTparameters}. Fitting values of different dataset show an agreement within \SI{1}{\percent} on the mean PMT single photon electron pulse area and pulse amplitude. 
+---
+> and $\theta$ is the rotated angle.  
+326c436
+< The values of \sphe\ pulse amplitudes are approximately \SI{20}{\mV} for the top PMT and \SI{30}{\mV}. Thus, a naive estimation shows the DAQ system allows approximately 60 \sphe s to be simultaneously recorded by the top PMT without distortion of pulse shape. The number of this is 40 for the bottom PMT. This dynamic range is large enough for record \eep\ without pulse shape distortion in most situations. 
+---
+> The mean values for pulse area and pulse amplitude are $\mu_{x}$ and $\mu_{y}$. The standard deviation values for pulse area and pulse amplitude are $\sigma_{x} \cos \theta - \sigma_{y} \sin \theta$ and $\sigma_{x} \sin \theta + \sigma_{y} \cos \theta$. Results of these fits are shown in Fig.~\ref{fig:PMTAmpArea}. Results from PMT calibrations are summarized in Table~\ref{tab:PMTparameters}. Fitting values of different dataset show an agreement within \SI{1}{\percent} on the mean PMT single photon electron pulse area and pulse amplitude. 
+328c438,440
+< Degrading of PMTs is noticed during the run. Technical details for this is discussed in Ref.~\cite{HamamatsuPhotonics2006}. However, since this effect is not significant during the tests. For consistency of studying, the same value for PMT \sphe\ pulse area is used through all the studies. 
+---
+> The values of \sphe\ pulse amplitudes are approximately \SI{20}{\mV} for the top PMT and \SI{30}{\mV} for the bottom. Thus, a naive estimation based on the dynamic range \SI{1260}{\mV} noted previously shows the DAQ system allows approximately 60 \sphe s to be simultaneously recorded by the top PMT without distortion of pulse shape, and 40 for the bottom PMT. This dynamic simultaneous photon recording range is large enough for record \eep\ without pulse shape distortion in most situations. 
+> 
+> Degrading of PMTs is not noticed during the run. Technical details for the cause of degrading of PMTs are discussed in Ref.~\cite{HamamatsuPhotonics2006}. However, since this effect is not observed during the tests. For consistency of studying, the same value for PMT \sphe\ pulse area is used through all the studies. 
+332c444
+< \begin{figure}[!h]
+---
+> \begin{figure}[!p]
+334c446
+< 	\begin{subfigure}[b]{\halfwidth}
+---
+> 	\begin{subfigure}[b]{\twofigurewidth}
+340c452
+< 	\begin{subfigure}[b]{\halfwidth}
+---
+> 	\begin{subfigure}[b]{\twofigurewidth}
+346c458
+< 	\caption[PMT \sphe\ pulse amplitude vs pulse area distribution]{PMT \sphe\ pulse amplitude vs pulse area distribution: (a) top PMT (b) bottom PMT. Black dot, and dashed line are mean, \SI{68}{\percent}, and \SI{95}{\percent} contours of the Gaussian fits. Data were taken at \ddtt{2018}{03}{12}{11}{41}.}
+---
+> 	\caption[PMT \sphe\ pulse amplitude vs pulse area distribution.]{PMT \sphe\ pulse amplitude vs pulse area distribution: (a) top PMT (b) bottom PMT. The black dot, and the dashed line are mean, \SI{68}{\percent}, and \SI{95}{\percent} contours of the Gaussian fits. Data were taken at \ddtt{2018}{03}{12}{11}{41}.}
+349,351c461,462
+< \todo{think about whether to delete the first vacuum data in the table.}
+< \begin{center} 
+< \centering
+---
+> 
+> %\todo{think about whether to delete the first vacuum data in the table.}
+354c465
+< 		\begin{tabular}[!h]{ | m{9em} ||m{5em} |m{5em} | m{5em} | m{5em}| m{5em}|} 
+---
+> 		\begin{tabular}[!h]{ | m{10em} ||m{5em} |m{5em} | m{5em} | m{5em}| m{5em}|} 
+360c471
+<         \ddtt{2017}{08}{26}{11}{53}* & top & 3.679 & 0.997 & \num{18.4 \pm 4.1} & \num{395 \pm 118}   \\\cline{2-6}& bottom & 2.629& 1.000 & \num{28.6 \pm 6.0} & \num{599 \pm 155}\\\hline %proc33001
+---
+> %        \ddtt{2017}{08}{26}{11}{53}* & top & 3.679 & 0.997 & \num{18.4 \pm 4.1} & \num{395 \pm 118}   \\\cline{2-6}& bottom & 2.629& 1.000 & \num{28.6 \pm 6.0} & \num{599 \pm 155}\\\hline %proc33001
+364a476,477
+> 		
+> 
+370a484,488
+> 
+> 		\hline
+> adopted value (Rev1)& top & - & 1  & - & \num{426}   \\\cline{2-6}& bottom & - & 1  & - & \num{638}\\\hline %proc65831
+> adopted value (Rev2)& top & - & 1  & - & \num{413}   \\\cline{2-6}& bottom & - & 1  & - & \num{610}\\\hline %proc65831
+> 
+373c491,493
+< 	\caption[PMT calibration]{PMT \sphe\ calibration. *: DAQ setting for trigger voltage, post delay, and number of sample trimmed at the end are different. The number of samples kept after post threshold are the same. }
+---
+> 	\caption[PMT calibration.]{PMT \sphe\ calibration. 
+> 		%*: DAQ setting for trigger voltage, post-delay, and number of sample trimmed at the end are different. The number of samples kept after post-threshold are the same. 
+> 	}
+376d495
+< \end{center}
+378a498
+> \label{sec:gtest light collection}
+380d499
+< 
+382c501
+< \text{light collection efficiency} = \frac{\# photon created during an event}{\# photoelectrons seen by PMTs in an event}
+---
+> \text{light collection efficiency} = \frac{\text{\#\  photoelectrons observed for an event}}{\text{\#\  photon created during an event}}
+385c504,507
+< Light collection efficiency includes geometric collection efficiency and PMT response. Geometric collection efficiency describes the efficiency of the photon propagation in gas media, photon reflection by the detector material surfaces, and photon absorption on PMT photocathode surfaces. PMT response describes the efficiency of how much photons hitting the photocathode turning into measurable current or voltage signals.
+---
+> Light collection efficiency includes geometric collection efficiency and PMT overall quantum efficiency. Geometric collection efficiency describes the efficiency of photon propagation in the gas medium, photon reflection by the detector material surfaces, and photon propagation in PMT window materials to get to PMT photocathode surfaces. PMT overall quantum efficiency describes the efficiency of how many photons are absorbed by the photocathode surfaces and turn into measurable current or voltage signals.
+> 
+> \paragraph{Geometric collection efficiency} Geometric collection efficiency is studied by photon propagation simulation software Light Guide, as described in Ref.~\cite{Shutt2018}. In the simulation software, a simplified \gtest\ detector boundary with cylindrical symmetry is drawn to represent the real detector material surfaces.  This simplified geometry includes the photocathode surfaces of PMTs, inner surfaces of the PTFE cones, and surfaces of the grid rings. In addition, each grid is represented by two planes of parallel wires with the same diameter and the same pitch distance as in the real detector. The two planes are parallel to each other and close in distance to represent two distinct sets of wires interlacing each other.  %This software is capable of simulating photon propagation in the transparent or translucent medium using the physics quantity scattering and absorption of the medium. 
+> Photon absorption and reflection, which takes into account  the probability of specular reflection and Lambretian diffusion reflection, are simulated at material surfaces. The empty space inside the simplified detector geometry is filled with a transparent or translucent medium. The simulation of photon propagation through the medium includes scattering and absorption effects
+387c509,510
+< \paragraph{Geometric collection efficiency} Geometric collection efficiency is studies by photon propagation simulation software Light Guide, as described in Ref.~\cite{Shutt2018}. In the simulation software, a cylindrical symmetric simplified \gtest\ ELD geometry boundary is drawn to represent the real detector material surfaces that reflect and absorb photons. This simplified geometry includes the photocathode surface of PMTs, inner surface of the PTFE cones, and surfaces of the grid rings. Grid wire surfaces are represents by series of parallel wires with the same diameter and half the pitch distance as the real detector. The reason for using half the pitch distance is because the grid wires in the detector are two dimensional woven. Their quantities are twice larger than one dimensional parallel wires. The empty space inside the simplified ELD geometry is filled with transparent or translucent media. This software simulates photon propagation in transparent or translucent media using the physics quantity scattering and absorption of the media. 
+---
+> The uncertainty of the reflectivity of detector surface materials has a big influence on the total light collection. Among these materials, PTFE reflectivity has the largest uncertainty reported, the value of which for xenon scintillation photons in room temperature are in the range of \numrange{0.4}{0.75}. This difference in reflectivity may be a result of different fabrication %synthetic 
+> processes or different material density, as discussed in Ref.~\cite{Silva2009}.
+389c512,513
+< To understand geometric collection efficiency at one specific spatial location, (r, z). num{10000} simulations of single photons are generated at the specific location. Each simulated photon takes steps to either transport through detector media or interact with detector surface materials. Each simulation ends when the simulated photon is absorb by either detector media or detector surface materials. Among all detector surfaces, the counts of photons reaching PMT photocathode surfaces are used to estimate geometric collection efficiency,  
+---
+> The geometric collection efficiency is evaluated as a function of (r, z) in the detector. To understand geometric collection efficiency at one specific location, \numrange{e5}{e7} simulations of single photons are generated from this specific location. % in a cylindrical coordinate system, (r, z). 
+> Each simulated photon is stepped either to transport through the detector medium or to interact with the detector surface materials. Each simulation ends when the simulated photon is absorbed by either the detector medium or detector surface materials. The counts of photons reaching PMT photocathode surfaces are used to estimate geometric collection efficiency,  
+391c515
+< 	\text{Geometric collection efficiency} = \frac{\# photons reaching PMT photocathode surfaces}{\# photons simulated}
+---
+> 	\text{Geometric collection efficiency} = \frac{\text{\#\  photons reaching PMT photocathode surfaces}}{\text{\#\  photons simulated}}
+394c518,519
+< \paragraph{PMT response} PMT response includes (1) PMT quantum efficiency (Q.E.)., (2) PMT electron collection efficiency ,and (3) PMT electron gain. 
+---
+> \paragraph{PMT overall quantum efficiency} 
+> The overall quantum efficiency of a PMT includes (1) the PMT photocathode quantum efficiency (QE), (2) the PMT electron collection efficiency, and (3) the PMT electron gain.
+396,399c521
+< PMT Q.E. is the ratio of output photoelectrons to incident photons. It is the efficiency of photoelectric effect including the probability of photoelectric effect creating multiple photoelectrons from a single photon (double photoelectrons effect).  
+< We use counts of photoelectrons detected (PHD) to describe the counts of photons detected without the influence of double photoelectrons effect, and counts PHE to describe the counts of photons detected with the influence of double photoelectrons effect. 
+< Statistical average one PHD is approximately \num{1.2} PHE. PHE is the unit that is used in this analysis. 
+< In this simulation, values of PMT Q.E. at \SI{175}{\nm} are used. They are \SI{36.3}{\percent} for the top PMT and \SI{36.0}{\percent} for the bottom PMT, see Table.~\ref{tab:PMTparameterHamamatsu}. 
+---
+> The PMT photocathode QE is the probability per incident photon to produce a photoelectron. For 175 nm xenon scintillation light, there is a \SI{\sim 20}{\percent} probability for 2 photoelectrons to be produced rather one, so called the double photoelectron effect. We use the term photons detected (PHD) to refer to the number of photons that produced at least one photoelectron. The term PHE refers to the number of photoelectrons produced at the photocathode. The photocathode quantum efficiency for the top and bottom PMTs, as quoted by Hamamatsu, are \SI{36.3}{\percent} and \SI{36.0}{\percent}, respectively, for \SI{175}{\nm} light, see Table~\ref{tab:PMTparameterHamamatsu}. The Hamamatsu QE does not account for the double photoelectron effect; that is, it is the average number of photoelectrons produced per incident photon, different from the average number of photons that produce a measurable signal per incident photon.
+401,403c523
+< PMT electron collection efficiency is the probability that these output photoelectrons land on the effective area of the first dynode. This makes the electrons go to the next dynode and being multiplied by the chains of dynodes. PMT electron collection efficiency depends on PMT mechanical design and the voltage difference between the PMT photocathode and the first dynode. The exact electron collection efficiency of the PMTs used in \gtest\ at their operation voltage are not measured. We estimate PMT electron collection efficiencies to be \SI{90}{\percent} based on measurement of other PMTs of the same model at a higher PMT operation voltage, as described in Ref.~{Lung2012
+< 	%,Akerib2013b
+< }.
+---
+> %PMT response includes (1) PMT quantum efficiency (Q.E.)., (2) PMT electron collection efficiency ,and (3) PMT electron gain. 
+405c525,528
+< PMT electron gain describes the multiplication process of the electron in dynode stage. The voltage of the multiplication is the PMT signal we measured. The multiplication of electrons amplifies the useful signal and eases the signal noise selection. The mean value of the time integrated voltage is mean pulse area in PMT calibration. The coefficient of variation (CV, the ratio of the standard deviation to the mean value) for mean pulse area is \SI{\sim 30}{\percent}, as described in Section.~\ref{sec:pmt cal}. 
+---
+> %PMT Q.E. is the ratio of output photoelectrons to incident photons. It is the efficiency of photoelectric effect including the probability of photoelectric effect creating multiple photoelectrons from a single photon (double photoelectrons effect).  
+> %We use counts of photoelectrons detected (PHD) to describe the counts of photons detected without the influence of double photoelectrons effect, and counts PHE to describe the counts of photons detected with the influence of double photoelectrons effect. 
+> %Statistical average one PHD is approximately \num{1.2} PHE. PHE is the unit that is used in this analysis. 
+> %In this simulation, values of PMT Q.E. at \SI{175}{\nm} are used. They are \SI{36.3}{\percent} for the top PMT and \SI{36.0}{\percent} for the bottom PMT, see Table~\ref{tab:PMTparameterHamamatsu}. 
+407,411c530,533
+< So, for understanding the spacial dependence of the light collection in the ELD, we start with \num{10000} every \SI{1}{\cm} in r and z dimension in the ELD, and record the geometric collection efficiency of each location. This number is then multiplied by PMT Q.E. and PMT electron collection efficiency to get the total light collection efficiency. Fig.~\ref{fig: light col old} shows results of these simulation. Geometric collection efficiency varies at different spacial locations in the detector and cause light collection efficiency also varies. Top bottom asymmetry (TBA), which is the ratio of top PMT collection collection efficiency to bottom PMT light collection efficiency also varies across the ELD. We
+< 
+< \begin{align}
+< 	\text{TBA} = (1+\text{TBR})/(1-\text{TBR})
+< \end{align}
+---
+> PMT electron collection efficiency is the probability that these output photoelectrons land on the effective area of the first dynode; The mechanism of how the PMT works is described in Section~\ref{sec:gtest dectector}. %This landing makes the electrons go to the next dynode, thus being multiplied by the chains of dynodes. 
+> PMT electron collection efficiency depends on the mechanical design of a PMT and the voltage difference between the PMT photocathode and the PMT first dynode. The exact value of electron collection efficiency of the PMTs used in \gtest\ at their operating voltage are not measured. We estimate PMT electron collection efficiency to be \SI{90}{\percent} based on measurement of other PMTs of the same model at a higher PMT operating voltage, as described in Ref.~\cite{Lung2012
+> 	%,Akerib2013b
+> }.
+413c535,536
+< Locations that are in the top cone region get a larger than one TBR, and locations that are in the bottom cone get a  
+---
+> PMT electron gain describes the multiplication process of the output photoelectrons in dynode stages. The current that results from this multiplication process is translated to voltage using a \SI{50}{\ohm} load resistor. The multiplication process amplifies the useful signal and eases the signal noise selection. The voltage then is digitized by the DAQ, as described in Section~\ref{sec:gtest daq}, which is the measured PMT signals. Observed signals are translated to units of PHE by dividing out the mean \sphe\ area for each PMT. %The mean value of the PMT signal pulse area of one photoelectron is the mean \sphe\ pulse area in PMT calibration. 
+> The coefficient of variation (CV, the ratio of the standard deviation to the mean value) of PHE is \SI{\sim 30}{\percent}, as described in Section~\ref{sec:pmt cal}. 
+414a538,539
+> \paragraph{}
+> Therefore, to understand the spatial dependence of light collection efficiency in the ELD, we start with \num{500000} simulations of single photons every \SI{5}{mm} in r and z dimension in the ELD, and record the geometric collection efficiency of each location. This number is then multiplied by PMT overall QE to get the total light collection efficiency. There are two light collection efficiency estimation of two different grid wire configurations that we used for grid emission tests, labeled grid configuration~1 (grid config.~1) and grid configuration~2 (grid config.~2). Run \numrange{4}{9} use grid configuration~1, and Run \numrange{10}{17} use grid configuration~2. These two configurations are identical everywhere else in the ELD except for the top grid wire pitches and diameters. Table~\ref{tab:LC sim parameter geo} and Table~\ref{tab:LC sim parameter material} summarize the parameters in the simulation.
+416c541,562
+< Among all different classes of events, our primary pulse of interest is \eep . 
+---
+> 	\begin{table}[!h]
+> 		\centering
+> 		\begin{tabular}[!h]{ | m{8em} m{20.5em} || m{4.5em} | m{4.5em}|} 
+> 			\hline
+> 				&parameter & grid config.~1 & grid config.~2 \\
+> 				& & Run 4-9 & Run 10-17  \\\hline\hline			
+> 		    top grid & wire pitch [\si{\mm}] & 2.5	 & 5\\
+> 		    			 & wire diameter [\si{\um}] &  100  & 150 \\\hline
+> 		    bottom grid & wire pitch [\si{\mm}] & 2.5	 & 2.5 \\
+> 		    			 & wire diameter [\si{\um}] &  75  & 75  \\\hline
+> 		    top/bottom cone %& height total [\si{\mm}] & 110 & 110 \\
+> 		                & cylinder 1 height [\si{\mm}] & 1.17 & 1.17 \\
+> 		    (PTFE reflector) 		& cylinder 1 radius (frustum larger radius) [\si{\mm}] & 65 & 65 \\
+> 		    			    & frustum height [\si{\mm}] & 98.8 & 98.8 \\
+> 		    			& cylinder 2 radius (frustum smaller radius) [\si{\mm}] & 32 & 32 \\
+> 		    			& cylinder 2 height [\si{\mm}] & 10 & 10 \\\hline
+> 		    top/bottom PMT & photocathode radius [\si{\mm}] & 32 & 32 \\
+> 		    \hline		    
+> 		\end{tabular}
+> 		\caption[Light collection simulation geometry parameters.]{Light collection simulation geometry parameters}
+> 		\label{tab:LC sim parameter geo}
+> 	\end{table}
+419c565,590
+<   \todo{A statistical fluctuation of \SI{30}{\percent} are added.}
+---
+> 	\begin{table}[!h]
+> 		\centering
+> 		\begin{tabular}[!h]{ | m{12em} m{16em} || m{10em}|} 
+> 			\hline
+> 			&parameter &    value \\\hline\hline
+> 			Xe (gas)   
+> 			& refraction index & 1.544 \\
+> 			& Rayleigh scatter length [m] & 500 \\
+> 							& absorption length [m] &	500  \\
+> 							\hline
+> 			Quartz (synthetic quartz)   
+> 				& refraction index & 1.000702 \\
+> 							\hline
+> 			PTFE 	   
+> 			& reflectivity & 0.4 (0-1.0) (Ref.~\cite{Feuerbacher1972}) \\
+> 						  &	 specular reflection ratio & 0\\
+> 						  & Lambretian diffusion reflection ratio & 1\\
+> 						  \hline
+> 			SS (SS304)   & reflectivity & 0.18 (Ref.~\cite{Feuerbacher1972}) \\
+> 						& specular reflection ratio & 1\\
+> 						& Lambretian diffusion reflection ratio & 0\\
+> 			\hline    
+> 		\end{tabular}
+> 		\caption[Light collection simulation material parameters.]{Light collection simulation material parameters}
+> 		\label{tab:LC sim parameter material}
+> 	\end{table}
+421,422c592,593
+< \section{Cuts}
+< \todo{I think I should arrange the cuts by what I think is the origin of the cuts rather than category by pulse shape and uncorrelation. think about it more.}
+---
+> As expected, the geometric collection efficiency varies at different locations in the ELD, which causes the light collection efficiency to vary, accordingly. %(Wei used to have)Geometric collection efficiency varies at different spacial locations in the detector and cause light collection efficiency also varies. 
+> The light distribution between the top and bottom PMT also varies across the ELD. This light distribution helps discriminate the location where events happened. We use top bottom asymmetry (TBA) to describe this light distribution, which is defined as: 
+424c595,597
+< This section discusses pulse selections, aka cuts, that are used in \gtest\ analysis. The purpose of this analysis is searching for \eep s from tested grid wires and correctly estimating the rate of this process. Pulse selections are done on different parameter spaces. For each pulse selection, possibility of removing signals of interest (in this case: \eep ) is evaluated. The primary principle of pulse selections is to get a clean population distribution of \eep\ to get a reliable estimation of its rate. Other than that, since \eep\ s are in most situation rare in the detector, pulse selections of these \eep s are done conservatively. That is to keep as many candidates for \eep s as possible. 
+---
+> \begin{align}
+> 	\text{TBA} = \frac{\text{Top PMT light collection}-\text{Bottom PMT light collection}}{\text{Top PMT light collection}+\text{Bottom PMT light collection}}.
+> \end{align}
+426,430c599,600
+< An \eep\ should: 
+< \begin{itemize}
+< \item be an uncorrelated pulse from previous pulses in time, and
+< \item have the correct pulse shape.
+< \end{itemize}
+---
+> %Fig.~\ref{fig: light collection cross section 040} shows results of the simulations. 
+> Results in Fig.~\ref{fig: light collection cross section 040} show the light collection efficiency and the TBA in the ELD. Locations that are in the top cone region usually get a positive TBA, and locations that are in the bottom cone usually get a negative TBA. TBA is close to zero in the EL region. 
+432c602,603
+< To make the pulse selections, a study of the \eep\ is done for understanding its pulse shape. Background events that originate from different source will be separately discussed. Their pulse shape and rate are studied. The cuts that removes these backgrounds are described. Finally, the efficiencies of these cut and their potential of removing good \eep\ candidates are estimated. Corrections for these efficiencies in this analysis are also described in the end.  
+---
+> Among all different classes of events, our primary pulse of interest is \eee , which happens in the EL region. We estimate the light collection in this region with the same method mentioned before and finer binning. We start with \num{500000} simulations of single photons every \SI{2}{\mm} in r dimension in the middle of the EL region.  Results of the simulations are shown in Fig.~\ref{fig: light collection r 040}. Light collection efficiency in the EL region falls away at r  \SI{> 65}{\mm}, which is the inner radius of the PTFE reflector cones. %The TBA also changes at r > \SI{65}{\mm}. 
+> The average top and bottom PMT light collection efficiency in the EL region are \num{\sim 0.0085}. The average TBA in the EL region is \num{\sim 0}. The average total PMT light collection efficiency in the EL region is \num{\sim 0.017}. For most \eee\ that photon production is larger than \num{300}, an average number of \num{\sim 5} photoelectrons would be observed. Therefore, this light collection efficiency is sufficient to allows us to detect \eee s.
+434c605,606
+< \subparagraph{Electron emission} A cartoon for the physical process and an example waveform of \eep\ are shown in Fig.~\ref{fig:eep}. An electron leaves the cathodic electrode from various types of emission processes. After the electron left the wire surface, the high electric field around the cathodic wire will quickly energize the electrons. The high energy electron ionizes and excites the atoms around it and create more electrons. In this region, more EL light is produced per second comparing to a lower electric field region. This is the cause of the "peak" at the beginning of the \eep . This process is called electron multiplication. Then, these electrons drift to the anodic electrode due to the operation voltage difference between the two grids. EL light is produced along this drift. This correspond to the majority of EL light seen in the \eep . There is a clear start and stop time for the \eep . Duration of the \eep\ is roughly the duration of this drift. After this, electrons get close to the anodic electrode. Since the electric field around the anodic wires are also high, electrons also go through a similar electron multiplication process. This process also creates more electrons and a higher density of EL light. This is the cause of the "peak" at the ending of \eep . The peak at the end of the pulse is lower than the peak at the beginning of the pulse. This is because of dispersion of the arrival times of electrons on anodic electrode. This dispersion is due to the different microscopic trajectory each electron takes to reach the anodic electrode. Different arrival times of the electrons cause the final increment of EL light productions from different electrons do not happen coincidently. This lowers the height of the peak at the ending of the \eep . Another reason for the different height of the peak is due to the electric field on the anodic wire is smaller than cathodic wire. It also results in a smaller production of EL light.
+---
+> The uncertainty of PTFE reflectivity has a big influence on the total light collection ,%.  The influence on the total PMT light collection 
+> which is shown in Fig.~\ref{fig: light collection vs PTFE ref}. Higher PTFE reflectivity results in a higher total light collection efficiency. The actual value of reflectivity of the PTFE reflector cones has not been measured directly. We estimate the actual PTFE reflectivity of xenon scintillation photons to be \num{0.4}, according to the material density . 
+440c612,618
+< 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/WeiDrawEvent/WirePhotoF.jpg}
+---
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/LGresult/PDEvsCrossSectionTotPTFE040.jpg}
+> 		\caption{}
+> 		\label{fig:}
+> 	\end{subfigure}
+> 	\begin{subfigure}[b]{\halfwidth}
+> 		\centering
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/LGresult/PDEvsCrossSectionTBAPTFE040.jpg}
+442c620
+< 		\label{fig:ElectronEmissionPulse a}
+---
+> 		\label{fig:}
+446c624
+< 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/WeiDrawEvent/WirePhotoZ.jpg}
+---
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/LGresult/PDEvsCrossSectionzTotPTFE040.jpg}
+448c626
+< 		\label{fig:ElectronEmissionPulse b}
+---
+> 		\label{fig:}
+450,451c628,636
+< 	\caption[\gtest\ electron emission event from grid wires]{\gtest\ electron emission event from grid wires: (a) illustration cartoon (b) illustration cartoon (zoom) (c) an example waveform. }
+< 	\label{fig:ElectronEmissionPulse}
+---
+> 	\begin{subfigure}[b]{\halfwidth}
+> 	\centering
+> 	\includegraphics[width=\textwidth,clip,trim={0 0 0 0}]{Figures/GasTest/LGresult/PDEvsCrossSectionzTBAPTFE040.jpg}
+> 	\caption{}
+> 	\label{fig:}
+> \end{subfigure}
+> 	%	\caption[]{(a)  (b) (c)}
+> 	\caption[Light collection efficiency of rz cross section in the ELD.]{Light collection efficiency of rz cross section in the EL region. (a) total light collection efficiency (b) TBA. (c) total light collection efficiency at r=0. (d) TBA at r=0. The red solid curve is the edge of the ELD. The blue solid curve is the edges of the EL region. This result uses configuration 1, PTFE reflectivity \num{0.40}. z=0 is at the bottom PMT photocathode surface.}
+> 	\label{fig: light collection cross section 040} % code is in `"/media/wei/ACA8-1ECD3/CleanAmendedLightGuide/CleanAmendedLightGuide/LightGuide/UserRoutines/Plotting/Phase1/PlotRealLight20180110GasTestGeo.m
+454,520d638
+< Therefore, one important signature of \eep\ is the EL duration. EL duration is approximately equal to duration of electron drift between the two electrodes. The deviation of electric field between the two electrode is much smaller than the average value of it. So the drift duration can be roughly estimated by, 
+< 
+< \begin{align}
+< 	\text{drift duration} = \frac{\text{distance between two electrodes}}{\text{drift velocity at the average electric field between two electrodes} }
+< \end{align}
+< 
+< EL light production in the majority part of \eep\ is uniform, except for the beginning and the ending of the pulse. Since the electron multiplication around the cathodic wires happens early in the process before the major era of EL light production. The total counts of photons created in an \eep\  can be estimated as,
+< \begin{align}
+< 	\# \text{photons created} & \approx \# \text{electrons after (cathodic) electron multiplication} \\
+< 	& \times \# \text{EL photons production per single electron}
+< \end{align}
+< 
+< The counts of electrons after (cathodic) electron multiplication are related to the surface electric field on the cathodic wire. The value of the cathodic surface electric field can be estimated from the operation voltage, wire diameter and wire pitch of the two grid. The counts of EL light production per single electron are related to the distance and the electric field between the two grids. The average photon yield per EL distance is a known function of electric field. The value of the electric field between two grid can also be estimated from the operation voltage, wire diameter and wire pitch of the two grids. 
+< 
+< The electric field in ELD is solved by . Appendix.~\ref{chapter:field}
+< 
+< \paragraph{Electron multiplication simulation}Electron multiplication is studied using gas simulation softwares. A simple geometry is build and meshed in GMSH, as described in Ref.~{Gmsh2011}. Fig.~\ref{fig:gmshsimple} shows the built geometry. This geometry includes a thin cylinder surface in the center representing the grid wire as the electron emission surface, and a thick cylinder surface outside representing the cut off distance of electron multiplication. The cut off distance is chosen to be sufficiently long so that the electric field beyond this distance is too small to allow significant electron multiplication. The diameter of the two cylinders are \SI{75}{\um} and \SI{1}{cm}. Voltages are assigned to two cylinders to create a chosen electric field on the surface of the wire. Then, the electric field map in this full geometry is solved by ElmerGrid, as described in Ref.~{Elmergrid2000}.  The gas simulation is done with Magboltz in Garfield interface, as described in Ref.~\ref{Magboltz, Garfield}. These softwares implement light yield and charge yield, aka the photon and electron productions, for electrons moving in gas medium as a function of reduced electron field. By including the electric field map, choosing the correct gas density, these softwares simulate the photon and electron productions with an electron that initiate from the wire surface. 
+< 
+< An example of electron multiplication simulation in the simple geometry is shown in Fig:~\ref{fig:electron multiplication sim}. As the electron moves further away from the wire surface, both light production and electron production reduce. Results of the counts of electron multiplication vs surface electric field at different gas density is shown in Fig.~\ref{fig:electron multiplication}. 
+< 
+< 
+< 
+< 
+< Light collection of created photons also influence the total counts and duration of \eep . The approximately \SI{2}{\percent} light collection efficiency in the ELD results in only a portion of EL photons are seen by the PMTs. It causes the waveform of an \eep\ more coarsely distributed in time. This low number of collected photons also increases the difficulty of estimating the real EL duration.
+< 
+< Based on these knowledge, a list of detailed selections are done. These selections will be discussed below.   
+< 
+< \subsection{Coincidence found}
+< 
+< \paragraph{Definition}
+< Both PMTs have pulses that occur with a time difference smaller than CWW. 
+< 
+< \paragraph{Purpose}
+< This is to make sure that the signal of interest is unlikely to be from dark current in one PMT, afterpulsing in one PMT, dead time or misbehavior period of one PMT, or other \sphe\ source (ex. fluorescence light from PTFE, microscopic sparking) in one PMT. This is also to make sure the signal of interest is not from a random coincidence of previous sources in one PMT channel. 
+< 
+< Coincidence found and coincidence pulse building are the fundamental part of this analysis. Cuts defined later are based on the classification of coincidence pulses. 
+< 
+< \paragraph{Method}
+< Details are discussed in data processing section in the earlier context, see Section.~\ref{par:coinbuild}. 
+< 
+< %The efficiency of this cut is \opdv\ dependent. For a proper choice of \opdv , the efficiency of this cut is larger than \SI{90}{\percent}. 
+< 
+< \subsection{Uncorrelated from preceding pulses}
+< \label{sec:uncor}
+< This cut is to make sure that the signal of interest is not in the tail of any preceding signal.
+< Source of this type of background are: (1) an anode cone event, and (2) fluorescence photon following a big pulse. The cuts for resolving these two backgrounds are (1) short following period veto, and (2) long following period veto.
+<  
+< \subsubsection{Short following period veto}
+< 
+< \paragraph{Definition}
+< Coincidence pulse is not following another pulse within \SI{100}{\us}
+< \paragraph{Purpose}
+< This is to make sure the signal of interest is not a part of anode cone event. This is also to resolve dead time of DAQ. 
+< 
+< \subparagraph{Anode cone event} A cartoon for the physical process and an example waveform of anode cone event are shown in Fig.~\ref{fig:AboveAnode}. An external particle can enter the anode cone region and deposit energy there. This process excites xenon atoms in the cone region and results in generating scintillation photons and free electrons. The scintillation photons are collected and seen immediately. These free electrons drift to the anodic grid. Electric field in the cone region is too small to produce large quantity of EL light during electron drift. However, when these electrons get close to the anodic grid wire, the electric field around the anodic grid wires are big enough to produce EL light. This is the source of the secondary photon signal, which follows the preceding signal after the amount of time that it took electron to drift. The time separation is estimated by the known measured electron drift velocity in gaseous xenon, as described in Ref.~\ref{enlishhanna, Brooks}. Electron drift velocity in gaseous xenon is approximately \SI{5.56}{\mm\per\us\per\townsend} for reduced electric field in range \SIrange{5}{25}{\townsend}. The maximum separation time for this detector at xenon gas density \standarddensity , \opvt\ in range \SIrange{+4}{+8}{\kV} is approximately \SIrange{85}{75}{\us}. The value of this maximum separation time decreases as decreasing the operation pressure in the detector. The value of maximum separation time drives the choice of \SI{100}{\us} quiet preceding requirement. 
+< 
+< This background from the secondary photon signals in anode cone events has a different pulse shape from \eep . The pulse shape of the secondary photon signals has a comparably slower rising and falling edge at the beginning and the ending of it. It also has a higher TBA. This is because EL around the anode wire primarily happens above the anodic wire. The bottom PMT is in the shadow of grid wires when the top PMT is not. It causes a ratio of \num{\sim 2} increment on light collection ratio between top PMT and bottom PMT. These characteristic signatures are useful for veto large area anode cone events. However, when their pulse area get smaller (probably due to a lower energy deposition of external particles), it becomes difficult to find these pulses by their shape. Thus, this cut is performed.  
+< 
+< This cut also removes \todo{describe the small area stuff.}
+< 
+< This cut also resolves the dead time issue, \todo{explain here.}
+< 
+< \paragraph{Method}
+< For the start time of each coincidence pulse, a searching is done for pulses in the preceding \SI{100}{\us}. If there is any pulse in any PMT, the coincidence pulse is vetoed. 
+< 
+< The effect of this cut is shown in Fig.\ref{}. 
+< 
+525c643
+< 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/WeiDrawEvent/AboveAno.jpg}
+---
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 195}]{Figures/GasTest/LGresult/PDEvsRadiusPTFE040MiddleTopBottomconfig1.jpg}
+527c645
+< 		\label{fig:AboveAnode a}
+---
+> 		\label{fig:}
+531c649
+< 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{blank.jpg}
+---
+> 		\includegraphics[width=\textwidth,clip,trim={0 0 0 200}]{Figures/GasTest/LGresult/PDEvsRadiusPTFE040MiddleTopBottomTBAFullconfig1.jpg}%,trim={0 0 0 180}]{Figures/GasTest/LGresult/PDEvsRadiusPTFE040MiddleTopBottomTBAconfig1.jpg}
+533c651
+< 		\label{fig:AboveAnode b}
+---
+> 		\label{fig:}
+535,537d652
+< 	\caption[\gtest\ anode cone event]{\gtest\ anode cone event: (a) illustration cartoon (b) an example waveform. }
+< 	\label{fig:AboveAnode}
+< \end{figure}
+538a654,665
+> 	\begin{subfigure}[b]{\halfwidth}
+> 	\centering
+> 	\includegraphics[width=\textwidth,clip,trim={0 0 0 195}]{Figures/GasTest/LGresult/PDEvsRadiusPTFE040MiddleTopBottomconfig2.jpg}
+> 	\caption{}
+> 	\label{fig:}
+> \end{subfigure}
+> \begin{subfigure}[b]{\halfwidth}
+> 	\centering
+> 	\includegraphics[width=\textwidth,clip,trim={0 0 0 200}]{Figures/GasTest/LGresult/PDEvsRadiusPTFE040MiddleTopBottomTBAFullconfig2.jpg}%,trim={0 0 0 180}]{Figures/GasTest/LGresult/PDEvsRadiusPTFE040MiddleTopBottomTBAconfig2.jpg}
+> 	\caption{}
+> 	\label{fig:}
+> \end{subfigure}
+540,545c667,670
+< \subsubsection{Long following period}
+< 
+< \paragraph{Definition}
+< Coincidence pulse is not following any single pulse that has pulse area larger than \SI{100}{\phe} within \SI{10}{\ms}
+< \paragraph{Purpose}
+< This is to make sure the signal of interest is not following a large EL light production. An example waveform is shown in Fig.~\ref{fig:PTFEFluo}. Following a EL light production, PTFE will absorb the EL photons and re-emit photons not immediately. The time distribution of the after emission of photons roughly follow an exponential decay model. This effect is called PTFE luminescence This effect is noticed in the precious literatures. Measurements of fluorescence rates and decay time $\tau$ have a various range. This might be caused by different conditions of synthesis, as described in Ref.~\cite{Gachkovskii1969}. This effect is also believed to cause the slow decay of electron signal in liquid xenon TPCs. A decay time of \SI{2.3}{\ms} is reported in Ref.\cite{Sorensen2018}. A decay time of \SI{10}{\ms} is reported in internal review in \luxe . The accidental coincidence of the following emission from PTFE can mimic an \eep . The rate of PTFE fluorescence is strongly dependent on the previous luminance history in the detector. Thus, this cut is performed after all large EL production in the detector. 
+---
+> 	%	\caption[]{(a)  (b) (c)}
+> 	\caption[Light collection efficiency in the EL region with different configurations.]{Light collection efficiency in the EL region with different configuration. (a) Total light collection efficiency in configuration~1. (b) Total light collection efficiency in configuration~2. (c) TBA in configuration~1. (d) TBA in configuration~2. The blue solid curve is \SI{2.09}{\mm} below the top grid wire plane. The yellow solid curve is \SI{2.09}{\mm} above the bottom grid wire plane. The red solid curve is in the middle between the top and bottom grid wire planes. Light collection efficiency decreases and TBA changes at r = \SI{65}{\mm}, which is the inner diameter of the PTFE reflector cones. This result uses PTFE reflectivity \num{0.40}.}
+> 	\label{fig: light collection r 040} % code in "/media/wei/ACA8-1ECD3/CleanAmendedLightGuide/CleanAmendedLightGuide/LightGuide/UserRoutines/Plotting/Phase1/CPlotRealLight20180110GasTestGeo.m
+> \end{figure}
+547d671
+< %This cut overlaps with the short following period veto cut.  
+549,550d672
+< \paragraph{Method}
+< For each single pulse in one PMT, if its pulse area is larger than \SI{100}{\phe}, the coincidence pulse happens in the following \SI{10}{\ms} are vetoed. 
+551a674,682
+> % \begin{figure}[!ht]
+> %   \centering
+> %   \includegraphics[width=0.6\textwidth,clip,trim={0 0 0 170}]
+> %   {Figures/Ch10/PDEvsRadiusPTFE075.jpg}
+> %   \includegraphics[width=0.6\textwidth]
+> %   {Figures/Ch10/PDEvsRadiusPTFE075MiddleCircle.jpg}
+> %   \caption{Light collection efficiency(PDE) inside the detector region between anode grid and gate grid(simulated with PTFE reflectivity of $0.75$). Top: light collection efficiency vs radius from the center of the grid ring at different location. Blue: 2 mm above the gate grid. Red: in the middle between the anode grid and the gate grid. Yellow: 2 mm below the anode grid. Bottom: light collection efficiency in the middle between the anode grid and the gate grid. Red solid curve is the region of the grid wires. }
+> %   \label{fig: light collection r 075}
+> % \end{figure}
+553,555c684,690
+< \subsubsection{Further discussion on following period veto cuts}
+< These two cuts previously mentioned have potential to veto good candidate \eep s . Thus, survival ratio of the candidate \eep s need to be estimated. The survival ratio is estimated by how much is the fraction of a careful selection of coincidence pulses survive these cuts.
+< The careful selection of coincidence pulses also need to be uncorrelated from preceding pulses. The careful selection is the coincidence pulses in \ttwoseven\ range \SIrange{0}{200}{\ns},  pulse area range \SIrange{25}{250}{\phe}. This selection is a conservative selection of \sone\ pulses that has few contaminations from other sources. Since \sone\ is from the primary light production of external particle sources, this selection of pulses are uncorrelated from preceding pulses. Thus, it can be used for estimating the survival ratio. The survival ratio is called quiet fraction(QF). For normal operation, QF is in range \numrange{0.6}{0.9}. Details of this physical sources of S1 pulses will be discussed in the following Section.~\ref{cuts:S1}: \sone\ conservative population. 
+---
+> \begin{figure}[!p]
+> 	\centering
+> 	\includegraphics[width=.7\textwidth]
+> 	{Figures/GasTest/LGresult/PTFESWeep.jpg}
+> 	\caption[Light collection efficiency in the EL region with different PTFE reflectivity.]{Light collection efficiency in the EL region with different PTFE reflectivity. Light collection efficiency decreases at r = \SI{65}{\mm}, which is the inner diameter of the PTFE reflector cones.This result uses configuration~1.  }
+> 	\label{fig: light collection vs PTFE ref} % code in ""/media/wei/ACA8-1ECD3/CleanAmendedLightGuide/CleanAmendedLightGuide/LightGuide/UserRoutines/Plotting/Phase1/PTFEsweep.m
+> \end{figure}
+557,558c692,708
+< \subsection{Pulse shape}
+< Pulse shape is one of the most important signature for \eep . It includes the aspects of pulse area, pulse duration, and time dependent pulse density.   
+---
+> %\begin{figure}[!ht]
+> %	\centering
+> %	\includegraphics[width=0.95\textwidth]
+> %	{Figures/Ch10/PhotonSim_TotalTime10000_T1090_MeanStd.jpg}
+> %	\includegraphics[width=0.95\textwidth]
+> %	{Figures/Ch10/PhotonSim_TotalTime10000_T1090_selectionEff.jpg}
+> %	\caption{Top: Mean and standard error of the distribution of the ratio between the time difference between 10\% integrated area and 90\% integrated area ($t1090$) and the total drift time($t\_total$). Bottom: the probability of $t1090/t\_total$ within the selected range.}
+> %	\label{fig: t1090 vs photon num }
+> %\end{figure}
+> %
+> %\begin{figure}[!ht]
+> %	\centering
+> %	\includegraphics[width=0.95\textwidth]
+> %	{Figures/Ch10/SE_profile.jpg}
+> %	\caption{The number of photons collected per electron. Blue curve is simulated assuming 1000 photons are created per electron, PTFE reflectivity=$0.4$, electron collection efficiency=$0.9$. Green curve is the closest fit with binomial profile.}
+> %	\label{fig: single electron size from sim}
+> %\end{figure}
+560c710,718
+< \subsubsection{not noise like}
+---
+> %\begin{figure}[!ht]
+> %	\centering
+> %	\includegraphics[width=0.6\textwidth,clip,trim={0 0 0 170}]
+> %	{Figures/Ch10/OnePMTPDEvsRadiusPTFE040.jpg}
+> %	\includegraphics[width=0.6\textwidth,clip,trim={0 0 0 170}]
+> %	{Figures/Ch10/OnePMTPDEvsRadiusPTFE075.jpg}
+> %	\caption{One PMT setup light collection efficiency(PDE) inside the detector region between anode grid and gate grid. Blue: 2 mm above the gate grid. Red: in the middle between the anode grid and the gate grid. Yellow: 2 mm below the anode grid. Top: PTFE reflectivity $0.40$. Bottom: PTFE reflectivity $0.75$. }
+> %	\label{fig: light collection r 040 one PMT}
+> %\end{figure}
+562,563d719
+< \paragraph{Definition}
+< Coincidence pulse has a positive pulse area in all PMT channels, and a higher than \num{0.5} positive negative amplitude ratio. This coincidence also mush have a non-zero \ttenninety.
+565,573d720
+< \paragraph{Purpose}
+< This is to make sure the signal of interest is not an electrical noise pulse. 
+< An example waveform of electrical noise pulse is shown in Fig.~\ref{fig:noise}. 
+< These electrical noises come from the grounding of the infrastructures and detector electronic devices. 
+< An electrical noise pulse has a comparable pulse negative maximum amplitude and pulse positive amplitude. Its pulse area is usually smaller and sometimes negative.  
+< An electrical noise pulse also tend to have the waveforms in two PMTs overlapping. 
+< The negative integrated pulse area usually also makes it impossible to find the pulse characteristic time differences. 
+< Thus, this cut is performed. This cut ensures all characteristic time differences to be computable. 
+< During the tests, electrical noise pulses occurs at a rate of approximately \SI{2}{\Hz}. 
+575d721
+< \subsubsection{Multiple \sphe }
+577,578d722
+< \paragraph{Definition}
+< In the coincidence pulse, one of the two PMTs contains pulse that has more than one \sphe .
+580,587d723
+< \paragraph{Purpose}
+< This is to make sure the signal of interest is not a random coincidence of dark current (or other \sphe\ source) between two PMTs. 
+< This random coincidence is also called false coincidence pulse. 
+< The PMTs that are used in this study have a \SI{\sim 1}{\kHz} dark current rate. 
+< CWW is \SI{1.7}{\us} in this analysis. 
+< Combination of these two values lead to a \SI{\sim 3.4}{\Hz} rate of false coincidence pulse. 
+< The \sphe\ source is not limited to dark current. 
+< For example, PTFE fluorescence that is discussed previously, and microscopic discharge could also be a \sphe\ source. 
+589,596d724
+< \subparagraph{Microscopic discharge}\label{sec:microdischarge} Microscopic discharges happen outside the ELD could be a potential source of \sphe\ background.  
+< In sparking tests, we observe discharges on the high voltage feed throughs and cables. 
+< These discharges are caused by the smoothness of the high voltage surfaces (especially metallic surfaces) are imperfect. 
+< This imperfectness microscopically creates a high field region, and initialized a high ionization probability of the medium (especially gas medium) surrounding it and causes a discharge. The quantity of light production of this discharge are big. 
+< The quantity also has a various range. 
+< However, since these discharge activities happens outside the ELD, light collection for these activities are usually poor. 
+< So these activities may end up having one or several \sphe s in each PMTs. 
+< Thus, microscopic discharge is also a potential \sphe\ source. 
+598d725
+< Therefore, to reduce the misclassification from false coincidence, this cut is performed. 
+600,605d726
+< \paragraph{Method}
+< This cut is a combination with series of vetoes.
+< Pulse area and pulse duration are used for computing these vetoes.
+< A coincidence pulse is vetoed if the total pulse area is smaller than \SI{2.5}{\phe} and the pulse area in at least one of the PMTs is smaller than \SI{1.5}{\phe}. 
+< This choice is to compensate the \SI{\sim 30}{\percent} systematic fluctuation of PMT \sphe\ area. 
+< A coincidence pulse is also vetoed if the pulse duration in both PMTs are "short". The definition of "short" is a single pulse \ttwoseven\ smaller than \SI{80}{\ns}, and  $t_{95}$ smaller than \SI{320}{\ns}. The scatter plot of \ttwoseven\ and $t_{95}$ is shown in Fig.\ref{}.
+607d727
+< The effect of this is shown in Fig.~\ref{}. 
+609c729,731
+< \subsubsection{not narrow}
+---
+> \section{Light production}
+> \label{sec:gtest light procduction}
+> The ELD measures primary scintillation photons and electroluminescence photons. So, first I will introduce these two light production processes. Then, I will discuss about the light production in noble gas, e.g. xenon, which is the medium that the ELD normally operates in. 
+611,613c733,734
+< \paragraph{Definition}
+< The major part of the coincidence pulse is not narrow. That is coincidence pulse \ttwoseven\ longer than \SI{250}{\ns} and the time difference between the earlier of the PMT trigger time and coincidence pulse $t_{50}$ longer than \SI{200}{\ns}. 
+< The narrow coincidence pulses can be separated to two categories: (1) extremely narrow coincidence pulses, and (2) not extremely narrow coincidence pulse.
+---
+> \paragraph{Primary scintillation} Primary scintillation is the process in which photons are created directly by energy deposition of external particle events. These photons have two sources: direct excitation, and excitation from recombination after ionization. An external particle travels through the medium in the ELD, transferring its energy to atoms in the medium, e.g. xenon, through exciting and ionizing these atoms. The excited atoms will return to their ground states by emitting photons of series energies corresponding to the energy level of the atoms, which is called relaxation of the excited atom. These photons from direct excitation from external particles are the first source of primary scintillation photons. The ionized atoms are not able to produce photons by themselves. However, they can recombine with the electrons around them and form excited atoms, which deexcite in a similar process as direct excited atoms, and emit photons simultaneously. These photons are the second source of primary scintillation photons. The quantity of second source of primary scintillation photons is dependent on the recombination process, which depends on properties of the atoms, and is influenced by the detector environment, especially the electric field (or reduced electric field) on the recombination site. A strong electric field forces electrons to quickly drift away from the ionization site and reduce the probability of recombination, thus reduce the quantity of primary scintillation light production. 
+> %These two primary scintillation processes happen fast in most medium.  
+615,616c736
+< \paragraph{Purpose}
+< This is to make sure the signal of interest is not a potential (1) Cherenkov radiation event, (2) microscopic discharge event, and (3) primary scintillation light (S1) from an external particle. 
+---
+> \paragraph{Electroluminescence} Electroluminescence (EL) is a phenomenon in which when an electron drifts through a strong electric field in a medium, it collides with atoms in the medium, excites them which will afterwards emit scintillation light. Since, EL process is related to electrons in the medium, we measure EL photons to study the electron production in the detector. The mechanism of EL is similar to primary scintillation; the electron gains energy from drifting through the strong electric field and simultaneously loses energy though exciting and ionizing medium atoms. Moreover, the ionization process are usually associated with electron multiplication (gas gain), which creates more electrons in the strong electric field region, and produces more EL scintillation light. The quantity of EL scintillation photons and the probability of electron multiplication, are related to the strength of reduced electric field of the medium. With proper strength of reduced electric field, EL can produce more photons than primary scintillation. Because of its association with electrons and its production quantity, EL photons are the most important signals measured in the ELD.  
+618c738
+< \subparagraph{Cherenkov} Cherenkov radiations in PTFE material (and PMT window) are considered one of the potential sources for the extremely narrow pulses. A cartoon for the physical process and an example waveform of extremely narrow pulse are shown in Fig.~\ref{fig:Chrenkov}. Cherenkov radiation is the photon radiation when a charged particle is traveling through a medium with its speed higher than the speed of light in this medium. The charged particle could be an external charged particle or electrons that originate from energy loss of external particle in the medium. The Cherenkov events originate from energy loss are the potential explanation for the extremely narrow pulses.
+---
+> The primary scintillation photons are called \sone , and the EL scintillation photons are called \stwo , because the primary scintillation photons are produced earlier than the other photons created by electroluminescence process of uncombined electrons.  The same concepts of primary scintillation, as well as \sone, \stwo ,  are also used in liquid noble detectors, as described in Chapter.~\ref{chap:lz}. 
+620c740,741
+< The spectrum of Cherenkov radiation is estimated by Frank–Tamm formula. A simplified approximation for Frank–Tamm formula from Ref.~\cite{Jackson1999} Eqn.~{14.133} shows:
+---
+> \paragraph{Noble gas scintillation}
+> For most noble gas atoms (\ce{A}), e.g. neon, argon, krypton, and xenon, the scintillation process usually forms an intermediate excited excimer state (\ce{A_2^*}). The emitted photons from the intermediate excimer state are almost monoenergetic, \SI{7.1}{\electronvolt} (\SI{\sim 175}{\nm}), which  the medium is transparent to. Because of the existence of the intermediated excited excimer states, it creates appreciable quantity of monoenergetic photons from the excitation of these states. These features allow us to efficiently collect these monoenergetic photons with specialized devices, e.g. PMTs, and use these photons to study reactions between external particles and medium atoms.
+621a743
+> The chemical processes of scintillation are:  
+623,624c745,746
+< \frac{\d I(\omega)}{\d x} = \frac{e^2 \omega}{c^2} \left[ 1-\frac{1}{\beta^2 \epsilon(\omega)} \right] 
+< \label{eqn:CherenkovE}
+---
+> \text{scintillation process: } & \ce{A + A^*  -> A_2^*} \\
+> & \ce{A_2^* ->A + A + \gamma }.
+626,628c748,750
+< where $\omega$ is the frequency of Cherenkov radiation, I($\omega$) is the energy intensity of frequency $\omega$, $\epsilon$($\omega$) is the relative permittivity of the medium, and $\beta$ is the speed of the charged particle. 
+< $\omega$ satisfies that $\beta^2 \epsilon$($\omega$) is larger than one, so that the energy intensity is positive.
+< The number intensity N($\omega$) can be derived from Eqn.~\ref{eqn:CherenkovE}
+---
+> where A is the noble gas atom; \ce{A^*} is the noble gas excited state; \ce{A_2^*} is the excimer state; $\gamma$ is the monoenergetic photons from deexcitation of the excimers; and the low energy photons produced during the process are not shown.
+> 
+> The chemical processes of recombination are:
+630,631c752,754
+< \frac{\d N(\omega)}{\d x} = \frac{\alpha}{c} \left[1-\frac{1}{\beta^2 \epsilon(\omega)} \right] 
+< \label{eqn:CherenkovN}
+---
+> \text{recombination process: } & \ce{A + A^{+}  -> A_2^{+} } \\
+> & \ce{e^{-} + A_2^{+} ->A_2^* }\\%+ \gamma\prime} \\
+> \text{or: } & \ce{e^{-} + A^{+}  -> A^{*} } % + \gamma\prime}
+633c756,761
+< where $\alpha \equiv e^2/\hbar c \approx 1/137$ is the fine structure constant. The total quantities of photons (N) is the integral over frequency and distance of Eqn.~\ref{eqn:CherenkovN}.
+---
+> %& \ce{Xe + Xe^*  -> Xe_2^*} \\
+> %& \ce{Xe_2^* ->Xe + Xe + \gamma},
+> where  \ce{A^+} is the noble gas ionized state; \ce{A_2^+} is the ionized dimer state; and the low energy photons produced during the process are not shown.% and$\gamma\prime$ is photons of other energy. 
+> The recombination process then leads to same channels as the primary scintillation, with monoenergetic photons as the output signals. These photons, combined with photons from direct excitations, make primary scintillation light. 
+> %Both scintillation and recombination processes end up with deexcitation of excimers. The recombination process turn ions into excited atoms and excimers, which will deexcite similar as the scintillation process.  
+> The quantity of the monoenergetic photons is related to the reaction energy between external particles and medium atoms, and properties and physical environment of the medium (especially medium density and electric field). 
+635,637c763
+< %\todo{resolve the 2 pi difference between Jackson and here. 
+< %	http://large.stanford.edu/courses/2014/ph241/alaeian2/}
+< % Answer: simple \omega = 2 \pi f
+---
+> These two primary scintillation processes happen fast in xenon, the duration of which is dominated by the excimers decay time. The excimers can be separated to two types, the singlet state (\ce{^1\sigma_u^+}, \ce{0_u^+}) and triplet state (\ce{^3\sigma_u^+}, \ce{1_u^+}), with separate decay times. The singlet state and the triplet state are known to be created from a three-body deconstruction of noble gas atom excited state \ce{^2P_{1/2}} state and \ce{^2P_{3/2}} state, which has a different initial quantity from the event. Because these creation processes are three body reactions, the creation rate of the these two states have strong dependence on the gas density of atoms. The decay time of both of these two states have a dependence on the gas density, as described in  Ref.~\cite{Keto1974}. Some other materials also show that the decay time is very different between liquid noble gas and very dense noble gas. The decay time for the singlet state and the triplet state in liquid xenon are \SI[separate-uncertainty=false]{4.3 \pm 0.6}{\ns}  and \SI[separate-uncertainty=false]{22.0 \pm 2.0}{\ns}, as measured in Ref.~\cite{Hitachi1983}. For dense xenon with pressure in the range of \SIrange{2.7}{32}{\atm}, the decay time for singlet states varies from \SI[separate-uncertainty=false]{15 \pm 3}{\ns} to \SI[separate-uncertainty=false]{5.5 \pm 1.0}{\ns}. The decay time for triplet state is \SI[separate-uncertainty=false]{96 \pm 5}{\ns} in the same pressure range.
+639,657c765
+< \begin{figure}[!p]
+< 	\centering
+< 	\begin{subfigure}[b]{\halfwidth}
+< 		\centering
+< 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/WeiDrawEvent/Cherenkov.jpg}
+< 		\caption{}
+< 		\label{fig:Chrenkov a}
+< 	\end{subfigure}
+< 	\begin{subfigure}[b]{\textwidth}
+< 		\centering
+< 		\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/wave/testproc65831coinid0.jpg}
+< 		\caption{}
+< 		\label{fig:Chrenkov b}
+< 	\end{subfigure}
+< 	\caption[\gtest\ extremely narrow event]{\gtest\ extremely narrow event: (a) a cartoon for possible source: Cherenkov in PTFE (b) an example waveform. Data were taken at \ddtt{2018}{03}{12}{11}{41} , with \opvtvb\ at \SI{0}{\kV}, \opgd\ at vacuum.
+< % proc13001, procid:101001, Aude rename the dataset name, really confusing now.	
+< }
+< 	\label{fig:Chrenkov}
+< \end{figure}
+---
+> \todo{think about should I take about ionization/scintillation ratio here?}
+659,664c767,780
+< Since PTFE is partially transparent to these photon, a portion of the Cherenkov radiation photons can be seen by the PMTs. The duration of Cherenkov event light production is the duration of charged particle energy loss process. This duration is typically very short. A \SIrange{30}{300}{\keV} electron has a stop distance of \SIrange{\sim e-2}{e-1}{cm} in PTFE. We take the photon wavelength is in range \SIrange{160}{650}{\nm} (the spectral response range for PMT R11410-10, as described in Ref.~\ref{Hamamatsu}), the PTFE refractive index to be approximately 2 ($\epsilon$ \num{\sim 4}). N is about \num{150}. The attenuation distance of photons is in range \SIrange{1}{4}{\cm} for \SIrange{30}{300}{\keV} electrons for PTFE. 
+< The light collection is in range (\SIrange{1.5}{15}{\percent}). 
+< The estimated number of photons seen by the PMTs is in range up to \SI{\sim 100}{\phe}. 
+< This number is hard to predict precisely because of the complicated geometry of ELD. This is not a very big number but enough to be seen by the PMTs. 
+< %However, the possibility of seeing these photons still exist. 
+< Thus, Cherenkov is still one of the optimal explanations for the extremely narrow pulses.
+---
+> EL photons in xenon are the predominant signals we measure. These photons are predominantly created by direct excitation in gaseous xenon is . The chemical process is, 
+> \begin{align}
+> \text{EL process (direct excitation): } &\ce{e^- + A -> e^- + A^*} .
+> \end{align}
+> The EL reduce photon production quantity (ratio of photon production quantity to gas density) per electron trajectory length of direct excitation is found to have a linear dependence on the reduced electric field ($E_s/N$), as described and summarized in Ref.~\cite{Santos1994, Fonseca2004, Monteiro2007, Chepel2013a}:
+> \begin{align}
+> &\frac{dL_s}{dx}=a \frac{E_s}{N} + b ,
+> \end{align} 
+> where $L_s$ is the reduced photon production quantity; x is the electron trajectory length; $E_s$ is the electric field strength (at the scintillation site); N is the density of gas; a and b are constant parameters,  which are measured in Ref.~\cite{ Fonseca2004, Chepel2013a} to be:  
+> \begin{align}
+> a &= \SI[separate-uncertainty=false]{0.137(2)}{\photon\per\electron\per\V} , \\
+> b &= \SI[separate-uncertainty=false]{-4.7(1) e-18 }{\photon\cm\squared\per\electron\per\atom}. 
+> \end{align}
+> %\frac{ph}{e} \frac{cm^2}{atom}
+666,667c782,786
+< One of the most convincing evidence is this population of events are seen in the detector at vacuum condition. Fig.~\ref{fig:Chrenkov c} shows the \pud\ vs pulse area plot from a dataset with \opvtvb\ at \SI{0}{\kV}, \opgd\ at vacuum. The red population seen are the selected extremely narrow pulses. Extremely narrow pulses in vacuum data consist of events that potentially come Cherenkov in PTFE.  They may come from both external charged particles and energy loss of external particles. An external muon particle will go through the PTFE cones. During the traveling of the muon particle, it ionizes and radiates photon. Since muon particles are usually more energetic than other external particles like gamma radiation, the photon radiation from muon events is usually strong. This is one explanation for the hot spot at (\num{e2},\num{e2}) in Fig.~\ref{fig:Chrenkov c}. When the detector is filled with xenon gas, the muon particle can also ionize xenon gas atoms. This produces scintillation photons and increases muon events duration. It explains the reason that this hot spot disappears in xenon gas data. Details for explanations of muon events in xenon gas data are in Section.~\ref{sec:muon}. The pulses with pulse area in range \SIrange{0}{e2}{\phe} and pulse duration in range \SIrange{0}{2e2}{\ns} in Fig.~\ref{fig:Chrenkov c} are potentially Cherenkov events from external gamma radiation loss energy in PTFE (and PMT window). The gamma radiation ionized PTFE and free electrons which can potentially emit Cherenkov light.
+< When the detector is filled with xenon gas, the same physical source of gamma radiation applies. This explains why a similar population of extremely narrow pulses exist in both vacuum data (Fig.~\ref{fig:Chrenkov c}) and xenon gas data  (Fig.~\ref{fig:Chrenkov d}).
+---
+> An EL process is usually associated with simultaneous electron multiplication. This process describes an electric accelerated by electric field, collides with gas molecules, ionize them generating additional free electrons. The chemical process is, 
+> \begin{align}
+> \text{EL process (electron multiplication): }&\ce{e^- + Xe -> e^- + e^-  +Xe^{+}}
+> \end{align}
+> The probability of electron multiplication per electron per unit length is also quoted as the first Townsend ionization coefficient ($\alpha$), which depends on the strength of reduced electric field, as measured in Ref.~\cite{Kruithof1940, Derenzo1974}. Conventionally, reduced first Townsend ionization coefficient is measured with E/$p_0$ instead of reduced electric field, where E is the electric field; $p_0$ is pressure of the gas reduced to \SI{0}{\celsius}. The reduced first Townsend ionization coefficient $\eta \equiv \alpha / E$ is also frequently used.The measured reduced first Townsend ionization coefficient is shown in Fig.~\ref{fig:first Townsend}.
+670d788
+< 	\begin{subfigure}[b]{\textwidth}
+672,680c790,792
+< 	\includegraphics[width=\figurewidth,clip,trim={0 0 0 0}]{Figures/GasTest/CutsValid/all65831.jpg}
+< 	\caption{}
+< 	\label{fig:Chrenkov c}
+< \end{subfigure}
+< 	\caption[\gtest\ extremely narrow event: coincidence \pud\ vs coincidence pulse area]{(a) vaccum data. Data were taken at \ddtt{2018}{03}{12}{11}{41}, with \opvtvb\ at \SI{0}{\kV}, \opgd\ at vacuum. (b) xenon gas data. Data were taken at \ddtt{2018}{03}{12}{11}{41}, with \opvtvb\ at \SI{0}{\kV}, \opgd\ at \standarddensity .
+< 	% proc13001, procid:101001, Aude rename the dataset name, really confusing now.	
+< }
+< \label{fig:ChrenkovCompare}
+< 
+---
+> 	\includegraphics[width=\figurewidth,clip,trim={0 0 0 0},angle=0,origin=c]{Figures/GasTest/XenonPhysicsUseful/FirstTownsendCoefficientKruithof1960.jpg}
+> 	\caption[The reduced first Townsend ionization coefficient $\eta \equiv \alpha / E$ for neon, argon, krypton, and xenon.]{The reduced first Townsend ionization coefficient $\eta \equiv \alpha / E$ for neon, argon, krypton, and xenon, from Ref.~\cite{Kruithof1940}.}
+> 	\label{fig:first Townsend}
+683,700c795
+< Other than Cherenkov, microscopic discharge that for last really short amount of time could also be the source of the extremely narrow coincidence pulses, see Section.~\ref{sec:microdischarge} discussion for microscopic discharge.  
+< 
+< \paragraph{Method}
+< 
+< 
+< 
+< pulse area density in the \SIrange{300}{800}{\ns} range is not low, 
+< 
+< 
+< \section{Evaluation}
+< \subsection{Simulations}
+< Simulations for \eep\ is
+< 
+< Detailed discussions of the calculation of the electric field is in Appendix \ref{chapter:wirefield}.
+< 
+< 
+< The evaluation of these cuts are estimated by simulations. Cut efficiency is used to indicate the quality of the cuts. With evaluating the ratio between the simulated \eep\ passing cut and the total counts of simulations, the cut efficiency is estimated as 
+< 
+---
+> The duration of EL process is related electron drift velocity (v), which also depends on reduced electric field (E/n), as measured in Ref.~\cite{English1953, Bowe1960, Pack1962, Brooks1982, Berghofer2004}. In the range of \SIrange{5}{25}{\townsend}\footnote{A Townsend, or Td, is defined as \SI{1}{\townsend} = \SI{e-21} {\V\m\squared} = \SI{e-17}{\V\cm\squared}.},  a naive linear fit from Ref.\cite{Brooks1982} shows in xenon, 
+702,705c797,798
+<  \text{cut efficiency} \approx \frac{\text{\# pulses pass cut}}{\text{\# simulations}}
+< \end{align} 
+< 
+< Higher cut efficiency indicates that we are capable of preserving more \eep s. Cut efficiencies are evaluated with different detector operation conditions, such as gas density and grids operation voltage. Since the simulated \eep\ that I used to evaluate the cuts have a few discrepancies from the real \eep, the cut efficiency will be not be exactly accurate. Even though this estimate is only an approximation, the overall cut efficiencies are not wildly off.
+---
+> v\ [\si{\mm\per\us}] \approx 0.556 E/n\ [\si{\townsend}] \label{eqn:xenon electron drift velocity}
+> \end{align}
+707,729d799
+< \subsection{Summary}
+< To summarize the cuts that I used, to be an \eep\ candidate, a pulse should satisfy these conditions. It should
+< \begin{itemize}
+< \item contain coincidence pulse in both PMTs,
+< \item uncorrelated from preceding pulses,
+<  \begin{itemize}
+<  \item not have any preceding pulse in the previous \SI{100}{\us},
+<  \item not have any preceding large pulse in the previous \SI{10}{\ms},
+<  \end{itemize}
+< \item have the correct pulse shape, 
+<  \begin{itemize}
+<  	 \item not noise like,
+<  	 \item not have pulse heavily concentrated only in one of the PMTs,
+<  \item have longer than single PHE pulse area or positive pulse duration in at least one PMT,
+<  \item not "Cherenkov" like, 
+<  \item not \sone\ like,
+<  \item not muon like,
+<  \item not \sone\ \stwo\ like,
+< 
+<  \item \ttenninety\ (\rpd ) matches prediction from electron drift time between the top and bottom grids, 
+<  \end{itemize}
+< \item not saturate any PMT (this is required for analysis with condition that gas pressure higher than \SI{1}{\bara}).
+< \end{itemize}
+730a801
+> Therefore, xenon is a good scintillation medium for its quantity of photon production and its transparency to these photons. With its well characterized quantities, we chose it as the major operating medium for the ELD.
+733a805,806
+> \input{Chapters/gtestdescription2cut}
+> \input{Chapters/gtestdescription3cut}
+\ No newline at end of file
