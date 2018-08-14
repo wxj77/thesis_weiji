@@ -1,0 +1,147 @@
+\chapter{\gtest\ RQ documentation}
+\label{chapter:gastestRQ}
+
+This chapter summarizes the definitions of the RQs that are used for analysis in \gtest\ analysis. 
+
+\begin{center}
+	
+	\begin{longtable}[!htbp]{|l||*{5}{c|}}\hline
+		
+		\makebox[7em]{RQ name}&\makebox[5em]{shape}&\makebox[3em]{type}&\makebox[2em]{unit}&\makebox[3em]{default}%&\makebox[15em]{explanation}
+		\\\hline\hline 
+		\endfirsthead
+		
+		%\multicolumn{5}{c}%
+		%{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+		\makebox[7em]{RQ name}&\makebox[5em]{shape}&\makebox[3em]{type}&\makebox[2em]{unit}&\makebox[2.5em]{default}%&\makebox[14em]{explanation}
+		\\\hline\hline
+		\endhead
+		
+		\hline \multicolumn{5}{|r|}{{Continued on next page}} \\ \hline
+		\endfoot
+		
+		%\hline \hline
+		\endlastfoot
+		
+		%\makebox[7em]{RQ name}&\makebox[5em]{shape}&\makebox[3em]{type}&\makebox[2em]{unit}&\makebox[2.5em]{default}&\makebox[15em]{explanation}\\\hline\hline
+	 	`aft\_tXX'& array (L,) & float32 & \si{\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Time difference between the start time of the pulse and the integrated pulse area reach XX\% of the total area of pulse. XX=05,25,75,95.}\\\hline
+	 	`aft\_t0', `aft\_t1', `aft\_t2'. & array (L,) & float32 & \si{\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{equivalent to `aft\_t01', `aft\_t50', `aft\_t99'.}\\\hline
+	 	`arearq' & scalar & string & & `waveareas\_trim\_end' \\\cline{2-6} & \multicolumn{4}{m{27em}|}{RQ used to compute coincidence pulse area.}\\\hline
+	 	`AmpThreshold' & scalar & float32 & \si{\mV}  & 2.5 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{The threshold value for computing `above\_threshold' RQs.}\\\hline
+	 	`baselines' & array (L,) & float32 & \si{\mV} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse baseline voltage. }\\\hline
+	 	`channels' & array (L,) & uint32 & &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse channel number. }\\\hline
+	 	`coin\_pulse\_amplitudes' & array (N,C) & float32 &\si{\mV}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse amplitudes in each channel.}\\\hline
+	 	`coin\_pulse\_amplitudes\_neg' & array (N,C) & float32 &\si{\mV}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse negative amplitudes in each channel.}\\\hline
+	 	`coin\_pulse\_areas' & array (N,C) & float32 &\si{\mV\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse areas in each channel.}\\\hline
+	 	`coin\_pulse\_areas\_neg' & array (N,C) & float32 &\si{\mV\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse negative areas in each channel.}\\\hline
+	 	`coin\_pulse\_areas\_norm' & array (N,C) & float32 &\si{\phe}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse area in each channel.}\\\hline
+	 	`coin\_pulse\_areas\_post\_TTus'& array (N,C) & float32 & \si{\phe} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of TT us after the stop time of a coincidence pulse. TT=100,50,20,10. }\\\hline
+	 	`coin\_pulse\_areas\_pre\_TTus' & array (N,C) & float32 & \si{\phe} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of TT us before the start time of a coincidence pulse. TT=100,50,20,10.}\\\hline
+
+	 	`coin\_pulse\_areas\_section1'& array (N,C) & float32 & \si{\phe} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of a coincidence pulse of section1, which is defined by `pulse1\_start' and `pulse1\_stop'.}\\\hline
+	 	`coin\_pulse\_areas\_section2'& array (N,C) & float32 & \si{\phe} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of a coincidence pulse of section2, which is defined by `pulse2\_start' and `pulse2\_stop'.}\\\hline
+	 	`coin\_pulse\_areas\_sum'& array (N,) & float32 & \si{\phe} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse total area.}\\\hline
+	 	`coin\_pulse\_areas\_tXX'& array (N,) & float32 & \si{\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Time difference between the start time of the coincidence pulse and the integrated coincidence pulse area reach XX\% of the total area of the coincidence pulse. XX=01,05,10,15,25,50,75,85,90,95,99.}\\\hline
+	 	`coin\_pulse\_areas\_tXXYY'& array (N,) & float32 & \si{\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{'coin\_pulse\_areas\_tYY'-'coin\_pulse\_areas\_tXX'}\\\hline
+	 	`coin\_pulse\_chs'& array (N,10) & int32&& -1 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{First 10 individual pulse channels in the coincidence pulse.}\\\hline
+	 	`coin\_pulse\_ids' & array (N,10) & int32 && -1  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{First 10 individual pulse ids in the coincidence pulse.} \\\hline
+		%%%%%%%%%%%
+	 	`coin\_pulse\_lastpulse\_areas' & array (N,C) & float32 &\si{\mV\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of the last pulse before a coincidence pulse in each channel.}\\\hline
+	 	`coin\_pulse\_lastpulse\_ids' & array (N,C) & int32 && -1 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse id of the last pulse before a coincidence pulse in each channel.}\\\hline
+	 	`coin\_pulse\_lastpulse\_lens' & array (N,C) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse length of the last pulse before a coincidence pulse in each channel.}\\\hline
+	 	`coin\_pulse\_lastpulse\_times' & array (N,C) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Start time of the last pulse before a coincidence pulse in each channel (since LZ\_EPOCH\_DATETIME).}\\\hline
+		%%%%%%%%%%%
+	 	`coin\_pulse\_lens'& array (N,) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse length.}\\\hline
+	 	`coin\_pulse\_amplitudes\_'& array (N,) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} peaktime & \multicolumn{4}{m{27em}|}{Time difference between the start time of the coincidence pulse and normalized coincidence pulse reach maximum amplitude.}\\\hline
+	 	`coin\_pulse\_amplitudes\_'& array (N,) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} peaktime\_smooth & \multicolumn{4}{m{27em}|}{Time difference between the start time of the coincidence pulse and smoothed normalized coincidence pulse reach maximum amplitude.}\\\hline
+	 	`coin\_pulse\_times'& array (N,) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Coincidence pulse start time (since LZ\_EPOCH\_DATETIME).}\\\hline
+	 	`coin\_pulse\_waveforms' & list (N,C,W) & float32 & \si{\mV} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Waveforms of a coincidence pulse in each channel.}\\\hline
+	 	`coin\_pulse\_waveforms\_norm' & list (N,C,W) & float32 &  & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Waveforms of a coincidence pulse in each channel normalize by single photo electron size.}\\\hline
+	 	`coin\_pulse\_waveforms\_sum' & list (N,W) & float32 &  & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Sum of waveforms of a coincidence pulse in all channels normalize by single photo electron size.}\\\hline
+	 	`coin\_pulse\_wtime\_tXXYY' & array (N,) & float32 & \si{\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse height($h_i$) weighted average of time($t_i$) between `coin\_pulse\_areas\_tXX' and `coin\_pulse\_areas\_tYY'. XXYY=1585, 0595. $\overline{t} = \sum h_i t_i /\sum h_i$. }\\\hline 
+	 	`coin\_pulse\_wtimeN\_tXXYY' & array (N,) & float32 & \si{\ns\totheNth} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{$\sum h_i (t_i-\overline{t})^{N} /\sum h_i$. XXYY=1585, 0595. N=2,3,4.}\\\hline 
+		%%%%%%%%
+	 	`disp' & scalar & string &  &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Display string `a:va;g:vg'. (ex: `a:+6.5;g:-6.5'.)}\\\hline
+	 	`duration' & array (F,) & float64 & \si{\s} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Duration of a file.}\\\hline
+	 	`dv' & scalar & float32 & \si{\kV} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Voltage difference between the top grid and the bottom grid.}\\\hline
+	 	`evtnum' & scalar & int64 & &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Number of all computed pulses.}\\\hline
+	 	`firstvals' & array (L,) & float32 & \si{\mV} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Value of the first sample of the pulse.}\\\hline
+	 	`hft\_t1' & array (L,) & float32 & \si{\ns} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Time difference between the start time of the pulse and the pulse amplitude reach maximum.}\\\hline
+	 	`in\_coin\_pulse' & array (L,) & bool &  & false \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Whether a pulse is in a coincidence pulse.}\\\hline
+	 	`neg\_area\_fraction' & array (L,) & float32 &  & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Ratio of negative pulse area and the sum of positive and negative pulse area.}\\\hline
+	 	`number\_of\_channels' & scalar & int32 &  & 4 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Number of channels.}\\\hline
+		
+		%%%%%%%%
+		
+		
+	 	`pos\_area\_above\_threshold' & array (L,) & float32 & \si{\mV\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area above a certain threshold (default: \SI{2.5}{\mV}).}\\\hline
+	 	`pos\_len\_above\_threshold' & array (L,) & float32 & \si{\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse length above a certain threshold (default: \SI{2.5}{\mV}).}\\\hline
+	 	`pos\_len\_above\_threshold\_ & array (L,) & float32 & \si{\ns}&  \\\cline{2-6} percentile\_XX' & \multicolumn{4}{m{27em}|}{Time difference between the start of coincidence pulse of XX percent of all samples above a certain threshold. XX=05,50,95.}\\\hline
+	 	`pos\_len\_above\_threshold\_' & array (L,) & float32 & \si{\ns}&  \\\cline{2-6} trim\_end' & \multicolumn{4}{m{27em}|}{Pulse length above a certain threshold excluding the `suppress\_last\_NSamples' period.}\\\hline
+	 	`posareas' & array (L,) & float32 & \si{\mV\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse positive area. }\\\hline
+	 	`pos\_area\_pulse1' & array (L,) & float32 & \si{\mV\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse positive area of section1, which is defined by `pulse1\_start' and `pulse1\_stop'. }\\\hline 
+	 	`pos\_area\_pulse2' & array (L,) & float32 & \si{\mV\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse positive area of section1, which is defined by `pulse2\_start' and `pulse2\_stop'. }\\\hline 
+	 	`pos\_area\_p1\_p2' & array (L,) & float32 & \si{\mV\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{ `pos\_area\_pulse2' - `pos\_area\_pulse1'}\\\hline 
+	 	`post\_baseline' & array (L,) & float32 & \si{\mV}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse baseline computed from the end of the pulse.}\\\hline
+	 	`post\_pulse\_length' & scalar & float64 & \si{\ns} & 1800 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse length not used in the end of a waveform for coincidence pulse searching.}\\\hline
+	 	`pre\_baseline' & array (L,) & float32 & \si{\mV}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse baseline computed from the beginning of the pulse.}\\\hline
+	 	`pre\_pulse\_length' & scalar & float64 & \si{\ns} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse length not used in the beginning of a waveform for coincidence pulse searching.}\\\hline
+	 	`procid' & scalar & string &  &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Process id. (ex: [12345])}\\\hline
+	 	`prompt\_frac\_TTns' & array (L,) & float32 & &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Ratio between the pulse area of the first TT \si{\ns} and the total pulse area. TT=250,500,750,1000}\\\hline
+		
+	 	`pulse1\_start' & scalar & float64 & \si{\sample} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Start time of pulse section 1.}\\\hline
+	 	`pulse1\_stop' & scalar & float64 & \si{\sample} & 75 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Stop time of pulse section 1.}\\\hline
+	 	`pulse2\_start' & scalar & float64 & \si{\sample} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Start time of pulse section 2.}\\\hline
+	 	`pulse2\_stop' & scalar & float64 & \si{\sample} & 200 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Stop time of pulse section 2.}\\\hline		
+		
+		%%%%%%%%%%%%%%%%%%%
+		
+		%%%%%%%%
+	 	`random\_pulse\_areas\_post\_TTus'& array (M,C) & float32 & \si{\phe} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of TT us after a random time. TT=100,50,20,10.}\\\hline
+	 	`random\_pulse\_areas\_pre\_TTus' & array (M,C) & float32 & \si{\phe} & 0 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of TT us before a random time. TT=100,50,20,10.}\\\hline
+	 	`random\_pulse\_times' & array (M,C) & float64 &\si{\ns}& \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{A random time.}\\\hline
+		%%%%%%%%%%%
+	 	`rmsratio'  & array (L,) & float32 &  &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Ratio between Root mean square (rms) of the waveform and the waveform amplitude.}\\\hline
+	 	`sample\_size' & scalar & float64 & \si{\ns} & 4 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Sample size of a waveform.}\\\hline
+	 	`skimfactor' & scalar & int64 & & 1 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Ratio between the number of all computed pulses and the number of all recorded pulses.}\\\hline
+	 	`sphe\_size'& array (C,) & float64 & \si{\mV\ns} & inf \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area of a single photo electron in each channel.}\\\hline
+	 	`suppress\_last\_NSamples' & scalar & int32 &  & 450 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Number of samples not recorded in the end of a waveform.}\\\hline
+	 	`times' & array (L,) & float64 & \si{\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse start time (since LZ\_EPOCH\_DATETIME). }\\\hline
+	 	`trigvals' & array (L,) & float32 & \si{\mV} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse trigger voltage. }\\\hline
+	 	`usechannels'& array & int32 &  & [0,2] \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Active channels.}\\\hline
+	 	`va' & scalar & float32 & \si{\kV} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Voltage of the top grid.}\\\hline
+	 	`vg' & scalar & float32 & \si{\kV} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Voltage of the bottom grid.}\\\hline
+	 	`waveamplitudes' & array (L,) & float32 & \si{\mV} &  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse amplitude. }\\\hline
+	 	`waveareas' & array (L,) & float32 & \si{\mV\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area. }\\\hline
+	 	`waveareas\_trim\_end' & array (L,) & float32 & \si{\mV\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse area suppressing last `suppress\_last\_NSamples' samples to 0. }\\\hline
+	 	`waveforms' & list (L,) & float32 & \si{\mV} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Waveform.}\\\hline
+	 	`wavelens' & array (L,W) & float32 & \si{\ns}&  \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse length. }\\\hline
+	 	`window\_width' & scalar & float64 & \si{\ns} & 1500 \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Window size of coincidence pulse searching. It is also called coincidence window width(CWW).}\\\hline
+		%%%%%%%
+	 	`wtime' & array (L,) & float32 & \si{\ns} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{Pulse height($h_i$) weighted average of time($t_i$). $\overline{t} = \sum h_i t_i /\sum h_i$. }\\\hline 
+	 	`wtimeN' & array (L,) & float32 & \si{\ns\totheNth} & \si{\nan} \\\cline{2-6} & \multicolumn{4}{m{27em}|}{$\sum h_i (t_i-\overline{t})^{N} /\sum h_i$.  N=2,3,4.}\\\hline
+		
+		
+		\multicolumn{5}{m{27em}}{L: number of all computed pulses.}\\
+		\multicolumn{5}{m{27em}}{N: number of coincidence pulses.}\\
+		\multicolumn{5}{m{27em}}{M: number of random pulses.}\\
+		\multicolumn{5}{m{27em}}{C: number of channels.}\\
+		\multicolumn{5}{m{27em}}{W: number of samples in a waveform.}\\
+		\multicolumn{5}{m{27em}}{F: number of files in a dataset.}\\
+		\multicolumn{5}{m{27em}}{LZ\_EPOCH\_DATETIME: $2015, Jan, 1st, 00:00:00$.}\\
+		\multicolumn{5}{m{27em}}{\si{\phe}: average photo electron area.}\\\hline
+%		\multicolumn{5}{m{27em}}{*: rq that is not saved to file.}\\\hline
+		\caption[\gtest\ RQ documentation]{\gtest\ RQ documentation}
+		\label{RQ list}
+	\end{longtable}
+\end{center}
+
+
+
+
+%\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{L}{>{\centering\let\newline\arraybackslash}m{0.45\textwidth}}
+
+ 

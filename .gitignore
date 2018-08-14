@@ -1,6 +1,5 @@
 Reference*
 *.dropbox
-
 *.aux
 *.log
 *.lof
@@ -14,7 +13,7 @@ test*
 *.xml
 *.synctex.gz
 
-*test*
+#*test*
 *.DS_Stores
 *.DS_Store
 *~

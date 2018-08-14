@@ -1,0 +1,62 @@
+% this note describes what I have renewed and added from previous version. It also records what I want to do next.
+
+1.  intro chapter
+	fix sereval typos you point out.
+	fix bib files
+	fix figure citations
+	fix number and units so that they look much better.
+	add transaction paragraph to nucleosynthesis.
+	todo :
+		add paragraph to 3.5keV
+		add paragraph to weak lensing
+		add paragraph to weak lensing of CMB, or delete where this is mentioned in the first paragraph.
+		add chapter candidates 
+		add section freeze in freeze out
+
+2. gas test description
+	todo:
+	   quiet time cut: address uniformity of electric field in anode cone region, address "s2" pulse shape
+	   change all succeed to follow
+	    on the illustration figures: change top bottom grid to anodic cathodic grid, change top bottom pmt to pmt .
+		add description of each time ramp voltage and kill voltage to zero before next test, to operation section
+		add section calibration
+		add section cuts
+		in section cuts:
+			add subsection dataset selection
+			add subsection simulation
+			add each cut description
+		add section cut efficiency evaluation
+
+--------------------------------------------------------------
+--2018.06.06
+
+
+I finished upto before calibration section. 
+​
+It was nice to have the hand copy correction if it is easier for you. It would help me if you can also point out my grammar mistakes at the same time. However I have trouble reading your hand writing earlier because the characters in a word are connected to each other. Because I am not familiar with the word you are using, if I cannot guess its meaning from the earlier and latter context, I completely lose the meaning of the sentence. 
+If revising my thesis on hard copy is easier for you, I can use that too, and want better character separation.
+
+​
+​
+2. gas test description
+add section general description
+vessel, gas system, circulation, 
+test mass, high voltage feed through, 
+add section DAQ
+add section run selection
+add section data processing
+add subsection coincidence finding explain it
+todo:
+add section calibration
+add section cuts
+in section cuts:
+add subsection dataset selection
+add subsection simulation
+add each cut description
+add section cut efficiency evaluation
+​
+3. move RQ list for gas test to appendix.
+​
+4. add abbreviation appendix.		
+
+		
