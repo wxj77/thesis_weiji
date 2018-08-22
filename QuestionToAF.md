@@ -1,3 +1,10 @@
+* thesis comment
+* "baryonic density" or "baryon density"?
+* "e.g. A and B" or "e.g. A or B" or "e.g. A, B"
+* ", such as A and B" or ", such as A or B" or ", such as A, B"
+* 
+---
+
 * Cherenkov
 * thesis comment
 * Root: how to not save a tree, but I want to save everything else. I tried "del", return error
